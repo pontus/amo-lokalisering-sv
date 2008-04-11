@@ -1,0 +1,37 @@
+8
+
+dir
+12170
+http://svn.mozilla.org/addons/trunk/site/app/locale/en_US
+http://svn.mozilla.org
+
+
+
+2008-04-11T09:05:19.051338Z
+12155
+fwenzel@mozilla.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4eb1ac78-321c-0410-a911-ec516a8615a5
+
+pages
+dir
+
+LC_MESSAGES
+dir
+
+images
+dir
+

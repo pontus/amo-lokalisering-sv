@@ -1,0 +1,53 @@
+8
+
+dir
+12170
+http://svn.mozilla.org/addons/trunk/site/app/locale/en_US/LC_MESSAGES
+http://svn.mozilla.org
+
+
+
+2008-04-11T09:05:19.051338Z
+12155
+fwenzel@mozilla.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4eb1ac78-321c-0410-a911-ec516a8615a5
+
+messages.mo
+file
+
+
+
+
+2008-04-11T17:04:59.000000Z
+023e1860403f9531025c4b9dbdc3dacb
+2008-04-11T09:05:19.051338Z
+12155
+fwenzel@mozilla.com
+has-props
+
+messages.po
+file
+
+
+
+
+2008-04-11T17:04:59.000000Z
+e5167a0c29afc32f173ec47cd3c86a4c
+2008-04-11T09:05:19.051338Z
+12155
+fwenzel@mozilla.com
+

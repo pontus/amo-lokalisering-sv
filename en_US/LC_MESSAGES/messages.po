@@ -1,0 +1,4291 @@
+# Remora Preliminary Language File
+# Copyright (C) 2006 Mozilla Corporation
+# This file is distributed under the same license as the REMORA package.
+# Wil Clouser <clouserw@mozilla.com>, 2006.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: REMORA 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-28 15:45-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Wil Clouser <clouserw@mozilla.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: views/addons/policy.thtml:99
+msgid "a_cancel_installation"
+msgstr "Cancel Installation"
+
+#: views/addons/plugins.thtml:61 views/addons/plugins.thtml:72
+#: views/addons/plugins.thtml:84 views/addons/plugins.thtml:96
+#: views/addons/plugins.thtml:128 views/elements/install.thtml:65
+#: views/elements/install.thtml:177 views/elements/install.thtml:185
+#: views/elements/install.thtml:210 views/elements/install.thtml:219
+#, php-format
+msgid "a_download"
+msgstr "Download Now %s"
+
+#: views/addons/policy.thtml:78 views/addons/policy.thtml:79
+msgid "a_eula_download"
+msgstr "Accept and Download"
+
+#: views/addons/policy.thtml:81 views/addons/policy.thtml:83
+msgid "a_eula_install"
+msgstr "Accept and Install"
+
+#: views/api/api_addon.thtml:49 views/elements/header.thtml:76
+#: views/elements/header.thtml:82
+msgid "a_header_public"
+msgstr "Public"
+
+#: views/api/api_addon.thtml:51 views/elements/header.thtml:58
+#: views/elements/header.thtml:75 views/elements/header.thtml:80
+msgid "a_header_sandbox"
+msgstr "Sandbox"
+
+#: views/elements/addon_listitem.thtml:95
+#: views/elements/addon_version_detail.thtml:50
+#, php-format
+msgid "addon_display_header_version"
+msgstr "Version %s"
+
+#: views/addons/display.thtml:105 views/elements/feature.thtml:93
+msgid "addon_downloads"
+msgstr "downloads"
+
+# %1 is the add-on count, %2 the category name
+#: views/addons/browse.thtml:69
+#, php-format
+msgid "addon_list_category_totalcount"
+msgid_plural "addon_list_category_totalcount"
+msgstr[0] "%1$s add-on"
+msgstr[1] "%1$s add-ons"
+
+#: views/elements/addon_list_options.thtml:94
+#: views/elements/pagination.thtml:60
+msgid "addon_list_perpage"
+msgstr "per page"
+
+#: views/elements/addon_list_options.thtml:98
+msgid "addon_list_sortby"
+msgstr "Sort by:"
+
+#: views/addons/display.thtml:51 views/elements/addon_listitem.thtml:69
+#: views/elements/feature.thtml:82
+msgid "addon_listitem_flag_experimental"
+msgstr "experimental"
+
+#: views/elements/addon_listitem.thtml:72
+msgid "addon_listitem_flag_recommended"
+msgstr "recommended"
+
+# %1 is the addon name, %2 is the platform
+#: views/pages/js_constants.js.thtml:52
+msgid "addon_not_available_for_platform"
+msgstr "%1$s is not available for %2$s."
+
+# %1 is the addon name
+#: views/addons/policy.thtml:107 views/addons/previews.thtml:60
+#: views/addons/versions.thtml:92 views/reviews/add.thtml:107
+#: views/reviews/display.thtml:82 views/reviews/review_added.thtml:54
+#, php-format
+msgid "addon_review_a_back_to_addon_x"
+msgstr "Back to %1$s..."
+
+# %1 is the addon name
+#: views/reviews/add.thtml:106 views/reviews/review_added.thtml:53
+#, php-format
+msgid "addon_review_a_back_to_reviews"
+msgstr "Back to the reviews..."
+
+#: views/reviews/add.thtml:78
+msgid "addon_review_add_rating_field"
+msgstr "Rating:"
+
+#: views/reviews/add.thtml:95
+msgid "addon_review_add_review_field"
+msgstr "Review:"
+
+#: views/reviews/add.thtml:100
+msgid "addon_review_add_submit"
+msgstr "Submit your review"
+
+#: views/reviews/add.thtml:46
+#, php-format
+msgid "addon_review_add_title"
+msgstr "Add a review for %s"
+
+#: views/reviews/add.thtml:71
+msgid "addon_review_add_title_field"
+msgstr "Title/Summary:"
+
+#: views/reviews/display.thtml:56 views/reviews/display.thtml:70
+msgid "addon_review_admin_delete"
+msgstr "Delete"
+
+#: views/reviews/display.thtml:55
+msgid "addon_review_author_reply_link"
+msgstr "Reply"
+
+#: views/reviews/delete.thtml:55
+msgid "addon_review_confirm_delete"
+msgstr "Are you sure you wish to delete this review?"
+
+#: views/reviews/delete.thtml:56
+msgid "addon_review_confirm_no"
+msgstr "No"
+
+#: views/reviews/delete.thtml:57
+msgid "addon_review_confirm_yes"
+msgstr "Yes"
+
+#: views/reviews/delete.thtml:44
+msgid "addon_review_delete_header"
+msgstr "Delete Review"
+
+#: controllers/reviews_controller.php:371
+msgid "addon_review_deleted_successfully"
+msgstr "Review deleted successfully."
+
+#: views/reviews/add.thtml:46
+#, php-format
+msgid "addon_review_edit_title"
+msgstr "Edit Review for %s"
+
+#: views/reviews/review_added.thtml:50
+msgid "addon_review_in_moderation"
+msgstr ""
+"Please note: Before your review shows up on the public site, it will be "
+"moderated by an editor."
+
+#: views/reviews/add.thtml:51
+msgid "addon_review_in_reply_to"
+msgstr "Developer reply to:"
+
+# %1 is the addon name
+#: controllers/reviews_controller.php:138
+#: controllers/reviews_controller.php:180
+#: controllers/reviews_controller.php:271
+#: controllers/reviews_controller.php:350
+#, php-format
+msgid "addon_review_pagetitle"
+msgstr "Reviews for %s"
+
+# %1 is the user, %2 is the (localized) date
+#: views/reviews/display.thtml:69
+#, php-format
+msgid "addon_review_reply_on_x_by_y"
+msgstr "Reply by %1$s on %2$s"
+
+#: views/reviews/display.thtml:66
+msgid "addon_review_reply_prefix"
+msgstr "Developer Reply:"
+
+#: views/reviews/review_added.thtml:49
+msgid "addon_review_saved_successfully"
+msgstr "Your review was saved successfully. Thanks!"
+
+# %1 is the user, %2 is the (localized) date, %3 is the rating
+#: views/addons/display.thtml:221
+#, php-format
+msgid "addon_reviewed_by_u_on_d_rated_x"
+msgstr "by %1$s on %2$s (rated %3$s)"
+
+# %1 is the user, %2 is the (localized) date, %3 is the rating
+#: views/editors/reviews_queue.thtml:55 views/editors/reviews_queue.thtml:64
+#: views/reviews/add.thtml:57 views/reviews/delete.thtml:49
+#: views/reviews/display.thtml:54
+#, php-format
+msgid "addon_reviewed_on_x_rated_y"
+msgstr "by %1$s on %2$s (rated %3$s)"
+
+#: controllers/addons_controller.php:997
+msgid "addons_breadcrumb_EULA"
+msgstr "EULA"
+
+#: controllers/addons_controller.php:1004
+msgid "addons_breadcrumb_privacy_policy"
+msgstr "Privacy Policy"
+
+#: controllers/addons_controller.php:546
+#, php-format
+msgid "addons_browse_all_addons"
+msgstr "All %1$s"
+
+#: controllers/addons_controller.php:536
+#, php-format
+msgid "addons_browse_all_addons_title"
+msgstr "Browse all %1$s"
+
+#: controllers/addons_controller.php:539
+#, php-format
+msgid "addons_browse_browse_category"
+msgstr "Browse %s"
+
+#: webroot/discussions/themes/addons/addon.php:19
+#: webroot/discussions/themes/addons/discussion_form.php:10
+#: webroot/discussions/themes/addons/discussion_form.php:18
+#, php-format
+msgid "addons_display_a_discuss"
+msgstr "Discuss %s"
+
+#: views/reviews/display.thtml:87
+msgid "addons_display_add_review"
+msgstr "Add a review"
+
+#: views/addons/display.thtml:247
+msgid "addons_display_advanced_details"
+msgstr "Advanced Details"
+
+#: views/addons/display.thtml:93
+msgid "addons_display_categories"
+msgstr "Categories"
+
+#: views/layouts/mozilla.thtml:225
+msgid "addons_display_collapse"
+msgstr "collapse"
+
+#: views/addons/display.thtml:325
+msgid "addons_display_detailed_review"
+msgstr "detailed review"
+
+#: views/addons/display.thtml:258
+msgid "addons_display_developer_home_page"
+msgstr "Developer Home Page"
+
+#: views/addons/display.thtml:308 views/reviews/add.thtml:82
+#: views/reviews/add.thtml:83
+msgid "addons_display_dont_like_it"
+msgstr "Don't like it"
+
+#: views/reviews/display.thtml:85
+msgid "addons_display_edit_review"
+msgstr "Edit your review"
+
+#: views/addons/display.thtml:248 views/layouts/mozilla.thtml:225
+msgid "addons_display_expand"
+msgstr "expand"
+
+#: views/addons/display.thtml:125
+msgid "addons_display_has_privacy"
+msgstr "This add-on has a privacy policy."
+
+#: views/addons/display.thtml:307 views/reviews/add.thtml:80
+#: views/reviews/add.thtml:81
+msgid "addons_display_hate_it"
+msgstr "Hate it"
+
+#: views/addons/display.thtml:251
+msgid "addons_display_header_developer_comments"
+msgstr "Developer Comments"
+
+#: webroot/discussions/themes/addons/addon.php:17
+#: webroot/discussions/themes/addons/discussion_form.php:8
+msgid "addons_display_header_discussions"
+msgstr "Discussions"
+
+#: views/addons/display.thtml:185
+msgid "addons_display_header_reviews"
+msgstr "Reviews"
+
+#: views/addons/display.thtml:309 views/reviews/add.thtml:84
+#: views/reviews/add.thtml:85
+msgid "addons_display_like_it"
+msgstr "Like it"
+
+#: views/addons/display.thtml:168
+msgid "addons_display_long_description"
+msgstr "Long Description"
+
+#: views/addons/display.thtml:311 views/reviews/add.thtml:88
+#: views/reviews/add.thtml:89
+msgid "addons_display_love_it"
+msgstr "Love it"
+
+#: views/addons/display.thtml:138
+msgid "addons_display_more_images"
+msgstr "More Images"
+
+#: views/addons/display.thtml:339
+#, php-format
+msgid "addons_display_other_addons_by"
+msgstr "Other add-ons by %1$s"
+
+#: controllers/addons_controller.php:158
+#: controllers/addons_controller.php:1019
+#: webroot/discussions/themes/addons/addon.php:21
+#: webroot/discussions/themes/addons/discussion_form.php:12
+#, php-format
+msgid "addons_display_pagetitle"
+msgstr "%s"
+
+#: views/addons/display.thtml:198
+#, php-format
+msgid "addons_display_paragraph_supportinfoemail"
+msgstr ""
+"Support for this Extension is available at %s.If you have a bug report it "
+"might be best to file it with the developer so that that they can follow up "
+"with you. Reviews are not really the place for detailed bug reports, and the "
+"developer may require several details in order to re-create the bug. Since "
+"we do not make your email address available to extension developers when you "
+"post a review, they will not be able to contact you to ask for more details "
+"or let you know if the bug has been fixed in an upcoming version."
+
+#: views/addons/display.thtml:188
+#, php-format
+msgid "addons_display_paragraph_supportinfoemailurl"
+msgstr ""
+"Support for this Extension is available at %s or %s. If you have a bug "
+"report it might be best to file it with the developer so that that they can "
+"follow up with you. Reviews are not really the place for detailed bug "
+"reports, and the developer may require several details in order to re-create "
+"the bug. Since we do not make your email address available to extension "
+"developers when you post a review, they will not be able to contact you to "
+"ask for more details or let you know if the bug has been fixed in an "
+"upcoming version."
+
+#: views/addons/display.thtml:194
+#, php-format
+msgid "addons_display_paragraph_supportinfourl"
+msgstr ""
+"Support for this Extension is available at %s. If you have a bug report it "
+"might be best to file it with the developer so that that they can follow up "
+"with you. Reviews are not really the place for detailed bug reports, and the "
+"developer may require several details in order to re-create the bug. Since "
+"we do not make your email address available to extension developers when you "
+"post a review, they will not be able to contact you to ask for more details "
+"or let you know if the bug has been fixed in an upcoming version."
+
+#: views/addons/display.thtml:305
+msgid "addons_display_rate_it"
+msgstr "Rate It"
+
+#: views/addons/display.thtml:310 views/reviews/add.thtml:86
+#: views/reviews/add.thtml:87
+msgid "addons_display_really_like_it"
+msgstr "Really like it"
+
+#: views/addons/display.thtml:321
+msgid "addons_display_review_submit"
+msgstr "Save"
+
+#: views/addons/display.thtml:333
+#, php-format
+msgid "addons_display_see_all_addons"
+msgstr "See All %1$s Add-ons"
+
+# %1 is the number of reviews
+#: views/addons/display.thtml:237
+#, php-format
+msgid "addons_display_see_all_reviews"
+msgstr "See all reviews (%1$s)"
+
+#: views/addons/display.thtml:175 views/addons/display.thtml:177
+msgid "addons_display_see_all_versions"
+msgstr "See All Versions"
+
+#: views/addons/display.thtml:176
+msgid "addons_display_version_history"
+msgstr "Complete Version History"
+
+#: views/addons/display.thtml:277 views/addons/versions.thtml:84
+msgid "addons_display_view_source"
+msgstr "View the source"
+
+#: views/addons/display.thtml:280
+msgid "addons_display_view_stats"
+msgstr "View statistics"
+
+#: views/addons/display.thtml:298
+msgid "addons_display_what_do_you_think"
+msgstr "What do you think?"
+
+#: views/elements/app_compatibility.thtml:49
+msgid "addons_display_workswith"
+msgstr "Works with:"
+
+#: views/addons/display.thtml:68 views/addons/policy.thtml:62
+#: views/elements/addon_discussionheader.thtml:84
+#: views/elements/addon_listitem.thtml:131 views/elements/feature.thtml:88
+msgid "addons_home_by"
+msgstr "by"
+
+#: views/addons/category_landing.thtml:50 views/addons/home.thtml:49
+#: views/addons/searchengines.thtml:55 views/addons/themes_landing.thtml:50
+msgid "addons_home_feature_head"
+msgstr "We Recommend"
+
+#: controllers/addons_controller.php:72 controllers/addons_controller.php:263
+#: controllers/addons_controller.php:408 controllers/addons_controller.php:635
+#: controllers/addons_controller.php:810 controllers/addons_controller.php:877
+#: controllers/search_controller.php:147
+#, php-format
+msgid "addons_home_header_details"
+msgstr ""
+"Add-ons extend %1$s, letting you personalize your browsing experience.  Take "
+"a look around and make %1$s your own."
+
+#: views/elements/app_chooser.thtml:47
+msgid "addons_home_other_applications"
+msgstr "Other Applications"
+
+#: controllers/addons_controller.php:158 controllers/addons_controller.php:222
+#: controllers/addons_controller.php:410 controllers/addons_controller.php:543
+#: controllers/addons_controller.php:633 controllers/addons_controller.php:653
+#: controllers/addons_controller.php:808 controllers/addons_controller.php:875
+#: controllers/addons_controller.php:934
+#: controllers/addons_controller.php:1019
+#: controllers/addons_controller.php:1056
+#: controllers/addons_controller.php:1110 controllers/components/amo.php:484
+#: controllers/components/simple_acl.php:81
+#: controllers/developers_controller.php:64
+#: controllers/editors_controller.php:57 controllers/groups_controller.php:65
+#: controllers/groups_controller.php:71 controllers/groups_controller.php:89
+#: controllers/groups_controller.php:111
+#: controllers/localizers_controller.php:72
+#: controllers/pages_controller.php:91 controllers/previews_controller.php:67
+#: controllers/reviews_controller.php:141
+#: controllers/reviews_controller.php:181
+#: controllers/reviews_controller.php:272
+#: controllers/reviews_controller.php:351
+#: controllers/search_controller.php:123
+#: controllers/statistics_controller.php:60
+#: controllers/users_controller.php:89 controllers/users_controller.php:213
+#: controllers/users_controller.php:309 controllers/users_controller.php:377
+#: controllers/users_controller.php:491
+#: webroot/discussions/themes/addons/addon.php:22
+#: webroot/discussions/themes/addons/discussion_form.php:13
+#, php-format
+msgid "addons_home_pagetitle"
+msgstr "%1$s Add-ons"
+
+#: views/addons/home.thtml:143
+msgid "addons_home_popular_header"
+msgstr "Most Popular:"
+
+#: views/addons/home.thtml:135
+msgid "addons_home_recommended_header"
+msgstr "We Recommend:"
+
+#: views/addons/home.thtml:141 views/addons/home.thtml:150
+msgid "addons_home_view_all"
+msgstr "View all"
+
+#: views/addons/home.thtml:150
+msgid "addons_home_view_all_popular_title"
+msgstr "View all popular add-ons"
+
+#: views/addons/home.thtml:141
+msgid "addons_home_view_all_recommended_title"
+msgstr "View all recommended add-ons"
+
+#: views/elements/install.thtml:98
+msgid "addons_install_in_thunderbird"
+msgstr ""
+"<ol><li>Right-click the link below and choose \"Save Link As...\" to "
+"download and save the file to your hard disk.</li><li>In Mozilla "
+"Thunderbird, open Add-ons from the Tools menu.</li><li>Click the Install "
+"button, and locate/select the file you downloaded and click \"OK\".</li></ol>"
+
+#: views/elements/install.thtml:97
+msgid "addons_install_in_thunderbird_title"
+msgstr "How to Install in Thunderbird"
+
+#: views/elements/addon_list_options.thtml:105
+msgid "addons_options_show_experimental"
+msgstr "show experimental add-ons"
+
+#: views/elements/addon_list_options.thtml:109
+msgid "addons_options_submit"
+msgstr "Go"
+
+#: views/addons/plugins.thtml:58 views/addons/plugins.thtml:70
+#: views/addons/plugins.thtml:82 views/addons/plugins.thtml:94
+#: views/addons/plugins.thtml:106 views/addons/plugins.thtml:126
+#: views/addons/plugins.thtml:138
+msgid "addons_plugins_by"
+msgstr "By"
+
+#: views/addons/plugins.thtml:111
+msgid "addons_plugins_for_linux"
+msgstr "for Linux"
+
+#: views/addons/plugins.thtml:113 views/addons/plugins.thtml:145
+msgid "addons_plugins_for_macosx"
+msgstr "for Mac OS X"
+
+#: views/addons/plugins.thtml:109 views/addons/plugins.thtml:141
+msgid "addons_plugins_for_windows"
+msgstr "for Windows"
+
+#: views/addons/plugins.thtml:154
+#, php-format
+msgid "addons_plugins_looking_for_more"
+msgstr ""
+"This page only lists some of the most common and most popular plugins. For "
+"more information about other plugins available for Mozilla-based Browsers, "
+"visit %1$s"
+
+#: views/addons/plugins.thtml:152
+msgid "addons_plugins_looking_for_plugin"
+msgstr "Looking for a plugin not listed here?"
+
+#: views/addons/plugins.thtml:53
+msgid "addons_plugins_main_description"
+msgstr ""
+"Plugins help your browser perform specific functions like viewing special "
+"graphic formats or playing multimedia files. Plugins are slightly different "
+"from extensions, which modify or add to existing functionality."
+
+#: controllers/addons_controller.php:654
+#, php-format
+msgid "addons_plugins_main_header"
+msgstr "Common Plugins for %1$s"
+
+#: controllers/addons_controller.php:653
+msgid "addons_plugins_pagetitle"
+msgstr "Plugins"
+
+#: views/addons/plugins.thtml:62 views/addons/plugins.thtml:74
+#: views/addons/plugins.thtml:86 views/addons/plugins.thtml:98
+#: views/addons/plugins.thtml:116 views/addons/plugins.thtml:130
+#: views/addons/plugins.thtml:147
+msgid "addons_plugins_support_documentation"
+msgstr "Support Documentation: "
+
+#: views/addons/policy.thtml:68
+#, php-format
+msgid "addons_policy_eula_require"
+msgstr ""
+"%s requires that you accept the following End User License Agreement before "
+"installation can proceed:"
+
+# %1 is the addon name
+#: controllers/addons_controller.php:1055
+#, php-format
+msgid "addons_previews_pagetitle"
+msgstr "Previews for %s"
+
+#: views/addons/recommended.thtml:50 controllers/addons_controller.php:943
+msgid "addons_recommended_introduction"
+msgstr ""
+"With so many great add-ons available, there's something for everyone. To get "
+"you started, here's a list of some of the most popular. Enjoy!"
+
+#: controllers/addons_controller.php:934 controllers/addons_controller.php:937
+#: controllers/addons_controller.php:942
+msgid "addons_recommended_pagetitle"
+msgstr "Recommended Add-ons"
+
+#: controllers/addons_controller.php:938
+msgid "addons_recommended_title"
+msgstr "Recommended Add-ons"
+
+#: views/pages/js_constants.js.thtml:53
+msgid "addons_searchengines_error_mozilla_browser_required"
+msgstr ""
+"Sorry, you need a Mozilla-based browser (such as Firefox) to install a "
+"search plugin."
+
+#: views/addons/searchengines.thtml:50
+msgid "addons_searchengines_error_nojavascript"
+msgstr ""
+"Javascript is required to install plugins, but it looks like you have it "
+"disabled.  Please enable Javascript before trying to install any of the "
+"search plugins below."
+
+#: controllers/addons_controller.php:632 controllers/addons_controller.php:642
+msgid "addons_searchengines_pagetitle"
+msgstr "Search Engines"
+
+#: views/addons/versions.thtml:48
+msgid "addons_versions_careful"
+msgstr "Be Careful With Old Versions"
+
+#: views/addons/versions.thtml:49
+msgid "addons_versions_careful_introduction"
+msgstr ""
+"These versions are displayed for reference and testing purposes. You should "
+"always use the latest version of an add-on."
+
+#: views/addons/versions.thtml:52 controllers/addons_controller.php:1123
+msgid "addons_versions_history"
+msgstr "Version History with Changelogs"
+
+#: controllers/addons_controller.php:1106
+#, php-format
+msgid "addons_versions_pagetitle"
+msgstr "%1$s Version History"
+
+#: controllers/groups_controller.php:71
+msgid "admin_group_add_pagetitle"
+msgstr "Add Group"
+
+#: controllers/groups_controller.php:111
+msgid "admin_group_delete_pagetitle"
+msgstr "Delete Group"
+
+#: controllers/groups_controller.php:117
+#, php-format
+msgid "admin_group_deleted"
+msgstr "The Group with id %s was deleted"
+
+#: controllers/groups_controller.php:89
+msgid "admin_group_edit_pagetitle"
+msgstr "Edit Group"
+
+#: controllers/groups_controller.php:92 controllers/groups_controller.php:113
+msgid "admin_group_error_invalid_id"
+msgstr "Invalid id for Group"
+
+#: controllers/groups_controller.php:65
+msgid "admin_group_pagetitle"
+msgstr "Group Admin"
+
+#: controllers/groups_controller.php:77 controllers/groups_controller.php:99
+msgid "admin_group_saved"
+msgstr "The Group has been saved"
+
+#: views/pages/js_constants.js.thtml:60
+msgid "app_compat_older_firefox_only"
+msgstr "This add-on is for older versions of Firefox"
+
+#: views/pages/js_constants.js.thtml:59
+msgid "app_compat_try_old_version"
+msgstr "An <a href=\"%1$s\">older version</a> may work"
+
+#: views/pages/js_constants.js.thtml:56 views/pages/js_constants.js.thtml:58
+msgid "app_compat_update_firefox"
+msgstr ""
+"<a href=\"http://getfirefox.com\">Upgrade Firefox</a> to use this add-on"
+
+#: controllers/blog_controller.php:57
+msgid "blog_breadcrumb"
+msgstr "Blog"
+
+#: controllers/blog_controller.php:97
+msgid "blog_description"
+msgstr ""
+"News and information regarding add-ons and the addons.mozilla.org website."
+
+#: views/blog/view.thtml:75
+msgid "blog_link_title"
+msgstr "Link"
+
+#: views/blog/view.thtml:87
+msgid "blog_no_posts_found"
+msgstr "No posts could be found."
+
+#: views/blog/view.thtml:73
+#, php-format
+msgid "blog_posted_by"
+msgstr "Posted by %s on %s"
+
+#: views/blog/view.thtml:83
+msgid "blog_previous_entries"
+msgstr "Previous Entries"
+
+#: views/blog/view.thtml:49
+msgid "blog_sidebar_other_blogs"
+msgstr "Other Mozilla Blogs"
+
+#: controllers/blog_controller.php:58
+msgid "blog_subpage_title"
+msgstr "Blog"
+
+#: views/blog/view.thtml:59
+msgid "blog_subscribe_heading"
+msgstr "Subscribe"
+
+#: views/blog/view.thtml:60 controllers/blog_controller.php:55
+#: controllers/blog_controller.php:62 controllers/blog_controller.php:96
+msgid "blog_title"
+msgstr "Mozilla Add-ons Blog"
+
+#: controllers/addons_controller.php:1061
+msgid "breadcrumb_addon_previews"
+msgstr "Previews"
+
+#: controllers/addons_controller.php:1115
+msgid "breadcrumb_addon_versions"
+msgstr "Version History"
+
+#: views/elements/categories.thtml:66 views/elements/categories.thtml:79
+#: views/elements/categories.thtml:84
+msgid "categories_current_title"
+msgstr "Current Category"
+
+#: views/elements/categories.thtml:57
+msgid "categories_header"
+msgstr "Categories"
+
+#: views/elements/categories.thtml:57
+msgid "categories_header_title"
+msgstr "Choose a category"
+
+#: views/addons/category_landing.thtml:132
+msgid "category_extra_allrecommended"
+msgstr "See All Recommended Add-ons"
+
+#: views/addons/category_landing.thtml:123 views/addons/dictionaries.thtml:103
+msgid "category_extra_highestrated"
+msgstr "Highest Rated First"
+
+#: views/addons/category_landing.thtml:124 views/addons/dictionaries.thtml:104
+msgid "category_extra_lastupdated"
+msgstr "Last Updated First"
+
+#: views/addons/category_landing.thtml:122 views/addons/dictionaries.thtml:102
+msgid "category_extra_mostpopular"
+msgstr "Most Popular First"
+
+# %1 is the category name
+#: views/addons/category_landing.thtml:115 views/addons/dictionaries.thtml:95
+#: views/addons/searchengines.thtml:135 views/addons/themes_landing.thtml:128
+#, php-format
+msgid "category_extra_see_all"
+msgstr "See All %1$s"
+
+#: views/pages/credits.thtml:131
+#, php-format
+msgid "credits_contributing"
+msgstr "For information on contributing, please see our %s."
+
+#: views/pages/credits.thtml:131
+msgid "credits_contributing_wikipage"
+msgstr "wiki page"
+
+#: views/pages/credits.thtml:97
+msgid "credits_intro"
+msgstr ""
+"Mozilla would like to thank the following people for their contributions to "
+"the addons.mozilla.org project over the years:"
+
+#: views/pages/credits.thtml:101
+msgid "credits_section_developers"
+msgstr "Developers"
+
+#: views/pages/credits.thtml:113
+msgid "credits_section_editors"
+msgstr "Editors"
+
+#: views/pages/credits.thtml:107
+msgid "credits_section_localizers"
+msgstr "Localizers"
+
+#: views/pages/credits.thtml:119
+msgid "credits_section_other_contributors"
+msgstr "Other Contributors"
+
+#: views/pages/credits.thtml:125
+msgid "credits_section_past_developers"
+msgstr "Past Developers"
+
+# date format string as used in PHP's strftime():
+# http://php.net/strftime
+#: views/addons/display.thtml:223 views/addons/rss/versions.thtml:42
+#: views/blog/view.thtml:74 views/editors/reviews_queue.thtml:55
+#: views/editors/reviews_queue.thtml:64 views/elements/addon_listitem.thtml:96
+#: views/elements/addon_version_detail.thtml:50 views/reviews/add.thtml:57
+#: views/reviews/delete.thtml:49 views/reviews/display.thtml:54
+#: views/reviews/display.thtml:69 views/search/rss/index.thtml:5
+#: views/users/info.thtml:70
+#: webroot/discussions/library/Framework/Framework.Functions.php:606
+msgid "date"
+msgstr "%B %e, %Y"
+
+# date and time format string (strftime)
+#: views/elements/addon_version_detail.thtml:50
+#: webroot/discussions/themes/addons/comments.php:75
+#: webroot/discussions/themes/addons/comments.php:77
+#: webroot/discussions/themes/addons/discussion.php:18
+#: webroot/discussions/themes/addons/discussion.php:20
+msgid "datetime"
+msgstr "%B %e, %Y, %I:%M %p"
+
+#: views/elements/developers/actionbar.thtml:42
+msgid "devcp_actionbar_link_details"
+msgstr "Detailed Info"
+
+#: views/elements/developers/actionbar.thtml:50
+msgid "devcp_actionbar_link_disable"
+msgstr "Disable Add-on"
+
+#: views/elements/developers/actionbar.thtml:46
+msgid "devcp_actionbar_link_edit"
+msgstr "Edit Add-on"
+
+#: views/elements/developers/actionbar.thtml:52
+msgid "devcp_actionbar_link_enable"
+msgstr "Enable Add-on"
+
+#: views/elements/developers/actionbar.thtml:56
+msgid "devcp_actionbar_link_newversion"
+msgstr "Upload New Version"
+
+#: views/elements/developers/actionbar.thtml:54
+msgid "devcp_actionbar_link_nominate"
+msgstr "Nominate Add-on"
+
+#: views/elements/developers/actionbar.thtml:45
+msgid "devcp_actionbar_link_stats"
+msgstr "Statistics Dashboard"
+
+#: views/elements/developers/actionbar.thtml:44
+msgid "devcp_actionbar_link_viewpublic"
+msgstr "View Public Page"
+
+#: controllers/components/developers.php:1032
+msgid "devcp_additem_addontype_autodetect"
+msgstr "(auto-detect)"
+
+#: views/developers/add_step3.thtml:60
+#, php-format
+msgid "devcp_additem_firefox_notice"
+msgstr ""
+"This version of your add-on does not claim compatibility with Firefox %1$s. "
+"Mozilla is expecting the next version of Firefox to be released soon, so "
+"please test your add-on in the new version and update compatibility "
+"information. You can find out more about this <a href=\"%2$s\">here</a>. "
+"This is only a notice and you may continue to submit this version to addons."
+"mozilla.org."
+
+#: views/elements/developers/additem.thtml:76
+msgid "devcp_additem_linktitle_opensin_newwindow"
+msgstr "Opens in a new window"
+
+#: views/elements/developers/additem.thtml:41
+msgid "devcp_additem_sidebar_title"
+msgstr "Submit Add-on"
+
+#: views/elements/developers/additem.thtml:53
+msgid "devcp_additem_step0_newlink"
+msgstr "Developer Agreement"
+
+#: views/elements/developers/additem.thtml:46
+msgid "devcp_additem_step1_link"
+msgstr "Step 1: Upload"
+
+#: views/elements/developers/additem.thtml:47
+msgid "devcp_additem_step2_link"
+msgstr "Step 2: Add-on Details"
+
+#: views/elements/developers/additem.thtml:48
+msgid "devcp_additem_step3_link"
+msgstr "Step 3: Version Details"
+
+#: views/elements/developers/additem.thtml:49
+msgid "devcp_additem_step4_link"
+msgstr "Step 4: Localization"
+
+#: views/elements/developers/additem.thtml:50
+msgid "devcp_additem_step5_link"
+msgstr "Step 5: Success"
+
+#: views/elements/developers/additem.thtml:76
+msgid "devcp_additem_submissionhelp_link"
+msgstr "Submission Help"
+
+#: controllers/developers_controller.php:1392
+msgid "devcp_addon_disabled_successfully"
+msgstr "Add-on disabled successfully"
+
+#: controllers/developers_controller.php:1018
+#: controllers/developers_controller.php:1019
+msgid "devcp_addon_edit_pagetitle"
+msgstr "Edit Add-on"
+
+#: controllers/developers_controller.php:1387
+msgid "devcp_addon_enabled_successfully"
+msgstr "Add-on enabled successfully"
+
+#: controllers/developers_controller.php:931
+#: controllers/developers_controller.php:1215
+msgid "devcp_addon_field_description_displaytitle"
+msgstr "Add-on Description"
+
+#: controllers/developers_controller.php:941
+#: controllers/developers_controller.php:1225
+msgid "devcp_addon_field_eula_displaytitle"
+msgstr "EULA"
+
+#: controllers/developers_controller.php:911
+#: controllers/developers_controller.php:1177
+msgid "devcp_addon_field_homepage_displaytitle"
+msgstr "Add-on Homepage"
+
+#: controllers/developers_controller.php:904
+#: controllers/developers_controller.php:1170
+msgid "devcp_addon_field_name_displaytitle"
+msgstr "Add-on Name"
+
+#: controllers/previews_controller.php:168
+#: controllers/previews_controller.php:277
+msgid "devcp_addon_field_preview_caption_displaytitle"
+msgstr "Preview Caption"
+
+#: controllers/developers_controller.php:951
+#: controllers/developers_controller.php:1235
+msgid "devcp_addon_field_privacy_displaytitle"
+msgstr "Privacy Policy"
+
+#: controllers/developers_controller.php:920
+#: controllers/developers_controller.php:1204
+msgid "devcp_addon_field_summary_displaytitle"
+msgstr "Add-on Summary"
+
+#: controllers/developers_controller.php:1186
+msgid "devcp_addon_field_supportemail_displaytitle"
+msgstr "Support Email"
+
+#: controllers/developers_controller.php:1195
+msgid "devcp_addon_field_supporturl_displaytitle"
+msgstr "Support URL"
+
+#: controllers/developers_controller.php:961
+#: controllers/developers_controller.php:1342
+msgid "devcp_addon_field_versionnotes_displaytitle"
+msgstr "Version Notes"
+
+#: controllers/developers_controller.php:1414
+#: controllers/developers_controller.php:1415
+msgid "devcp_addon_nominate_pagetitle"
+msgstr "Nominate Add-on"
+
+#: controllers/developers_controller.php:1460
+msgid "devcp_addon_nominated_successfully"
+msgstr "Add-on nominated successfully!"
+
+# %1 is the addon edit link
+# %2 is the main dev CP link
+#: views/developers/add_step5.thtml:76
+#, php-format
+msgid "devcp_addon_submission_makechanges"
+msgstr ""
+"Visit the %1$s page to make changes to your submission, or %2$s to return to "
+"the Developer Tools."
+
+#: views/developers/add_step5.thtml:76
+msgid "devcp_addon_submission_makechanges_devcp_link"
+msgstr "click here"
+
+#: views/developers/add_step5.thtml:76
+msgid "devcp_addon_submission_makechanges_link"
+msgstr "Edit Add-on"
+
+#: views/developers/add_step5.thtml:57
+msgid "devcp_addon_submission_pending"
+msgstr ""
+"This version has been placed in the sandbox while it awaits review from "
+"sandbox testers and a Mozilla Add-ons editor. You will be notified by e-mail "
+"when action has been taken."
+
+# %1 is the link to the sandbox information page
+#: views/developers/add_step5.thtml:63
+#, php-format
+msgid "devcp_addon_submission_sandbox_readmore"
+msgstr "You can read more about the Sandbox Review System %s."
+
+#: views/developers/add_step5.thtml:63
+msgid "devcp_addon_submission_sandbox_readmore_link"
+msgstr "here"
+
+# %1 is the "nominate" link
+#: views/developers/add_step5.thtml:60
+#, php-format
+msgid "devcp_addon_submission_sandboxed"
+msgstr ""
+"This version has been placed in the sandbox for use by experienced users. In "
+"order for it to be shown on the public site, you must %s your add-on and "
+"undergo a review process."
+
+#: views/developers/add_step5.thtml:60
+msgid "devcp_addon_submission_sandboxed_nominate_link"
+msgstr "nominate"
+
+#: views/developers/add_step5.thtml:51
+msgid "devcp_addon_submission_success"
+msgstr "Your add-on submission has been completed successfully."
+
+#: views/developers/add_step5.thtml:54
+msgid "devcp_addon_submission_trusted_public"
+msgstr ""
+"Because your add-on is trusted, this version has automatically been approved "
+"for the public area."
+
+#: controllers/developers_controller.php:232
+#: controllers/developers_controller.php:233
+msgid "devcp_addon_submit_pagetitle"
+msgstr "Submit Add-on"
+
+#: controllers/developers_controller.php:1106
+msgid "devcp_addon_updated_successfully"
+msgstr "Add-on updated successfully"
+
+# %1 is the link to the preview upload page
+#: views/developers/add_step5.thtml:71
+#, php-format
+msgid "devcp_addon_upload_preview"
+msgstr "You may wish to %s to increase interest in your add-on."
+
+#: views/developers/add_step5.thtml:71
+msgid "devcp_addon_upload_preview_link"
+msgstr "upload a preview"
+
+# #1 is the author email
+#: views/developers/author_lookup.thtml:41
+#, php-format
+msgid "devcp_author_lookup_none_found"
+msgstr "No author found [%s]"
+
+#: views/developers/author_lookup.thtml:44
+msgid "devcp_author_lookup_remove"
+msgstr "Remove"
+
+#: views/developers/add_step1.thtml:129 views/developers/add_step2.thtml:161
+#: views/developers/add_step3.thtml:126 views/developers/add_step4.thtml:61
+msgid "devcp_button_cancel"
+msgstr "Cancel"
+
+#: views/developers/add_step1.thtml:129 views/developers/add_step2.thtml:161
+#: views/developers/add_step3.thtml:126 views/developers/add_step4.thtml:61
+msgid "devcp_button_cancel_confirm"
+msgstr "Are you sure you wish to cancel your submission?"
+
+#: views/developers/add_step1.thtml:128 views/developers/add_step2.thtml:160
+#: views/developers/add_step3.thtml:125 views/developers/add_step4.thtml:60
+msgid "devcp_button_next"
+msgstr "Next"
+
+#: views/developers/add_step2.thtml:66
+msgid "devcp_change_addontype"
+msgstr "Change add-on type:"
+
+#: controllers/developers_controller.php:159
+msgid "devcp_comments_updated"
+msgstr "Developer Comments updated."
+
+#: views/developers/details.thtml:122
+msgid "devcp_details_addpreview_link"
+msgstr "Add Preview"
+
+#: views/developers/details.thtml:70
+msgid "devcp_details_author"
+msgstr "Author"
+
+#: views/developers/details.thtml:70
+msgid "devcp_details_authors"
+msgstr "Authors"
+
+#: views/developers/details.thtml:70
+msgid "devcp_details_authors_none"
+msgstr "None"
+
+#: views/developers/details.thtml:75
+msgid "devcp_details_categories"
+msgstr "Categories"
+
+#: views/developers/details.thtml:75
+msgid "devcp_details_category"
+msgstr "Category"
+
+#: views/developers/details.thtml:76
+msgid "devcp_details_description"
+msgstr "Description"
+
+#: views/developers/details.thtml:69
+msgid "devcp_details_disabled"
+msgstr "Disabled"
+
+#: views/developers/details.thtml:71
+msgid "devcp_details_guid"
+msgstr "GUID"
+
+#: views/developers/details.thtml:65
+msgid "devcp_details_header_details"
+msgstr "Details"
+
+#: views/developers/details.thtml:127
+msgid "devcp_details_header_devcomments"
+msgstr "Developer Comments"
+
+#: views/developers/details.thtml:104
+msgid "devcp_details_header_previews"
+msgstr "Previews"
+
+#: views/developers/details.thtml:81
+msgid "devcp_details_header_versions"
+msgstr "Versions"
+
+#: views/developers/details.thtml:72
+msgid "devcp_details_homepage"
+msgstr "Homepage"
+
+#: views/developers/details.thtml:72
+msgid "devcp_details_homepage_none"
+msgstr "None"
+
+#: views/developers/details.thtml:111
+msgid "devcp_details_preview_nocaption"
+msgstr "No caption"
+
+#: views/developers/details.thtml:119
+msgid "devcp_details_previews_nonefound"
+msgstr "No previews found."
+
+#: views/developers/details.thtml:153
+msgid "devcp_details_submit_update"
+msgstr "Update"
+
+#: views/developers/details.thtml:73
+msgid "devcp_details_supportemail"
+msgstr "Support Email"
+
+#: views/developers/details.thtml:73
+msgid "devcp_details_supportemail_none"
+msgstr "No support email provided by developer."
+
+#: views/developers/details.thtml:74
+msgid "devcp_details_supporturl"
+msgstr "Support URL"
+
+#: views/developers/details.thtml:74
+msgid "devcp_details_supporturl_none"
+msgstr "No support url provided by developer."
+
+#: views/developers/details.thtml:68
+msgid "devcp_details_trusted"
+msgstr "Trusted"
+
+#: views/developers/details.thtml:86
+#, php-format
+msgid "devcp_details_version"
+msgstr "Version %s"
+
+#: views/developers/details.thtml:100
+msgid "devcp_details_versions_none_found"
+msgstr "No versions found."
+
+#: views/developers/disable.thtml:64
+msgid "devcp_disable_cancel"
+msgstr "Cancel and go back"
+
+#: views/developers/disable.thtml:60
+msgid "devcp_disable_disable_button"
+msgstr "Yes, disable it"
+
+#: views/developers/disable.thtml:58
+msgid "devcp_disable_disable_confirm"
+msgstr "Are you sure you want to disable this add-on?"
+
+#: views/developers/disable.thtml:56
+msgid "devcp_disable_disable_description"
+msgstr ""
+"Disabling this add-on will hide it from searches and listings. It will not "
+"be downloadable from the website and will not be returned in client update "
+"checks. The add-on will effectively be deleted, although you will be able to "
+"return here and re-enable it at your convenience."
+
+#: views/developers/disable.thtml:55
+#, php-format
+msgid "devcp_disable_disable_title"
+msgstr "Disable %s"
+
+#: views/developers/disable.thtml:53
+msgid "devcp_disable_enable_button"
+msgstr "Yes, enable it"
+
+#: views/developers/disable.thtml:51
+msgid "devcp_disable_enable_confirm"
+msgstr "Are you sure you want to enable this add-on?"
+
+#: views/developers/disable.thtml:49
+msgid "devcp_disable_enable_description"
+msgstr ""
+"Enabling this add-on will cause it to once again appear in searches and "
+"listings. It will be downloadable both from the website and from client "
+"update checks."
+
+#: views/developers/disable.thtml:48
+#, php-format
+msgid "devcp_disable_enable_title"
+msgstr "Enable %s"
+
+#: views/developers/edit.thtml:65 views/developers/edit.thtml:71
+msgid "devcp_edit_author_add"
+msgstr "Add Author"
+
+#: views/developers/edit.thtml:69
+msgid "devcp_edit_author_email"
+msgstr "Author's Email Address"
+
+#: views/developers/edit.thtml:56
+msgid "devcp_edit_author_remove"
+msgstr "Remove"
+
+#: views/developers/edit.thtml:77
+msgid "devcp_edit_error_categories_unavailable"
+msgstr "No categories available for this add-on type."
+
+#: views/developers/edit.thtml:51
+msgid "devcp_edit_header_authors"
+msgstr "Authors"
+
+#: views/developers/edit.thtml:100
+msgid "devcp_edit_icon_add_link"
+msgstr "Add Icon"
+
+#: views/developers/edit.thtml:97
+msgid "devcp_edit_icon_change_link"
+msgstr "Change Icon"
+
+#: views/developers/edit.thtml:132
+msgid "devcp_edit_label_allow_viewsource"
+msgstr "Allow users to view the source files online"
+
+#: views/developers/edit.thtml:75
+msgid "devcp_edit_label_categories"
+msgstr "Categories"
+
+#: views/developers/edit.thtml:81
+msgid "devcp_edit_label_defaultlocale"
+msgstr "Default Locale"
+
+#: views/developers/edit.thtml:144
+msgid "devcp_edit_label_externalsoftware"
+msgstr "This add-on requires external software"
+
+#: views/developers/edit.thtml:111
+msgid "devcp_edit_label_icon_delete"
+msgstr "Only clear the existing icon"
+
+#: views/developers/edit.thtml:105
+msgid "devcp_edit_label_icon_new"
+msgstr "New Icon File"
+
+#: views/developers/edit.thtml:92
+msgid "devcp_edit_label_info"
+msgstr "Icon"
+
+#: views/developers/edit.thtml:125
+msgid "devcp_edit_label_locale_disambiguation"
+msgstr "Additional Locale Info"
+
+#: views/developers/edit.thtml:136
+msgid "devcp_edit_label_prerelease"
+msgstr "This is a pre-release"
+
+#: views/developers/edit.thtml:140
+msgid "devcp_edit_label_sitespecific"
+msgstr "This is a site-specific add-on"
+
+#: views/developers/edit.thtml:120
+msgid "devcp_edit_label_target_locale"
+msgstr "Target Locale"
+
+#: views/developers/edit.thtml:127
+msgid "devcp_edit_locale_disambiguation_explanation"
+msgstr "short additional info (such as a local dialect name)"
+
+#: views/developers/edit.thtml:154
+msgid "devcp_edit_submit_update"
+msgstr "Update"
+
+#: views/developers/edit.thtml:122
+msgid "devcp_edit_target_locale_explanation"
+msgstr ""
+"<a href=\"http://wiki.mozilla.org/L10n:Simple_locale_names\">simple locale "
+"name</a>, such as 'en-US'"
+
+#: views/elements/developers/editorsmenu.thtml:59
+msgid "devcp_editorsqueue_featured"
+msgstr "Featured Add-ons"
+
+# %1 is the review count
+#: views/elements/developers/editorsmenu.thtml:56
+#: views/elements/developers/editorsqueue.thtml:42
+#, php-format
+msgid "devcp_editorsqueue_moderatedreviews"
+msgid_plural "devcp_editorsqueue_moderatedreviews"
+msgstr[0] "Moderated Reviews (%s)"
+msgstr[1] "Moderated Reviews (%s)"
+
+# %1 is the nominated addons count
+#: views/elements/developers/editorsmenu.thtml:58
+#: views/elements/developers/editorsqueue.thtml:44
+#, php-format
+msgid "devcp_editorsqueue_nominated"
+msgid_plural "devcp_editorsqueue_nominated"
+msgstr[0] "Nominated Add-ons (%s)"
+msgstr[1] "Nominated Add-ons (%s)"
+
+# %1 is the update count
+#: views/elements/developers/editorsmenu.thtml:57
+#: views/elements/developers/editorsqueue.thtml:43
+#, php-format
+msgid "devcp_editorsqueue_pendingupdates"
+msgid_plural "devcp_editorsqueue_pendingupdates"
+msgstr[0] "Pending Updates (%s)"
+msgstr[1] "Pending Updates (%s)"
+
+#: views/developers/editversion.thtml:66
+msgid "devcp_editversion_checkedfiles_delete"
+msgstr "Checked files will be deleted."
+
+# %1 is the file name
+# %2 is the file size (150 KB)
+#: views/developers/editversion.thtml:58
+#, php-format
+msgid "devcp_editversion_filename_size"
+msgstr "%1$s (%2$s)"
+
+#: views/developers/editversion.thtml:48
+msgid "devcp_editversion_label_files"
+msgstr "Files"
+
+#: views/developers/editversion.thtml:75
+msgid "devcp_editversion_label_targetapps"
+msgstr "Target Applications"
+
+#: views/developers/editversion.thtml:69
+msgid "devcp_editversion_nofiles"
+msgstr "No files."
+
+#: views/developers/editversion.thtml:117
+msgid "devcp_editversion_reviewernotes"
+msgstr "Notes to Reviewer"
+
+#: views/developers/editversion.thtml:122
+msgid "devcp_editversion_submit_update"
+msgstr "Update"
+
+#: controllers/developers_controller.php:144
+#: controllers/developers_controller.php:997
+#: controllers/developers_controller.php:1023
+#: controllers/developers_controller.php:1275
+#: controllers/developers_controller.php:1379
+#: controllers/developers_controller.php:1429
+#: controllers/previews_controller.php:108
+#: controllers/previews_controller.php:211
+#: controllers/previews_controller.php:312
+#: controllers/statistics_controller.php:139
+#: controllers/statistics_controller.php:329
+msgid "devcp_error_addon_access_denied"
+msgstr "You do not have access to that add-on."
+
+#: views/developers/add_step2.thtml:126
+#: controllers/developers_controller.php:926
+#: controllers/developers_controller.php:1210
+msgid "devcp_error_addon_field_summary_toolong"
+msgstr ""
+"Summaries are limited to a maximum of 250 characters.\n"
+"(You entered %s)"
+
+#: controllers/developers_controller.php:642
+msgid "devcp_error_addonname_not_unique"
+msgstr ""
+"The name for your add-on already exists in the database. Please make sure "
+"that: <br /><li>Your GUIDs match. The most common cause for this error is "
+"mismatched GUIDs.</li><li>You do not have a duplicate entry in the database. "
+"If you do, you should update that entry or delete it and try again.</li>"
+
+#: controllers/components/developers.php:536
+#, php-format
+msgid "devcp_error_appversion_reference_link"
+msgstr "Please see %s for reference."
+
+#: controllers/components/developers.php:536
+msgid "devcp_error_appversion_reference_link_text"
+msgstr "this page"
+
+#: controllers/developers_controller.php:748
+msgid "devcp_error_describe_changes"
+msgstr "Please describe the changes made in this add-on update."
+
+#: controllers/components/developers.php:350
+#, php-format
+msgid "devcp_error_file_extension"
+msgstr ""
+"That file extension (%s) is not allowed for the selected add-on type. Please "
+"use one of the following: %s"
+
+#: controllers/developers_controller.php:404
+msgid "devcp_error_file_guids_dont_match"
+msgstr "Not all file GUIDs match"
+
+#: controllers/components/developers.php:63
+msgid "devcp_error_five_categories"
+msgstr "Please select no more than five categories."
+
+#: controllers/components/developers.php:467
+msgid "devcp_error_guid_application"
+msgstr "The ID of this add-on is already used by an application."
+
+#: controllers/components/developers.php:267
+msgid "devcp_error_http_incomplete"
+msgstr "Incomplete transfer"
+
+#: controllers/components/developers.php:265
+#: controllers/components/developers.php:266
+msgid "devcp_error_http_maxupload"
+msgstr "Exceeds maximum upload size"
+
+#: controllers/components/developers.php:268
+msgid "devcp_error_http_nofile"
+msgstr "No file uploaded"
+
+#: controllers/components/developers.php:389
+#, php-format
+msgid "devcp_error_icon_extension"
+msgstr ""
+"That file extension (%s) is not allowed for an icon. Please use one of the "
+"following: %s"
+
+#: controllers/developers_controller.php:469
+#, php-format
+msgid "devcp_error_identical_version_exists"
+msgstr "An identical version (%s) already exists for this add-on and platform."
+
+#: controllers/developers_controller.php:410
+msgid "devcp_error_index_rdf_notfound"
+msgstr "No install.rdf present."
+
+#: controllers/components/developers.php:547
+msgid "devcp_error_install_manifest"
+msgstr "The following errors were found in install.rdf:"
+
+#: controllers/developers_controller.php:364
+msgid "devcp_error_invalid_addontype"
+msgstr "Please select a valid add-on type."
+
+#: controllers/components/developers.php:514
+#: controllers/components/developers.php:526
+#, php-format
+msgid "devcp_error_invalid_appversion"
+msgstr "%s is not a valid version for %s"
+
+#: controllers/components/developers.php:461
+#, php-format
+msgid "devcp_error_invalid_guid"
+msgstr "The ID of this add-on is invalid: %s"
+
+#: controllers/components/developers.php:517
+#, php-format
+msgid "devcp_error_invalid_minversion"
+msgstr "%s is not a valid version for %s: minimum versions cannot contain *"
+
+#: controllers/components/developers.php:479
+msgid "devcp_error_invalid_version"
+msgstr ""
+"The version of this add-on is invalid: please see the <a href=\"http://"
+"developer.mozilla.org/en/docs/Toolkit_version_format\">specification</a>"
+
+#: controllers/components/developers.php:473
+msgid "devcp_error_invalid_version_spaces"
+msgstr "The version of this add-on is invalid: versions cannot contain spaces."
+
+#: controllers/components/developers.php:437
+#, php-format
+msgid "devcp_error_manifest_parse"
+msgstr "The following error occurred while parsing install.rdf: %s"
+
+#: controllers/components/developers.php:368
+msgid "devcp_error_move_file"
+msgstr "Could not move file"
+
+#: controllers/components/developers.php:602
+#: controllers/components/developers.php:613
+#: controllers/components/developers.php:618
+#, php-format
+msgid "devcp_error_moving_file"
+msgstr "An error occurred moving %s."
+
+#: controllers/components/developers.php:540
+msgid "devcp_error_mozilla_application"
+msgstr "You must have at least one valid Mozilla target application."
+
+#: controllers/components/developers.php:455
+msgid "devcp_error_no_guid"
+msgstr "No ID could be found for this add-on in install.rdf."
+
+#: controllers/components/developers.php:291
+msgid "devcp_error_no_platform"
+msgstr "No platform selected"
+
+#: controllers/developers_controller.php:1449
+msgid "devcp_error_nominate_message"
+msgstr "You must supply the requested details for nomination."
+
+#: controllers/developers_controller.php:1443
+msgid "devcp_error_nominate_no_prerelease"
+msgstr "You cannot nominate a pre-release add-on."
+
+#: controllers/developers_controller.php:1435
+msgid "devcp_error_nominate_sandbox_only"
+msgstr "You can only nominate add-ons currently in the sandbox."
+
+#: controllers/components/developers.php:58
+msgid "devcp_error_one_category"
+msgstr "Please select at least one category."
+
+#: controllers/components/developers.php:91
+msgid "devcp_error_one_user"
+msgstr "There must be at least one author for this add-on."
+
+#: controllers/components/developers.php:909
+#, php-format
+msgid "devcp_error_preview_extension"
+msgstr ""
+"That file extension (%s) is not allowed for a preview. Please use one of the "
+"following: %s"
+
+#: controllers/developers_controller.php:634
+#: controllers/developers_controller.php:649
+#: controllers/developers_controller.php:1110
+msgid "devcp_error_saving"
+msgstr "An error occurred trying to save your data."
+
+#: controllers/developers_controller.php:442
+msgid "devcp_error_update_access_denied"
+msgstr "You do not have permission to update this add-on."
+
+#: controllers/components/developers.php:449
+msgid "devcp_error_updatekey"
+msgstr ""
+"Add-ons cannot use an updateKey. Please remove this from install.rdf and try "
+"again."
+
+#: controllers/components/developers.php:443
+msgid "devcp_error_updateurl"
+msgstr ""
+"Add-ons cannot use an external updateURL. Please remove this from install."
+"rdf and try again."
+
+#: controllers/components/developers.php:275
+msgid "devcp_error_upload_file"
+msgstr "Please upload a file."
+
+#: views/developers/add_step1.thtml:97
+msgid "devcp_file_addanother"
+msgstr "Add Another Platform File"
+
+#: views/developers/add_step2.thtml:93 views/developers/add_step2.thtml:99
+msgid "devcp_form_author_add"
+msgstr "Add Author"
+
+#: views/developers/add_step2.thtml:84
+msgid "devcp_form_author_remove"
+msgstr "Remove"
+
+#: views/developers/add_step2.thtml:107
+msgid "devcp_form_categories_nextstep"
+msgstr ""
+"Categories for your new add-on type will be available in the next step."
+
+#: views/developers/add_step2.thtml:105
+msgid "devcp_form_error_categories_unavailable"
+msgstr "No categories available for this add-on type."
+
+#: views/developers/add_step2.thtml:132
+msgid "devcp_form_error_description_notempty"
+msgstr "Please enter a description of your add-on."
+
+#: views/developers/add_step2.thtml:76
+msgid "devcp_form_error_name_required"
+msgstr "Please enter the name of your add-on."
+
+#: views/developers/add_step1.thtml:63
+msgid "devcp_form_error_select_addontype"
+msgstr "Please select the type of add-on you are submitting."
+
+#: views/developers/add_step2.thtml:127
+msgid "devcp_form_error_summary_notempty"
+msgstr "Please enter a summary of your add-on."
+
+#: views/developers/add_step1.thtml:72
+msgid "devcp_form_label_addonfile"
+msgstr "Add-on File"
+
+#: views/developers/add_step1.thtml:80
+msgid "devcp_form_label_addonfile2"
+msgstr "Add-on File 2"
+
+#: views/developers/add_step1.thtml:89
+msgid "devcp_form_label_addonfile3"
+msgstr "Add-on File 3"
+
+#: views/developers/add_step1.thtml:59
+msgid "devcp_form_label_addontype"
+msgstr "Add-on Type"
+
+#: views/developers/add_step2.thtml:145
+msgid "devcp_form_label_allow_viewsource"
+msgstr "Allow users to view the source files online"
+
+#: views/developers/add_step2.thtml:97
+msgid "devcp_form_label_author_email"
+msgstr "Author's Email Address"
+
+#: views/developers/add_step2.thtml:79
+msgid "devcp_form_label_authors"
+msgstr "Authors"
+
+#: views/developers/add_step2.thtml:103 views/developers/add_step3.thtml:107
+msgid "devcp_form_label_categories"
+msgstr "Categories"
+
+#: views/developers/add_step1.thtml:108
+msgid "devcp_form_label_defaultlocale"
+msgstr "Default Locale"
+
+#: views/developers/add_step2.thtml:130
+msgid "devcp_form_label_description"
+msgstr "Description"
+
+#: views/developers/add_step2.thtml:136
+msgid "devcp_form_label_eula"
+msgstr "End User License Agreement (EULA)"
+
+#: views/developers/add_step2.thtml:157
+msgid "devcp_form_label_externalsoftware"
+msgstr "This add-on requires external software"
+
+#: views/developers/add_step3.thtml:70
+msgid "devcp_form_label_files"
+msgstr "Files"
+
+#: views/developers/add_step2.thtml:110
+msgid "devcp_form_label_homepage"
+msgstr "Homepage"
+
+#: views/developers/add_step1.thtml:102
+msgid "devcp_form_label_iconfile"
+msgstr "Icon File"
+
+#: views/developers/add_step2.thtml:74
+msgid "devcp_form_label_name"
+msgstr "Name"
+
+#: views/developers/add_step1.thtml:75 views/developers/add_step1.thtml:83
+#: views/developers/add_step1.thtml:92
+msgid "devcp_form_label_platforms"
+msgstr "Supported Platforms"
+
+#: views/developers/add_step2.thtml:149
+msgid "devcp_form_label_prerelease"
+msgstr "This is a pre-release"
+
+#: views/developers/add_step2.thtml:140
+msgid "devcp_form_label_privacy"
+msgstr "Privacy Policy"
+
+#: views/developers/add_step2.thtml:153
+msgid "devcp_form_label_sitespecific"
+msgstr "This is a site-specific add-on"
+
+#: views/developers/add_step2.thtml:125
+msgid "devcp_form_label_summary"
+msgstr "Summary"
+
+#: views/developers/add_step2.thtml:115
+msgid "devcp_form_label_supportemail"
+msgstr "Support Email"
+
+#: views/developers/add_step2.thtml:120
+msgid "devcp_form_label_supporturl"
+msgstr "Support URL"
+
+#: views/developers/add_step3.thtml:80
+msgid "devcp_form_label_target_applications"
+msgstr "Target Applications"
+
+#: views/developers/add_step3.thtml:66
+msgid "devcp_form_label_version"
+msgstr "Version"
+
+#: views/developers/add_step3.thtml:95
+msgid "devcp_form_label_versionnotes"
+msgstr "Version Notes"
+
+#: views/developers/add_step3.thtml:89
+msgid "devcp_form_no_target_apps"
+msgstr "None"
+
+#: views/developers/add_step3.thtml:100
+msgid "devcp_form_reviewernotes"
+msgstr "Notes to Reviewer"
+
+#: views/developers/add_step3.thtml:114
+msgid "devcp_form_trustedaddon_destination"
+msgstr ""
+"Because your add-on is trusted, please choose where this version should go:"
+
+#: views/developers/add_step3.thtml:119
+msgid "devcp_form_trustedaddon_destination_public"
+msgstr "Public"
+
+#: views/developers/add_step3.thtml:117
+msgid "devcp_form_trustedaddon_destination_sandbox"
+msgstr "Sandbox"
+
+#: views/developers/add_step0.thtml:44
+#, php-format
+msgid "devcp_header_developer_agreement"
+msgstr "Developer Agreement"
+
+#: views/developers/add_step1.thtml:44
+msgid "devcp_header_step1"
+msgstr "Step 1"
+
+#: views/developers/add_step1.thtml:44
+msgid "devcp_header_step1_upload"
+msgstr "Upload File"
+
+#: views/developers/add_step2.thtml:43
+msgid "devcp_header_step2"
+msgstr "Step 2"
+
+#: views/developers/add_step2.thtml:43
+msgid "devcp_header_step2_addondetails"
+msgstr "Add-on Details"
+
+#: views/developers/add_step3.thtml:43
+msgid "devcp_header_step3"
+msgstr "Step 3"
+
+#: views/developers/add_step3.thtml:43
+msgid "devcp_header_step3_versiondetails"
+msgstr "Version Details"
+
+#: views/developers/add_step4.thtml:43
+msgid "devcp_header_step4"
+msgstr "Step 4"
+
+#: views/developers/add_step4.thtml:43
+msgid "devcp_header_step4_localization"
+msgstr "Localization"
+
+#: views/developers/add_step5.thtml:43
+msgid "devcp_header_step5"
+msgstr "Step 5"
+
+#: views/developers/add_step5.thtml:43
+msgid "devcp_header_step5_success"
+msgstr "Success"
+
+#: views/developers/index.thtml:43
+msgid "devcp_index_header_myaddons"
+msgstr "My Add-ons"
+
+#: views/elements/developers/localebox.thtml:44
+msgid "devcp_localebox_header_localizedfields"
+msgstr "Localized Fields"
+
+# %1 is the default locale
+#: views/elements/developers/localebox.thtml:48
+#, php-format
+msgid "devcp_localebox_intro"
+msgstr ""
+"Some of the fields on this page are localized to appear in the end user's "
+"native language. Select a locale below to edit your add-on's details in that "
+"language. If a translation for a locale is not available, it will fall back "
+"to the selected default locale (%s)."
+
+#: views/elements/developers/myaddons.thtml:61
+msgid "devcp_myaddons_admincp_link"
+msgstr "Admin Tools"
+
+#: views/elements/developers/myaddons.thtml:58
+msgid "devcp_myaddons_editorcp_link"
+msgstr "Editor Tools"
+
+#: views/elements/developers/myaddons.thtml:45
+msgid "devcp_myaddons_link"
+msgstr "My Add-ons"
+
+#: views/elements/developers/myaddons.thtml:63
+msgid "devcp_myaddons_mainpage_link"
+msgstr "Back to Main"
+
+#: views/elements/developers/myaddons.thtml:56
+msgid "devcp_myaddons_statistics_link"
+msgstr "Statistics Dashboard"
+
+#: views/elements/developers/myaddons.thtml:55
+msgid "devcp_myaddons_submitaddon_link"
+msgstr "Submit Add-on"
+
+#: views/elements/developers/myaddons.thtml:41
+msgid "devcp_myaddons_title"
+msgstr "Developer Tools"
+
+#: views/developers/nominate.thtml:53
+msgid "devcp_nominate_link_returnto_details"
+msgstr "Return to add-on details"
+
+# %1 is the addon name
+#: views/developers/nominate.thtml:52
+#, php-format
+msgid "devcp_nominate_submit_nominate"
+msgstr "Nominate %s"
+
+# %1 is the autodetected addon type
+#: views/developers/add_step2.thtml:63
+#, php-format
+msgid "devcp_notice_autodetected_addontype"
+msgstr "Automatically detected add-on type: %s."
+
+#: controllers/previews_controller.php:252
+msgid "devcp_notice_cleardefault"
+msgstr ""
+"Removing this as the default preview will cause another preview to "
+"automatically become the default preview."
+
+# %1 is the default locale name (English (US))
+# %2 is the default locale code (en-US)
+# %3 is the current page locale name (Deutsch)
+# %4 is the current page locale code (de)
+#: views/developers/add_step2.thtml:58 views/developers/add_step3.thtml:57
+#, php-format
+msgid "devcp_notice_different_defaultlocale"
+msgstr ""
+"The default locale of this add-on (%1$s [%2$s]) is different from your "
+"currently selected locale (%3$s [%4$s]). The fields below should be "
+"completed in %1$s."
+
+#: controllers/previews_controller.php:184
+#: controllers/previews_controller.php:251
+msgid "devcp_notice_makedefault"
+msgstr ""
+"Making this the default preview will remove default status from the current "
+"default preview."
+
+#: controllers/developers_controller.php:64
+#: controllers/developers_controller.php:78
+#: controllers/developers_controller.php:81
+#: controllers/previews_controller.php:67
+#: controllers/previews_controller.php:79
+#: controllers/previews_controller.php:82
+msgid "devcp_pagetitle"
+msgstr "Developer Tools"
+
+#: controllers/previews_controller.php:103
+#: controllers/previews_controller.php:104
+msgid "devcp_preview_add_pagetitle"
+msgstr "Add Preview"
+
+#: controllers/previews_controller.php:135
+msgid "devcp_preview_added_successfully"
+msgstr "Preview added successfully."
+
+#: controllers/previews_controller.php:323
+msgid "devcp_preview_deleted_successfully"
+msgstr "Preview deleted successfully."
+
+#: controllers/previews_controller.php:194
+#: controllers/previews_controller.php:195
+msgid "devcp_preview_edit_pagetitle"
+msgstr "Edit Preview"
+
+#: controllers/previews_controller.php:237
+msgid "devcp_preview_updated_successfully"
+msgstr "Preview updated successfully."
+
+#: views/previews/add.thtml:45
+msgid "devcp_previews_filetype_info"
+msgstr ""
+"Use the form below to upload a PNG, JPG, or GIF screenshot of your add-on. "
+"Images larger than 700 pixels wide and 525 pixels high will automatically be "
+"resized."
+
+#: views/previews/add.thtml:43
+msgid "devcp_previews_header_add"
+msgstr "Add Preview"
+
+#: views/previews/edit.thtml:43
+msgid "devcp_previews_header_edit"
+msgstr "Edit Preview"
+
+#: views/previews/add.thtml:54
+msgid "devcp_previews_label_file"
+msgstr "Preview File"
+
+#: views/previews/add.thtml:59 views/previews/edit.thtml:50
+msgid "devcp_previews_label_makedefault"
+msgstr "Make this the default preview image"
+
+#: views/previews/edit.thtml:55
+msgid "devcp_previews_submit_delete"
+msgstr "Delete Preview"
+
+#: views/previews/edit.thtml:55
+msgid "devcp_previews_submit_delete_confirm"
+msgstr "Are you sure you wish to delete this preview?"
+
+#: views/previews/edit.thtml:54
+msgid "devcp_previews_submit_edit"
+msgstr "Edit Preview"
+
+#: views/previews/add.thtml:63
+msgid "devcp_previews_submit_upload"
+msgstr "Upload Preview"
+
+#: views/developers/add_step2.thtml:64
+msgid "devcp_question_addontype_incorrect"
+msgstr "Incorrect?"
+
+#: controllers/developers_controller.php:1363
+msgid "devcp_question_delete_file"
+msgstr "Are you sure you want to delete this file?"
+
+#: views/developers/add_step0.thtml:52
+msgid "devcp_review_agreement_please"
+msgstr ""
+"Please review and accept the following Developer Agreement before proceeding."
+
+#: views/developers/add_step1.thtml:123
+msgid "devcp_skip_reviewing_addon_info"
+msgstr "Skip updating my current add-on information"
+
+#: views/elements/developers/statsbar.thtml:45
+#, php-format
+msgid "devcp_statsbar_adu"
+msgstr "<em>%s</em> Active Daily Users"
+
+#: views/elements/developers/statsbar.thtml:47
+#, php-format
+msgid "devcp_statsbar_rating"
+msgstr "Rated <em>%1$.2f</em> / %2$d"
+
+#: views/elements/developers/statsbar.thtml:41
+#, php-format
+msgid "devcp_statsbar_total_downloads"
+msgstr "<em>%s</em> Total Downloads"
+
+#: views/elements/developers/statsbar.thtml:43
+#, php-format
+msgid "devcp_statsbar_weekly_downloads"
+msgstr "<em>%s</em> Weekly Downloads"
+
+#: controllers/developers_controller.php:238
+msgid "devcp_submissions_disabled"
+msgstr ""
+"Add-on submissions are currently disabled. Please check back at a later time."
+
+#: views/developers/add_step0.thtml:59
+msgid "devcp_submit_accept_dev_agreement"
+msgstr "I Accept"
+
+#: views/developers/add_step0.thtml:58
+msgid "devcp_submit_decline_dev_agreement"
+msgstr "I Decline"
+
+#: views/developers/index.thtml:86
+msgid "devcp_summary_admin_disabled"
+msgstr "This add-on has been disabled by an administrator."
+
+#: views/developers/index.thtml:70
+msgid "devcp_summary_header_disabled"
+msgstr "Disabled"
+
+#: views/developers/index.thtml:69
+msgid "devcp_summary_header_trusted"
+msgstr "Trusted"
+
+#: views/developers/index.thtml:77
+msgid "devcp_summary_lastversion"
+msgstr "Latest Version:"
+
+# %1 is a link to the addon submit page
+#: views/developers/index.thtml:96
+#, php-format
+msgid "devcp_summary_noaddons_submit_one"
+msgstr "You don't have any add-ons. Click %s to submit one."
+
+#: views/developers/index.thtml:97
+msgid "devcp_summary_noaddons_submit_one_link"
+msgstr "here"
+
+# %1 is the link to the preview upload page
+#: views/developers/add_step5.thtml:68
+#, php-format
+msgid "devcp_theme_upload_preview"
+msgstr "Please be sure to %s for your theme."
+
+#: views/developers/add_step5.thtml:68
+msgid "devcp_theme_upload_preview_link"
+msgstr "upload a preview"
+
+#: controllers/developers_controller.php:409
+#, php-format
+msgid "devcp_valid_app_reference"
+msgstr "Please see %s for reference."
+
+#: controllers/developers_controller.php:409
+msgid "devcp_valid_app_reference_linktext"
+msgstr "this page"
+
+#: controllers/developers_controller.php:1258
+#: controllers/developers_controller.php:1259
+msgid "devcp_version_edit_pagetitle"
+msgstr "Edit Version"
+
+#: controllers/developers_controller.php:1303
+msgid "devcp_version_updated_successfully"
+msgstr "Version updated successfully."
+
+#: controllers/downloads_controller.php:90
+msgid "downloads_disable_warning"
+msgstr "This add-on is disabled"
+
+#: views/editors/logs.thtml:51
+msgid "editorcp_logs_button_filter"
+msgstr "Filter"
+
+#: views/editors/logs.thtml:44
+msgid "editorcp_logs_filter_by"
+msgstr "Filter by type/action"
+
+#: views/editors/logs.thtml:42 controllers/editors_controller.php:709
+msgid "editorcp_logs_page_heading"
+msgstr "Event Log"
+
+#: views/elements/developers/editorsmenu.thtml:60
+msgid "editorcp_menu_eventlog_link"
+msgstr "Event Log"
+
+#: views/elements/developers/editorsmenu.thtml:62
+msgid "editorcp_menu_mainpage_link"
+msgstr "Back to Main"
+
+#: views/elements/developers/editorsmenu.thtml:61
+msgid "editorcp_menu_reviewlog_link"
+msgstr "Review Log"
+
+#: views/elements/developers/editorsmenu.thtml:55
+msgid "editorcp_menu_summary_link"
+msgstr "Editor Summary"
+
+#: views/elements/developers/editorsmenu.thtml:52
+msgid "editorcp_menu_title"
+msgstr "Editor Tools"
+
+#: views/editors/reviewlog.thtml:49
+msgid "editorcp_reviewlog_button_filter"
+msgstr "Filter"
+
+#: views/editors/reviewlog.thtml:58
+msgid "editorcp_reviewlog_column_action"
+msgstr "Action"
+
+#: views/editors/reviewlog.thtml:56
+msgid "editorcp_reviewlog_column_addon"
+msgstr "Add-on"
+
+#: views/editors/reviewlog.thtml:55
+msgid "editorcp_reviewlog_column_date"
+msgstr "Date"
+
+#: views/editors/reviewlog.thtml:57
+msgid "editorcp_reviewlog_column_editor"
+msgstr "Editor"
+
+#: views/editors/reviewlog.thtml:94
+msgid "editorcp_reviewlog_comments_hide"
+msgstr "Hide Comments"
+
+#: views/editors/reviewlog.thtml:93
+msgid "editorcp_reviewlog_comments_show"
+msgstr "Show Comments"
+
+#: views/editors/reviewlog.thtml:45
+#, php-format
+msgid "editorcp_reviewlog_entries_between"
+msgstr "View entries between %s and %s"
+
+#: views/editors/reviewlog.thtml:104
+msgid "editorcp_reviewlog_none_found"
+msgstr "No reviews found for this period."
+
+#: views/editors/reviewlog.thtml:42 controllers/editors_controller.php:735
+msgid "editorcp_reviewlog_page_heading"
+msgstr "Review Log"
+
+#: views/editors/summary.thtml:61
+msgid "editorcp_summary_monthreviews_heading"
+msgstr "Month Reviews"
+
+#: views/editors/summary.thtml:77
+msgid "editorcp_summary_neweditors_heading"
+msgstr "New Editors"
+
+#: views/editors/summary.thtml:42
+msgid "editorcp_summary_page_heading"
+msgstr "Editor Summary"
+
+#: views/editors/summary.thtml:94
+msgid "editorcp_summary_recentactivity_heading"
+msgstr "Recent Editor Activity"
+
+#: views/editors/summary.thtml:45
+msgid "editorcp_summary_totalreviews_heading"
+msgstr "Total Reviews"
+
+#: controllers/editors_controller.php:349
+#: controllers/editors_controller.php:350
+msgid "editors_addon_review_pagetitle"
+msgstr "Review Add-on"
+
+#: controllers/editors_controller.php:440
+msgid "editors_error_js-formerror"
+msgstr "Please complete the following fields:"
+
+#: controllers/editors_controller.php:441
+msgid "editors_error_review_one_file"
+msgstr "Please select at least one file to review."
+
+#: controllers/editors_controller.php:375
+msgid "editors_error_self_reviews_forbidden"
+msgstr "Self-reviews are not allowed."
+
+#: controllers/editors_controller.php:285
+msgid "editors_external_software"
+msgstr "External Software"
+
+#: views/editors/featured.thtml:97
+msgid "editors_featured_add_feature"
+msgstr "Add feature"
+
+#: views/editors/featured.thtml:99
+msgid "editors_featured_add_feature_submit"
+msgstr "Add"
+
+#: views/editors/featured.thtml:48 controllers/editors_controller.php:579
+#: controllers/editors_controller.php:588
+msgid "editors_featured_addon_add_failure"
+msgstr "Failed to add feature."
+
+#: controllers/editors_controller.php:591
+msgid "editors_featured_addon_add_success"
+msgstr "Successfully added feature."
+
+#: views/editors/featured.thtml:49 controllers/editors_controller.php:613
+#: controllers/editors_controller.php:631
+msgid "editors_featured_addon_edit_failure"
+msgstr "Failed to edit feature."
+
+#: views/editors/featured.thtml:50 controllers/editors_controller.php:633
+msgid "editors_featured_addon_edit_success"
+msgstr "Successfully edited feature."
+
+#: views/editors/featured.thtml:52 controllers/editors_controller.php:606
+msgid "editors_featured_addon_invalid_locale"
+msgstr "One or more locales are invalid."
+
+#: views/editors/featured.thtml:51 controllers/editors_controller.php:651
+msgid "editors_featured_addon_remove_failure"
+msgstr "Failed to remove feature."
+
+#: controllers/editors_controller.php:646
+msgid "editors_featured_addon_remove_success"
+msgstr "Successfully removed feature."
+
+#: controllers/editors_controller.php:660
+#: controllers/editors_controller.php:662
+msgid "editors_featured_addons_pagetitle"
+msgstr "Featured Add-ons"
+
+#: views/editors/featured.thtml:53 views/editors/featured.thtml:88
+msgid "editors_featured_edit_feature_submit"
+msgstr "Go"
+
+#: views/editors/featured.thtml:82
+msgid "editors_featured_remove_feature"
+msgstr "Remove feature"
+
+#: views/editors/queue.thtml:47
+msgid "editors_filter_queue"
+msgstr "Filter Queue"
+
+#: views/editors/queue.thtml:113
+msgid "editors_helpful_links"
+msgstr "Helpful Links"
+
+#: views/editors/queue.thtml:113
+msgid "editors_link_guide"
+msgstr "Editors' Guide"
+
+#: views/editors/queue.thtml:113
+msgid "editors_link_policy"
+msgstr "Add-on Policy"
+
+#: views/editors/queue.thtml:49
+msgid "editors_notice_filter_session"
+msgstr "These filters will remain in place for this session or until cleared."
+
+# %1 is the queue mode
+#: views/admin/flagged_queue.thtml:75 views/editors/queue.thtml:108
+msgid "editors_notice_none_found"
+msgstr "There are currently no add-ons of this type to review."
+
+#: controllers/editors_controller.php:238
+msgid "editors_one_day"
+msgstr "1 day"
+
+#: controllers/editors_controller.php:246
+msgid "editors_one_hour"
+msgstr "1 hour"
+
+#: controllers/editors_controller.php:254
+msgid "editors_one_minute"
+msgstr "1 minute"
+
+#: controllers/editors_controller.php:57 controllers/editors_controller.php:66
+#: controllers/editors_controller.php:70
+msgid "editors_pagetitle"
+msgstr "Editor Tools"
+
+#: controllers/editors_controller.php:266
+#: controllers/editors_controller.php:269
+#, php-format
+msgid "editors_platform_x_only"
+msgstr "%s only"
+
+#: controllers/editors_controller.php:281
+msgid "editors_pre-release"
+msgstr "Pre-release"
+
+# %1 is the app name
+#: views/editors/queue.thtml:78
+#, php-format
+msgid "editors_queue_app_compatibility"
+msgstr "%s Compatibility"
+
+#: views/editors/queue.thtml:65
+msgid "editors_queue_submit_clean"
+msgstr "Clear"
+
+#: views/editors/queue.thtml:65
+msgid "editors_queue_submit_filter"
+msgstr "Filter"
+
+#: controllers/editors_controller.php:132
+msgid "editors_queues_disabled"
+msgstr ""
+"All review queues are currently disabled. Please check back at a later time."
+
+#: controllers/editors_controller.php:436
+msgid "editors_review_action"
+msgstr "Review Action"
+
+#: views/editors/review.thtml:140
+msgid "editors_review_action_public"
+msgstr "Push to Public"
+
+#: views/editors/review.thtml:142
+msgid "editors_review_action_request_superreview"
+msgstr "Request Super-Review"
+
+#: views/editors/review.thtml:141
+msgid "editors_review_action_sandbox"
+msgstr "Retain in Sandbox"
+
+#: controllers/editors_controller.php:437
+msgid "editors_review_comments"
+msgstr "Review Comments"
+
+#: views/editors/review.thtml:156
+msgid "editors_review_details_nominated_public"
+msgstr ""
+"This will mark the add-on and its most recent version and files as public. "
+"Future versions will go into the sandbox until they are reviewed by an "
+"editor."
+
+#: views/editors/review.thtml:159
+msgid "editors_review_details_nominated_sandbox"
+msgstr "This will retain the add-on in the sandbox."
+
+#: views/editors/review.thtml:148
+msgid "editors_review_details_pending_public"
+msgstr ""
+"This will approve a sandboxed version of a public add-on to appear on the "
+"public side."
+
+#: views/editors/review.thtml:151
+msgid "editors_review_details_pending_sandbox"
+msgstr ""
+"This will cause a sandboxed version of a public add-on to remain in the "
+"sandbox."
+
+#: views/editors/review.thtml:163
+msgid "editors_review_details_superreview"
+msgstr ""
+"If you have concerns about this add-on's security, copyright issues, or "
+"other concerns that an administrator should look into, enter your comments "
+"in the area below. They will be sent to administrators, not the author."
+
+#: views/editors/review.thtml:118
+msgid "editors_review_file_viewcontents_link"
+msgstr "View Contents"
+
+#: views/editors/review.thtml:52
+msgid "editors_review_header_authors"
+msgstr "Authors:"
+
+#: views/editors/review.thtml:66
+msgid "editors_review_header_categories"
+msgstr "Categories:"
+
+#: views/editors/review.thtml:79
+msgid "editors_review_header_compatibility"
+msgstr "Compatibility:"
+
+#: views/editors/review.thtml:223
+msgid "editors_review_header_description"
+msgstr "Description"
+
+#: views/editors/review.thtml:247
+msgid "editors_review_header_devcomments"
+msgstr "Developer Comments"
+
+#: views/editors/review.thtml:235
+msgid "editors_review_header_eula"
+msgstr "EULA"
+
+#: views/editors/review.thtml:102
+msgid "editors_review_header_files"
+msgstr "Files:"
+
+#: views/editors/review.thtml:256
+msgid "editors_review_header_itemhistory"
+msgstr "Item History"
+
+#: views/editors/review.thtml:204
+msgid "editors_review_header_nominationmessage"
+msgstr "Nomination Message"
+
+#: views/editors/review.thtml:312
+msgid "editors_review_header_previews"
+msgstr "Previews"
+
+#: views/editors/review.thtml:241
+msgid "editors_review_header_privacy"
+msgstr "Privacy Policy"
+
+# %1 is the addon name and version
+#: views/editors/review.thtml:43
+#, php-format
+msgid "editors_review_header_review"
+msgstr "Review %s"
+
+#: views/editors/review.thtml:211
+msgid "editors_review_header_reviewernotes"
+msgstr "Notes to Reviewer"
+
+#: views/editors/review.thtml:217
+msgid "editors_review_header_summary"
+msgstr "Summary"
+
+#: views/editors/review.thtml:229
+msgid "editors_review_header_versionnotes"
+msgstr "Version Notes"
+
+#: views/editors/review.thtml:284 views/editors/reviewlog.thtml:77
+msgid "editors_review_history_nominated_adminreview"
+msgstr "Admin Review"
+
+#: views/editors/review.thtml:278 views/editors/reviewlog.thtml:71
+msgid "editors_review_history_nominated_approved"
+msgstr "Nomination Approved/Public"
+
+#: views/editors/review.thtml:281 views/editors/reviewlog.thtml:74
+msgid "editors_review_history_nominated_denied"
+msgstr "Nomination Denied/Sandbox"
+
+#: views/editors/review.thtml:304
+msgid "editors_review_history_nonefound"
+msgstr "No previous review entries could be found."
+
+#: views/editors/review.thtml:295 views/editors/reviewlog.thtml:88
+msgid "editors_review_history_pending_adminreview"
+msgstr "Admin Review"
+
+#: views/editors/review.thtml:289 views/editors/reviewlog.thtml:82
+msgid "editors_review_history_pending_approved"
+msgstr "Approved/Public"
+
+#: views/editors/review.thtml:292 views/editors/reviewlog.thtml:85
+msgid "editors_review_history_pending_denied"
+msgstr "Denied/Sandbox"
+
+#: views/editors/review.thtml:187
+msgid "editors_review_label_applications"
+msgstr "Applications:"
+
+#: views/editors/review.thtml:175
+msgid "editors_review_label_cannedresponse"
+msgstr "or select a canned response:"
+
+#: views/editors/review.thtml:169
+msgid "editors_review_label_comments"
+msgstr "Comments:"
+
+#: views/editors/review.thtml:183
+msgid "editors_review_label_operating_systems"
+msgstr "Operating Systems:"
+
+#: views/editors/review.thtml:257 views/editors/review.thtml:313
+msgid "editors_review_link_pagetop"
+msgstr "Top"
+
+#: views/editors/review.thtml:323
+msgid "editors_review_previews_notfound"
+msgstr "No previews found."
+
+#: controllers/editors_controller.php:141
+#: controllers/editors_controller.php:143
+msgid "editors_review_queue_pagetitle"
+msgstr "Review Queue"
+
+#: views/editors/review.thtml:195
+msgid "editors_review_submit_process_action"
+msgstr "Process Action"
+
+#: views/editors/review.thtml:265
+msgid "editors_review_th_action"
+msgstr "Action"
+
+#: views/editors/review.thtml:266
+msgid "editors_review_th_comments"
+msgstr "Comments"
+
+#: views/editors/review.thtml:263
+msgid "editors_review_th_date"
+msgstr "Date"
+
+#: views/editors/review.thtml:264
+msgid "editors_review_th_reviewer"
+msgstr "Reviewer"
+
+#: views/editors/review.thtml:262
+msgid "editors_review_th_version_file"
+msgstr "Version/File"
+
+#: controllers/editors_controller.php:391
+msgid "editors_reviewed_successfully"
+msgstr "Review successfully processed."
+
+#: views/editors/reviews_queue.thtml:73
+msgid "editors_reviews_action_approve"
+msgstr "Approve"
+
+#: views/editors/reviews_queue.thtml:75
+msgid "editors_reviews_action_delete"
+msgstr "Delete"
+
+#: views/editors/reviews_queue.thtml:71
+msgid "editors_reviews_action_skip"
+msgstr "Skip"
+
+#: views/editors/reviews_queue.thtml:69
+msgid "editors_reviews_header_action"
+msgstr "Action"
+
+#: views/editors/reviews_queue.thtml:63
+msgid "editors_reviews_in_reply_to"
+msgstr "In reply to:"
+
+#: controllers/editors_controller.php:537
+msgid "editors_reviews_processed"
+msgstr "Reviews processed successfully!"
+
+#: views/editors/reviews_queue.thtml:86
+msgid "editors_reviews_queue_empty"
+msgstr "There are currently no reviews in moderation."
+
+#: views/editors/reviews_queue.thtml:80
+msgid "editors_reviews_submit_process_reviews"
+msgstr "Process Reviews"
+
+#: controllers/editors_controller.php:277
+msgid "editors_site_specific"
+msgstr "Site Specific"
+
+#: controllers/editors_controller.php:208
+msgid "editors_submissiontype_new"
+msgstr "New"
+
+#: controllers/editors_controller.php:209
+msgid "editors_submissiontype_updated"
+msgstr "Updated"
+
+#: controllers/editors_controller.php:439
+msgid "editors_tested_app"
+msgstr "Tested Application"
+
+#: controllers/editors_controller.php:438
+msgid "editors_tested_os"
+msgstr "Tested Operating Systems"
+
+#: views/editors/queue.thtml:82
+msgid "editors_th_additional_info"
+msgstr "Additional Information"
+
+#: views/admin/flagged_queue.thtml:53 views/editors/featured.thtml:62
+#: views/editors/queue.thtml:73
+msgid "editors_th_addon"
+msgstr "Add-on"
+
+#: views/editors/queue.thtml:74
+msgid "editors_th_addontype"
+msgstr "Type"
+
+#: views/editors/queue.thtml:54
+msgid "editors_th_addontypes"
+msgstr "Add-on Types"
+
+#: views/editors/queue.thtml:81
+msgid "editors_th_age"
+msgstr "Age"
+
+#: views/editors/queue.thtml:56
+msgid "editors_th_applications"
+msgstr "Applications"
+
+#: views/editors/featured.thtml:63
+msgid "editors_th_locales"
+msgstr "Restrict to locales?"
+
+#: views/editors/queue.thtml:55
+msgid "editors_th_platforms"
+msgstr "Platforms"
+
+#: views/editors/queue.thtml:57
+msgid "editors_th_submissiontypes"
+msgstr "Submission Types"
+
+#: controllers/editors_controller.php:234
+#, php-format
+msgid "editors_x_days"
+msgstr "%s days"
+
+#: controllers/editors_controller.php:242
+#, php-format
+msgid "editors_x_hours"
+msgstr "%s hours"
+
+#: controllers/editors_controller.php:250
+#, php-format
+msgid "editors_x_minutes"
+msgstr "%s minutes"
+
+#: views/errors/error401.thtml:50 controllers/components/amo.php:484
+#: controllers/components/amo.php:485 controllers/components/amo.php:486
+#: controllers/components/simple_acl.php:81
+#: controllers/components/simple_acl.php:82
+#: controllers/components/simple_acl.php:83
+#: controllers/reviews_controller.php:279
+msgid "error_access_denied"
+msgstr "Access Denied"
+
+#: views/errors/error401.thtml:52
+msgid "error_access_denied_message"
+msgstr "You are not authorized to view this page."
+
+#: controllers/addons_controller.php:96 controllers/addons_controller.php:984
+#: controllers/addons_controller.php:1042
+#: controllers/addons_controller.php:1046
+#: controllers/developers_controller.php:164
+#: controllers/developers_controller.php:1116
+#: controllers/developers_controller.php:1423
+#: controllers/downloads_controller.php:94
+#: controllers/downloads_controller.php:101
+#: controllers/editors_controller.php:366
+#: controllers/previews_controller.php:115
+#: controllers/previews_controller.php:206
+#: controllers/previews_controller.php:307
+#: controllers/reviews_controller.php:76
+#: controllers/reviews_controller.php:176
+#: controllers/reviews_controller.php:258
+#: controllers/reviews_controller.php:266
+#: controllers/statistics_controller.php:127
+msgid "error_addon_notfound"
+msgstr "Add-on not found!"
+
+#: controllers/files_controller.php:83
+msgid "error_addon_notviewable"
+msgstr "This add-on is not viewable here."
+
+#: controllers/addons_controller.php:498
+msgid "error_browse_no_addons"
+msgstr "No add-ons in this category!"
+
+#: views/developers/add_step2.thtml:117 views/users/register.thtml:59
+msgid "error_email_invalid"
+msgstr "This is not a valid email address."
+
+#: views/admin/users_edit.thtml:62 views/admin/users_edit.thtml:67
+#: views/reviews/add.thtml:73 views/reviews/add.thtml:97
+#: views/users/edit.thtml:58 views/users/edit.thtml:63
+#: views/users/pwreset.thtml:71 views/users/register.thtml:64
+#: views/users/register.thtml:74 views/users/register.thtml:79
+msgid "error_field_required"
+msgstr "This field must not be empty."
+
+#: controllers/editors_controller.php:482 controllers/files_controller.php:75
+#: controllers/files_controller.php:91 controllers/files_controller.php:94
+msgid "error_file_notfound"
+msgstr "File not found!"
+
+#: controllers/editors_controller.php:500
+#, php-format
+msgid "error_file_x_notfound"
+msgstr "File error: %s does not exist."
+
+#: views/reviews/add.thtml:64 views/users/edit.thtml:49
+#: views/users/register.thtml:49 controllers/developers_controller.php:351
+#: controllers/developers_controller.php:610
+#: controllers/developers_controller.php:743
+#: controllers/developers_controller.php:751
+#: controllers/developers_controller.php:1042
+#: controllers/groups_controller.php:80 controllers/groups_controller.php:102
+msgid "error_formerrors"
+msgstr "There are errors in this form. Please correct them and resubmit."
+
+#: views/admin/users_edit.thtml:85 views/developers/add_step2.thtml:112
+#: views/developers/add_step2.thtml:122 views/users/edit.thtml:77
+#: views/users/register.thtml:93
+msgid "error_invalid_url"
+msgstr ""
+"This URL has an invalid format. Valid URLs look like http://example.com/"
+"my_page."
+
+#: controllers/addons_controller.php:81 controllers/addons_controller.php:84
+#: controllers/addons_controller.php:958
+#: controllers/addons_controller.php:1032
+#: controllers/downloads_controller.php:65
+#: controllers/reviews_controller.php:70
+#: controllers/reviews_controller.php:170
+#: controllers/reviews_controller.php:251 controllers/users_controller.php:175
+#: controllers/users_controller.php:244 controllers/users_controller.php:461
+#, php-format
+msgid "error_missing_argument"
+msgstr "Missing argument: %s"
+
+#: views/developers/add_step2.thtml:58 views/developers/add_step3.thtml:57
+msgid "error_notice"
+msgstr "Notice"
+
+#: controllers/previews_controller.php:200
+msgid "error_preview_notfound"
+msgstr "Preview not found!"
+
+#: views/addons/display.thtml:315 views/reviews/add.thtml:91
+msgid "error_review_rating_required"
+msgstr "You must select a rating."
+
+#: controllers/users_controller.php:150
+msgid "error_user_already_confirmed"
+msgstr "This user account is already confirmed."
+
+#: controllers/users_controller.php:192 controllers/users_controller.php:255
+msgid "error_user_badconfirmationcode"
+msgstr "Invalid confirmation code!"
+
+#: views/users/edit.thtml:95 views/users/pwreset.thtml:76
+#: views/users/register.thtml:69
+msgid "error_user_confirmpw_nomatch"
+msgstr "The passwords did not match."
+
+#: views/users/register.thtml:59
+msgid "error_user_email_notunique"
+msgstr "This email address is already taken by another user."
+
+#: views/admin/users_edit.thtml:72 views/users/edit.thtml:68
+#: views/users/register.thtml:84
+msgid "error_user_nickname_notunique"
+msgstr "This nickname is already taken."
+
+#: views/users/pwreset.thtml:53 controllers/users_controller.php:181
+#: controllers/users_controller.php:250 controllers/users_controller.php:467
+msgid "error_user_notfound"
+msgstr "User not found!"
+
+#: views/users/activatefirst.thtml:47
+msgid "error_user_unconfirmed"
+msgstr ""
+"Please confirm your user account first with the code you received by email."
+
+#: views/users/login.thtml:68
+msgid "error_username_or_pw_wrong"
+msgstr "Wrong username or password!"
+
+#: controllers/developers_controller.php:1270
+#: controllers/editors_controller.php:361
+msgid "error_version_notfound"
+msgstr "Version not found!"
+
+#: views/users/edit.thtml:85
+msgid "error_wrong_password"
+msgstr "Wrong password entered!"
+
+#: views/elements/feature.thtml:107
+msgid "feature_learnmore"
+msgstr "Learn more"
+
+# %1 is the add-on name
+#: views/elements/feature.thtml:108
+#, php-format
+msgid "feature_learnmore_about_addon"
+msgstr "Learn more about %1$s"
+
+#: views/addons/display.thtml:104 views/elements/addon_listitem.thtml:134
+#: views/elements/feature.thtml:92
+#, php-format
+msgid "feature_reviews"
+msgid_plural "feature_reviews"
+msgstr[0] "%1$s review"
+msgstr[1] "%1$s reviews"
+
+#: views/elements/feature.thtml:112
+msgid "feature_view_more_from_category"
+msgstr "View more from"
+
+#: views/elements/footer.thtml:69
+msgid "footer_all_rights_reserved"
+msgstr "All rights reserved."
+
+#: views/elements/footer.thtml:69
+msgid "footer_copyright"
+msgstr "Copyright"
+
+#: views/elements/footer.thtml:73
+msgid "footer_credits"
+msgstr "Credits"
+
+#: views/elements/footer.thtml:75
+msgid "footer_disclaimer"
+msgstr ""
+"Mozilla is providing links to these applications as a courtesy, and makes no "
+"representations regarding the applications or any information related there "
+"to. Any questions, complaints or claims regarding the applications must be "
+"directed to the appropriate software vendor."
+
+#: views/elements/footer.thtml:63
+msgid "footer_lang_form_lang_submit_go"
+msgstr "Go"
+
+#: views/elements/footer.thtml:72
+msgid "footer_legal_notices"
+msgstr "Legal Notices"
+
+#: views/elements/footer.thtml:52
+msgid "footer_other_languages"
+msgstr "Other languages:"
+
+#: views/elements/footer.thtml:71
+msgid "footer_privacy_policy"
+msgstr "Privacy Policy"
+
+#: webroot/discussions/themes/addons/settings_help.php:6
+msgid "forum_about_settings"
+msgstr "About Settings"
+
+#: webroot/discussions/themes/addons/settings_help.php:8
+msgid "forum_about_settings_notes"
+msgstr "About Settings Notes"
+
+#: webroot/discussions/library/Vanilla/Vanilla.Control.DiscussionForm.php:183
+#: webroot/discussions/themes/addons/comment_form.php:5
+#: webroot/discussions/themes/addons/comment_form.php:23
+msgid "forum_add_your_comments"
+msgstr "Add Your Comments"
+
+#: webroot/discussions/settings.php:47
+msgid "forum_administrative_options"
+msgstr "Admin Options"
+
+#: webroot/discussions/settings.php:42
+msgid "forum_administrative_settings"
+msgstr "Admin Settings"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:44
+#: webroot/discussions/themes/addons/settings_role_edit.php:51
+#: webroot/discussions/themes/addons/settings_role_edit.php:67
+msgid "forum_all"
+msgstr "All"
+
+#: webroot/discussions/themes/addons/comments.php:26
+msgid "forum_back_to_discussions"
+msgstr "Back to Discussions"
+
+#: webroot/discussions/themes/addons/comment_form.php:33
+#: webroot/discussions/themes/addons/comment_form.php:35
+#: webroot/discussions/themes/addons/discussion_form.php:49
+#: webroot/discussions/themes/addons/discussion_form.php:51
+#: webroot/discussions/themes/addons/settings_category_edit.php:69
+#: webroot/discussions/themes/addons/settings_category_list.php:50
+#: webroot/discussions/themes/addons/settings_category_remove.php:32
+#: webroot/discussions/themes/addons/settings_role_edit.php:83
+#: webroot/discussions/themes/addons/settings_role_list.php:57
+#: webroot/discussions/themes/addons/settings_role_remove.php:33
+msgid "forum_cancel"
+msgstr "Cancel"
+
+#: webroot/discussions/categories.php:28
+#: webroot/discussions/themes/addons/settings_category_edit.php:16
+#: webroot/discussions/themes/addons/settings_category_remove.php:12
+msgid "forum_categories"
+msgstr "Forum Categories"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:31
+msgid "forum_category_description"
+msgstr "Description"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:33
+msgid "forum_category_description_notes"
+msgstr "Description Notes"
+
+#: webroot/discussions/settings.php:58
+#: webroot/discussions/themes/addons/settings_category_edit.php:6
+#: webroot/discussions/themes/addons/settings_category_list.php:14
+#: webroot/discussions/themes/addons/settings_category_remove.php:6
+msgid "forum_category_management"
+msgstr "Category Management"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:26
+msgid "forum_category_name"
+msgstr "Name"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:28
+msgid "forum_category_name_notes"
+msgstr "Name Notes"
+
+#: webroot/discussions/themes/addons/settings_category_list.php:7
+msgid "forum_category_removed"
+msgstr "Category removed"
+
+#: webroot/discussions/themes/addons/settings_category_list.php:18
+msgid "forum_category_reorder_notes"
+msgstr "Reorder Categories"
+
+#: webroot/discussions/themes/addons/settings_category_list.php:9
+msgid "forum_category_saved"
+msgstr "Category saved"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:43
+#: webroot/discussions/themes/addons/settings_role_edit.php:51
+#: webroot/discussions/themes/addons/settings_role_edit.php:67
+msgid "forum_check"
+msgstr "Check"
+
+# %1 is the username, %2 is date and time
+#: webroot/discussions/themes/addons/comments.php:74
+#: webroot/discussions/themes/addons/comments.php:77
+#, php-format
+msgid "forum_comment_by_name_on_date"
+msgstr "Comment by %1$s made %2$s"
+
+#: webroot/discussions/themes/addons/comments.php:92
+msgid "forum_confirm_hide_comment"
+msgstr "Are you sure you want to hide this comment?"
+
+#: webroot/discussions/themes/addons/comments.php:92
+msgid "forum_confirm_show_comment"
+msgstr "Are you sure you want to show this comment?"
+
+#: webroot/discussions/themes/addons/settings_role_list.php:56
+msgid "forum_create_a_new_role"
+msgstr "Create a new role"
+
+#: webroot/discussions/themes/addons/settings_category_list.php:49
+msgid "forum_create_new_category"
+msgstr "Create new category"
+
+#: webroot/discussions/themes/addons/comments.php:28
+msgid "forum_current_category"
+msgstr "Current Category"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:22
+msgid "forum_define_new_category"
+msgstr "Create new category"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:24
+msgid "forum_define_new_role"
+msgstr "Add new role"
+
+#: webroot/discussions/themes/addons/settings_category_list.php:29
+#: webroot/discussions/themes/addons/settings_role_list.php:31
+msgid "forum_edit"
+msgstr "Edit"
+
+#: webroot/discussions/themes/addons/comments.php:88
+msgid "forum_edit_comment"
+msgstr "Edit Comment"
+
+#: webroot/discussions/library/Vanilla/Vanilla.Control.DiscussionForm.php:181
+msgid "forum_edit_your_comments"
+msgstr "Edit your comments"
+
+#: webroot/discussions/themes/addons/discussion_form.php:26
+msgid "forum_edit_your_discussion_topic"
+msgstr "Edit Topic"
+
+#: webroot/discussions/themes/addons/discussion_form.php:32
+msgid "forum_enter_your_comments"
+msgstr "Enter your comments"
+
+#: webroot/discussions/themes/addons/discussion_form.php:26
+msgid "forum_enter_your_discussion_topic"
+msgstr "Discussion Topic"
+
+#: webroot/discussions/themes/addons/comments.php:16
+msgid "forum_error_title"
+msgstr "Error"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:13
+msgid "forum_get_category_to_edit"
+msgstr "Select category to edit"
+
+#: webroot/discussions/library/Framework/Framework.Functions.php:693
+msgid "forum_improper_format"
+msgstr "Improper format"
+
+# %1 is the username, %2 is date and time
+#: webroot/discussions/themes/addons/discussion.php:17
+#: webroot/discussions/themes/addons/discussion.php:20
+#, php-format
+msgid "forum_last_comment_by_name_on_date"
+msgstr "Last comment by %1$s made %2$s"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:20
+msgid "forum_modify_category_definition"
+msgstr "Modify Category Definition"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:19
+msgid "forum_modify_role_definition"
+msgstr "Edit Role"
+
+#: webroot/discussions/themes/addons/settings_category_list.php:11
+msgid "forum_new_category_saved"
+msgstr "New category saved"
+
+#: webroot/discussions/themes/addons/settings_role_list.php:11
+msgid "forum_new_role_saved"
+msgstr "New role created"
+
+#: webroot/discussions/themes/addons/discussions.php:8
+msgid "forum_no_discussions_found"
+msgstr "No discussions found."
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:45
+#: webroot/discussions/themes/addons/settings_role_edit.php:51
+#: webroot/discussions/themes/addons/settings_role_edit.php:67
+msgid "forum_none"
+msgstr "None"
+
+#: webroot/discussions/library/Vanilla/Vanilla.Control.DiscussionForm.php:53
+msgid "forum_not_signed_in"
+msgstr "Not signed in"
+
+#: webroot/discussions/library/Framework/Framework.Functions.php:610
+msgid "forum_one_day_ago"
+msgstr "1 day ago"
+
+#: webroot/discussions/library/Framework/Framework.Functions.php:618
+msgid "forum_one_hour_ago"
+msgstr "1 hour ago"
+
+#: webroot/discussions/library/Framework/Framework.Functions.php:626
+msgid "forum_one_minute_ago"
+msgstr "1 minute ago"
+
+#: webroot/discussions/library/Framework/Framework.Functions.php:634
+msgid "forum_one_second_ago"
+msgstr "1 second ago"
+
+# Page list's current position (no total) (ie. "1 to 15").
+# %1 is first record no., %2 is last record no.
+#: webroot/discussions/library/Framework/Framework.Class.PageList.php:258
+#, php-format
+msgid "forum_page_details"
+msgstr "%1$s to %2$s"
+
+# Page list's current position (ie. "1 to 15 of 56").
+# %1 is first record no., %2 is last record no., %3 is total no. of records
+#: webroot/discussions/library/Framework/Framework.Class.PageList.php:256
+#, php-format
+msgid "forum_page_details_full"
+msgstr "%1$s to %2$s of %3$s"
+
+#: webroot/discussions/library/Vanilla/Vanilla.Control.DiscussionForm.php:98
+#: webroot/discussions/library/Vanilla/Vanilla.Control.DiscussionForm.php:137
+msgid "forum_permission_error"
+msgstr "Permission denied"
+
+#: webroot/discussions/themes/addons/settings_category_remove.php:31
+#: webroot/discussions/themes/addons/settings_role_remove.php:32
+msgid "forum_remove"
+msgstr "Delete forum"
+
+#: webroot/discussions/themes/addons/settings_category_remove.php:25
+msgid "forum_replacement_category"
+msgstr "Replacement category"
+
+#: webroot/discussions/themes/addons/settings_category_remove.php:27
+msgid "forum_replacement_category_notes"
+msgstr "Replacement category notes"
+
+#: webroot/discussions/themes/addons/settings_role_remove.php:26
+msgid "forum_replacement_role"
+msgstr "Replacement role"
+
+#: webroot/discussions/themes/addons/settings_role_remove.php:28
+msgid "forum_replacement_role_notes"
+msgstr "Replacement role notes"
+
+#: webroot/discussions/themes/addons/discussion.php:24
+#, php-format
+msgid "forum_replies"
+msgid_plural "forum_replies"
+msgstr[0] "One Reply"
+msgstr[1] "%1$s Replies"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:16
+#: webroot/discussions/themes/addons/settings_category_edit.php:26
+#: webroot/discussions/themes/addons/settings_category_remove.php:12
+#: webroot/discussions/themes/addons/settings_category_remove.php:25
+#: webroot/discussions/themes/addons/settings_role_edit.php:15
+#: webroot/discussions/themes/addons/settings_role_edit.php:28
+#: webroot/discussions/themes/addons/settings_role_remove.php:12
+#: webroot/discussions/themes/addons/settings_role_remove.php:26
+msgid "forum_required"
+msgstr "Required Field"
+
+# %1 is input name
+#: webroot/discussions/library/Framework/Framework.Class.Validator.php:91
+#, php-format
+msgid "forum_required_input"
+msgstr "%1$s is a required input"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:46
+msgid "forum_role_abilities"
+msgstr "Abilities"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:47
+msgid "forum_role_abilities_notes"
+msgstr "Abilities Notes"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:64
+msgid "forum_role_category_notes"
+msgstr "Category Notes"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:35
+msgid "forum_role_icon"
+msgstr "Icon"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:37
+msgid "forum_role_icon_notes"
+msgstr "Icon Notes"
+
+#: webroot/discussions/settings.php:52
+#: webroot/discussions/themes/addons/settings_role_edit.php:6
+#: webroot/discussions/themes/addons/settings_role_list.php:15
+#: webroot/discussions/themes/addons/settings_role_remove.php:6
+msgid "forum_role_management"
+msgstr "Role Management"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:28
+msgid "forum_role_name"
+msgstr "Name"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:30
+msgid "forum_role_name_notes"
+msgstr "Name Notes"
+
+#: webroot/discussions/themes/addons/settings_role_list.php:7
+msgid "forum_role_removed"
+msgstr "Role was removed."
+
+#: webroot/discussions/themes/addons/settings_role_list.php:19
+msgid "forum_role_reorder_notes"
+msgstr "Role reorder notes"
+
+#: webroot/discussions/themes/addons/settings_role_list.php:9
+msgid "forum_role_saved"
+msgstr "Role saved"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:40
+msgid "forum_role_tagline"
+msgstr "Tagline"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:42
+msgid "forum_role_tagline_notes"
+msgstr "Tagline Notes"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:37
+#: webroot/discussions/themes/addons/settings_role_edit.php:15
+#: webroot/discussions/themes/addons/settings_role_remove.php:12
+msgid "forum_roles"
+msgstr "Roles"
+
+#: webroot/discussions/themes/addons/settings_category_edit.php:38
+msgid "forum_roles_in_category"
+msgstr "Roles in Category"
+
+#: views/addons/display.thtml:321
+#: webroot/discussions/themes/addons/settings_category_edit.php:68
+#: webroot/discussions/themes/addons/settings_role_edit.php:82
+msgid "forum_save"
+msgstr "Save"
+
+#: webroot/discussions/themes/addons/comment_form.php:23
+#: webroot/discussions/themes/addons/discussion_form.php:43
+msgid "forum_save_your_changes"
+msgstr "Save Your Changes"
+
+#: webroot/discussions/search.php:24
+msgid "forum_search"
+msgstr "Search Discussions"
+
+#: webroot/discussions/themes/addons/settings_category_remove.php:9
+msgid "forum_select_category_to_remove"
+msgstr "Select category to remove"
+
+#: webroot/discussions/themes/addons/settings_category_remove.php:22
+msgid "forum_select_replacement_category"
+msgstr "Select replacement category"
+
+#: webroot/discussions/themes/addons/settings_role_remove.php:23
+msgid "forum_select_replacement_role"
+msgstr "Select replacement role"
+
+#: webroot/discussions/themes/addons/settings_role_edit.php:12
+msgid "forum_select_role_to_edit"
+msgstr "Select role to edit"
+
+#: webroot/discussions/themes/addons/settings_role_remove.php:9
+msgid "forum_select_role_to_remove"
+msgstr "Select role to remove"
+
+#: webroot/discussions/themes/addons/comments.php:93
+msgid "forum_show_comment"
+msgstr "Show Comment"
+
+#: webroot/discussions/library/Vanilla/Vanilla.Control.DiscussionForm.php:175
+msgid "forum_start_a_new_discussion"
+msgstr "Start a new discussion"
+
+#: webroot/discussions/themes/addons/discussion_form.php:43
+msgid "forum_start_your_discussion"
+msgstr "Start your discussion"
+
+# %1 is username
+#: webroot/discussions/themes/addons/discussion.php:26
+#, php-format
+msgid "forum_started_by"
+msgstr "Started by %1$s"
+
+# %1 is input name, %2 is character length
+#: webroot/discussions/library/Framework/Framework.Class.Validator.php:98
+#, php-format
+msgid "forum_too_many_characters"
+msgstr "%1$s is %2$s characters too long"
+
+#: webroot/discussions/themes/addons/panel.php:12
+msgid "forum_top_of_page"
+msgstr "Top of Page"
+
+#: webroot/discussions/themes/addons/comment_form.php:25
+#: webroot/discussions/themes/addons/discussion_form.php:44
+msgid "forum_wait"
+msgstr "Wait"
+
+# %1 is day count
+#: webroot/discussions/library/Framework/Framework.Functions.php:608
+#, php-format
+msgid "forum_x_days_ago"
+msgstr "%1$s days ago"
+
+# %1 is hour count
+#: webroot/discussions/library/Framework/Framework.Functions.php:616
+#, php-format
+msgid "forum_x_hours_ago"
+msgstr "%1$s hours ago"
+
+# %1 is minute count
+#: webroot/discussions/library/Framework/Framework.Functions.php:624
+#, php-format
+msgid "forum_x_minutes_ago"
+msgstr "%1$s minutes ago"
+
+# %1 is second count
+#: webroot/discussions/library/Framework/Framework.Functions.php:632
+#, php-format
+msgid "forum_x_seconds_ago"
+msgstr "%1$s seconds ago"
+
+#: views/elements/header.thtml:111 views/elements/header.thtml:127
+#, php-format
+msgid "header_home_tooltip"
+msgstr "Return to the %1$s Add-ons homepage"
+
+#: views/elements/header.thtml:87
+msgid "header_main_firefox_header"
+msgstr "Firefox Add-ons"
+
+#: views/elements/header.thtml:99
+msgid "header_main_header"
+msgstr "Add-ons"
+
+#: views/elements/header.thtml:90
+msgid "header_main_seamonkey_header"
+msgstr "Seamonkey Add-ons"
+
+#: views/elements/header.thtml:93
+msgid "header_main_sunbird_header"
+msgstr "Sunbird Add-ons"
+
+#: views/elements/header.thtml:96
+msgid "header_main_thunderbird_header"
+msgstr "Thunderbird Add-ons"
+
+#: views/elements/header.thtml:62
+msgid "header_navlink_addons"
+msgstr "Add-ons"
+
+#: controllers/addons_controller.php:551
+msgid "header_navlink_browse"
+msgstr "Browse"
+
+#: views/addons/display.thtml:300 views/elements/developers/myaddons.thtml:65
+#: views/elements/header.thtml:144
+msgid "header_navlink_login"
+msgstr "Log in"
+
+#: views/elements/header.thtml:140
+msgid "header_navlink_logout"
+msgstr "Log out"
+
+#: views/elements/header.thtml:139
+msgid "header_navlink_myaccount"
+msgstr "My Account"
+
+#: views/elements/header.thtml:143
+msgid "header_navlink_register"
+msgstr "Register"
+
+#: views/elements/addon_discussionheader.thtml:63
+#: views/elements/addon_listitem.thtml:81 views/elements/feature.thtml:77
+#, php-format
+msgid "img_preview_of"
+msgstr "Preview Image of %s"
+
+# %1 is the login URL for the link tag
+#: views/elements/install.thtml:215
+#, php-format
+msgid "install_a_login_to_install"
+msgstr "<a href=\"%1$s\">Log in</a> to install this add-on"
+
+#: views/elements/install.thtml:67
+#, php-format
+msgid "install_button_text"
+msgstr "Add to %s %s"
+
+# %1 is the add-on name, %2 is the app name
+#: views/elements/install.thtml:136 views/elements/install.thtml:154
+#: views/elements/install.thtml:183 views/elements/install.thtml:208
+#, php-format
+msgid "install_button_title"
+msgstr "Add %1$s to %2$s"
+
+#: views/elements/install.thtml:148
+#, php-format
+msgid "install_download"
+msgstr "Download %1$s"
+
+#: views/elements/install.thtml:86
+msgid "install_error_addon_not_found"
+msgstr "This add-on is not available."
+
+#: views/addons/dictionaries.thtml:121
+msgid "langtools_a11y_tablesummary"
+msgstr "List of language packs and dictionaries."
+
+#: views/addons/dictionaries.thtml:50
+msgid "langtools_download_dictionary"
+msgstr "Download Dictionary"
+
+#: views/addons/dictionaries.thtml:51
+msgid "langtools_download_langpack"
+msgstr "Download Language Pack"
+
+#: views/addons/dictionaries.thtml:119
+msgid "langtools_header_dicts_and_langpacks"
+msgstr "Dictionaries & Language Packs"
+
+#: views/addons/dictionaries.thtml:47
+msgid "langtools_install_dictionary"
+msgstr "Install Dictionary"
+
+#: views/addons/dictionaries.thtml:48
+msgid "langtools_install_langpack"
+msgstr "Install Language Pack"
+
+#: views/addons/dictionaries.thtml:114
+msgid "langtools_link_jumpto_dicts"
+msgstr "Dictionaries & Language Packs"
+
+#: views/addons/dictionaries.thtml:125
+msgid "langtools_tableheader_dictionary"
+msgstr "Dictionary"
+
+#: views/addons/dictionaries.thtml:126
+msgid "langtools_tableheader_langpack"
+msgstr "Language Pack"
+
+#: views/addons/dictionaries.thtml:124
+msgid "langtools_tableheader_language"
+msgstr "Language"
+
+#: views/elements/addon_list_options.thtml:46
+msgid "list_sortby_date"
+msgstr "Date"
+
+#: views/elements/addon_list_options.thtml:47
+msgid "list_sortby_downloads"
+msgstr "Downloads"
+
+#: views/elements/addon_list_options.thtml:45
+msgid "list_sortby_name"
+msgstr "Add-on Name"
+
+#: views/elements/addon_list_options.thtml:48
+msgid "list_sortby_rating"
+msgstr "Rating"
+
+#: config/bootstrap.php:258 config/bootstrap.php:260
+msgid "main_prettyname_firefox"
+msgstr "Firefox"
+
+#: config/bootstrap.php:263
+msgid "main_prettyname_seamonkey"
+msgstr "Seamonkey"
+
+#: config/bootstrap.php:262
+msgid "main_prettyname_sunbird"
+msgstr "Sunbird"
+
+#: config/bootstrap.php:261
+msgid "main_prettyname_thunderbird"
+msgstr "Thunderbird"
+
+# In a user list: user 1, user 2, "others"
+#: views/helpers/addons_html.php:178
+msgid "other_users"
+msgstr "others"
+
+#: views/pages/appversions.thtml:86
+msgid "pages_appversions_guid"
+msgstr "GUID"
+
+#: views/pages/appversions.thtml:78
+msgid "pages_appversions_header"
+msgstr "Valid Application Versions"
+
+#: views/pages/appversions.thtml:79
+msgid "pages_appversions_intro"
+msgstr ""
+"Add-ons submitted to Mozilla Add-ons must have an install.rdf file with at "
+"least one of the below applications supported. Only the versions listed "
+"below are allowed for these applications."
+
+#: views/pages/appversions.thtml:92
+#, php-format
+msgid "pages_appversions_required_files"
+msgstr ""
+"If your supported application does not require an install.rdf file, you "
+"still must include one with the required properties as specified %s."
+
+#: views/pages/appversions.thtml:92
+msgid "pages_appversions_required_files_link"
+msgstr "here"
+
+#: views/pages/appversions.thtml:87
+msgid "pages_appversions_versions"
+msgstr "Versions"
+
+#: views/pages/policy.thtml:50
+msgid "pages_policy_sandbox_link"
+msgstr "Sandbox Information Page"
+
+#: views/elements/pagination.thtml:53
+msgid "pagination_next_page"
+msgstr "next"
+
+# %1 is page number, %2 is total page count
+#: views/helpers/pagination.php:199
+#, php-format
+msgid "pagination_page_number_title"
+msgstr "This is page %1$s of %2$s"
+
+#: views/elements/pagination.thtml:52
+msgid "pagination_previous_page"
+msgstr "previous"
+
+#: views/reviews/display.thtml:47 views/reviews/review_added.thtml:47
+#, php-format
+msgid "reviews_header"
+msgstr "Reviews for %s"
+
+#: controllers/addons_controller.php:268
+msgid "rss_featuredaddons"
+msgstr "Featured Add-ons"
+
+#: controllers/addons_controller.php:267
+#: controllers/addons_controller.php:1147
+msgid "rss_newestaddons"
+msgstr "Newest Add-ons"
+
+#: controllers/addons_controller.php:1148
+#, php-format
+msgid "rss_newestaddons_description"
+msgstr "The most recent %s Add-ons"
+
+#: controllers/search_controller.php:98
+msgid "search_disabled"
+msgstr "Search is currently disabled. Please try again later."
+
+#: views/elements/search.thtml:71
+msgid "search_form_all_addons"
+msgstr "all add-ons"
+
+#: views/elements/search.thtml:58 views/elements/search.thtml:67
+#: views/layouts/mozilla.thtml:123
+msgid "search_form_default_text"
+msgstr "search for add-ons"
+
+#: views/elements/search.thtml:81
+msgid "search_form_submit"
+msgstr "Search"
+
+#: views/elements/search.thtml:69
+msgid "search_form_within"
+msgstr "within"
+
+#: views/addons/searchengines.thtml:124
+msgid "search_landing_all_search_engines"
+msgstr "All Search Engines"
+
+#: views/addons/searchengines.thtml:120
+msgid "search_landing_browse_search_engines"
+msgstr "Browse Search Engines"
+
+#: views/search/index.thtml:68
+#, php-format
+msgid "search_matching_addons_number"
+msgid_plural "search_matching_addons_number"
+msgstr[0] "%s matching add-on"
+msgstr[1] "%s matching add-ons"
+
+#: views/search/index.thtml:47
+msgid "search_nothing_found"
+msgstr "No results found."
+
+#: controllers/search_controller.php:123
+msgid "search_pagetitle"
+msgstr "Search Add-ons"
+
+#: controllers/search_controller.php:170
+msgid "search_rss_description"
+msgstr "Search results feed"
+
+#: controllers/search_controller.php:169
+#, php-format
+msgid "search_rss_results_for"
+msgstr "Search results for: %s"
+
+#: views/addons/home.thtml:126
+msgid "sidebar_navlink_admin_tools"
+msgstr "Admin Tools"
+
+#: views/addons/home.thtml:118
+msgid "sidebar_navlink_developer_tools"
+msgstr "Developer Tools"
+
+#: views/addons/home.thtml:120
+msgid "sidebar_navlink_editor_tools"
+msgstr "Editor Tools"
+
+#: views/addons/home.thtml:116
+msgid "sidebar_navlink_welcome"
+msgstr "Welcome"
+
+#: views/addons/home.thtml:116
+#, php-format
+msgid "sidebar_navlink_welcome_name"
+msgstr "Welcome, %s"
+
+#: views/elements/pitch.thtml:50
+msgid "sidebar_pitch_dictionary"
+msgstr "Dictionary"
+
+#: views/elements/pitch.thtml:46
+msgid "sidebar_pitch_looking_for"
+msgstr "I am looking for a:"
+
+#: views/elements/pitch.thtml:49
+msgid "sidebar_pitch_search"
+msgstr "Search Plugin"
+
+#: views/elements/pitch.thtml:48
+msgid "sidebar_pitch_theme"
+msgstr "Theme"
+
+#: views/addons/dictionaries.thtml:154 views/developers/add_step3.thtml:74
+#: views/developers/editversion.thtml:58 views/helpers/localization.php:64
+#, php-format
+msgid "size_kb"
+msgstr "%1$s KB"
+
+#: views/elements/stars.thtml:63
+msgid "stars_not_yet_rated"
+msgstr "Not yet rated"
+
+# %1 is the number of stars this add-on has
+#: views/elements/stars.thtml:54
+#, php-format
+msgid "stars_rated_x_outof_5"
+msgstr "Rated %s out of 5 stars"
+
+#: views/statistics/addon.thtml:59
+msgid "statistics_addon_dashboard_link"
+msgstr "Dashboard Home"
+
+#: views/statistics/addon.thtml:58
+msgid "statistics_addon_developertools_link"
+msgstr "Developer Tools"
+
+#: views/statistics/addon.thtml:53
+msgid "statistics_addon_switch"
+msgstr "Switch Add-on"
+
+#: views/statistics/addon.thtml:167 views/statistics/rss/summary.thtml:53
+msgid "statistics_date_shortmonth"
+msgstr "%b. %e"
+
+#: views/statistics/addon.thtml:138 views/statistics/rss/summary.thtml:39
+msgid "statistics_date_shortmonthwithyear"
+msgstr "%b. %e, %Y"
+
+#: views/statistics/addon.thtml:147 views/statistics/addon.thtml:158
+#: views/statistics/rss/summary.thtml:40 views/statistics/rss/summary.thtml:47
+msgid "statistics_date_weekdayshortmonth"
+msgstr "%A, %b. %e"
+
+#: controllers/components/stats.php:385
+#, php-format
+msgid "statistics_events_addon_created"
+msgstr "%1$s created"
+
+#: controllers/components/stats.php:366
+#, php-format
+msgid "statistics_events_app_released"
+msgstr "%1$s released"
+
+#: views/statistics/addon.thtml:71
+msgid "statistics_help_close_link"
+msgstr "Close"
+
+#: views/statistics/addon.thtml:60
+msgid "statistics_help_link"
+msgstr "Help"
+
+#: views/statistics/index.thtml:57
+msgid "statistics_index_anotheraddon"
+msgstr "or, select another add-on"
+
+#: views/statistics/index.thtml:59
+msgid "statistics_index_anotheraddon_public"
+msgstr "or, select an add-on with public statistics"
+
+#: views/statistics/index.thtml:45
+msgid "statistics_index_myaddons"
+msgstr "Select one of your add-ons to view its statistics"
+
+#: views/statistics/index.thtml:63
+msgid "statistics_index_selectaddon"
+msgstr "Select an add-on to view its statistics"
+
+#: views/statistics/index.thtml:65
+msgid "statistics_index_selectaddon_public"
+msgstr "Select an add-on with public statistics"
+
+#: views/statistics/index.thtml:43
+msgid "statistics_index_title"
+msgstr "Statistics Dashboard"
+
+#: views/statistics/index.thtml:71
+msgid "statistics_index_view_button"
+msgstr "View Statistics"
+
+#: controllers/statistics_controller.php:219
+msgid "statistics_js_dropdowns_none"
+msgstr "none"
+
+#: controllers/statistics_controller.php:218
+msgid "statistics_js_dropdowns_removeplot"
+msgstr "Remove this plot"
+
+#: controllers/statistics_controller.php:228
+msgid "statistics_js_plotselection_foundinrange"
+msgstr "%s found in range"
+
+#: controllers/statistics_controller.php:238
+msgid "statistics_js_plotselection_options_addplot_name"
+msgstr "Add Plot"
+
+#: controllers/statistics_controller.php:239
+msgid "statistics_js_plotselection_options_addplot_tooltip"
+msgstr "Add another plot to this graph"
+
+#: controllers/statistics_controller.php:229
+msgid "statistics_js_plotselection_options_count_name_checked"
+msgstr "Hide Total Count"
+
+#: controllers/statistics_controller.php:230
+msgid "statistics_js_plotselection_options_count_name_unchecked"
+msgstr "Show Total Count"
+
+#: controllers/statistics_controller.php:243
+msgid "statistics_js_plotselection_options_csv_name"
+msgstr "View Data (CSV)"
+
+#: controllers/statistics_controller.php:244
+msgid "statistics_js_plotselection_options_csv_tooltip"
+msgstr "Get a Comma Separated Values file of this data"
+
+#: controllers/statistics_controller.php:235
+msgid "statistics_js_plotselection_options_events_addon_name_checked"
+msgstr "Hide %s Events"
+
+#: controllers/statistics_controller.php:236
+msgid "statistics_js_plotselection_options_events_addon_name_unchecked"
+msgstr "Show %s Events"
+
+#: controllers/statistics_controller.php:237
+msgid "statistics_js_plotselection_options_events_addon_tooltip"
+msgstr "Overlay add-on release dates on the plots"
+
+#: controllers/statistics_controller.php:232
+msgid "statistics_js_plotselection_options_events_firefox_name_checked"
+msgstr "Hide Firefox Events"
+
+#: controllers/statistics_controller.php:233
+msgid "statistics_js_plotselection_options_events_firefox_name_unchecked"
+msgstr "Show Firefox Events"
+
+#: controllers/statistics_controller.php:234
+msgid "statistics_js_plotselection_options_events_firefox_tooltip"
+msgstr "Overlay Firefox release dates on the plots"
+
+#: controllers/statistics_controller.php:240
+msgid "statistics_js_plotselection_options_resize_name_checked"
+msgstr "Collapse Graph"
+
+#: controllers/statistics_controller.php:241
+msgid "statistics_js_plotselection_options_resize_name_unchecked"
+msgstr "Expand Graph"
+
+#: controllers/statistics_controller.php:242
+msgid "statistics_js_plotselection_options_resize_tooltip"
+msgstr "Resize the graph"
+
+#: controllers/statistics_controller.php:222
+msgid "statistics_js_plotselection_selector_adu"
+msgstr "Active Daily Users"
+
+#: controllers/statistics_controller.php:224
+msgid "statistics_js_plotselection_selector_application"
+msgstr "Application"
+
+#: controllers/statistics_controller.php:227
+msgid "statistics_js_plotselection_selector_custom"
+msgstr "Custom"
+
+#: controllers/statistics_controller.php:221
+msgid "statistics_js_plotselection_selector_downloads"
+msgstr "Downloads"
+
+#: controllers/statistics_controller.php:226
+msgid "statistics_js_plotselection_selector_os"
+msgstr "Operating System"
+
+#: controllers/statistics_controller.php:225
+msgid "statistics_js_plotselection_selector_status"
+msgstr "Add-on Status"
+
+#: controllers/statistics_controller.php:220
+msgid "statistics_js_plotselection_selector_summary"
+msgstr "Summary"
+
+#: controllers/statistics_controller.php:223
+msgid "statistics_js_plotselection_selector_version"
+msgstr "Add-on Version"
+
+#: controllers/components/stats.php:266
+msgid "statistics_longnames_application"
+msgstr "Application"
+
+#: controllers/components/stats.php:268
+msgid "statistics_longnames_os"
+msgstr "Operating System"
+
+#: controllers/components/stats.php:267
+msgid "statistics_longnames_status"
+msgstr "Add-on Status"
+
+#: controllers/components/stats.php:269
+msgid "statistics_longnames_unknown"
+msgstr "Unknown"
+
+#: controllers/components/stats.php:265
+msgid "statistics_longnames_version"
+msgstr "Add-on Version"
+
+#: views/statistics/addon.thtml:104
+msgid "statistics_notice_data_insufficient"
+msgstr ""
+"There is not yet enough data to display this graph. Please check back later."
+
+#: views/statistics/addon.thtml:116
+msgid "statistics_notice_data_none"
+msgstr ""
+"We don't have any data for your add-on yet. Please check back in a few days."
+
+#: views/statistics/addon.thtml:41
+msgid "statistics_notice_data_updating"
+msgstr ""
+"Add-on statistics are currently in the process of being updated. Recent data "
+"may be incomplete as our scripts work to update this information. Please "
+"check back in a few minutes."
+
+#: views/statistics/addon.thtml:122
+msgid "statistics_notice_disabled"
+msgstr ""
+"The Statistics Dashboard is currently disabled. Please check back later."
+
+#: views/statistics/addon.thtml:109
+msgid "statistics_notice_nojavascript"
+msgstr "JavaScript is required to view the Statistics Dashboard graphs."
+
+#: views/statistics/addon.thtml:44
+msgid "statistics_notice_settings_updated"
+msgstr "Your settings have been updated!"
+
+#: controllers/statistics_controller.php:60
+#: controllers/statistics_controller.php:71
+#: controllers/statistics_controller.php:74
+msgid "statistics_pagetitle"
+msgstr "Statistics Dashboard"
+
+#: views/statistics/addon.thtml:85
+msgid "statistics_plot_legend_adu"
+msgstr "Active Daily Users"
+
+#: views/statistics/addon.thtml:81
+msgid "statistics_plot_legend_downloads"
+msgstr "Daily Downloads"
+
+#: views/statistics/addon.thtml:93
+msgid "statistics_plot_options_zoomin_alt"
+msgstr "Zoom In"
+
+#: views/statistics/addon.thtml:92
+msgid "statistics_plot_options_zoomin_title"
+msgstr "Zoom in one month"
+
+#: views/statistics/addon.thtml:96
+msgid "statistics_plot_options_zoomout_alt"
+msgstr "Zoom Out"
+
+#: views/statistics/addon.thtml:95
+msgid "statistics_plot_options_zoomout_title"
+msgstr "Zoom out one month"
+
+#: controllers/statistics_controller.php:251
+#, php-format
+msgid "statistics_rss_description"
+msgstr "Daily summary of statistics for %1$s"
+
+#: views/statistics/addon.thtml:200
+msgid "statistics_rss_icon_title"
+msgstr "RSS feed of summary data"
+
+#: views/statistics/rss/summary.thtml:74
+msgid "statistics_rss_title_fulldate"
+msgstr "%A, %B %e, %Y"
+
+#: views/statistics/rss/summary.thtml:74
+#, php-format
+msgid "statistics_rss_title_statsfordate"
+msgstr "Statistics for %1$s"
+
+#: views/statistics/settings.thtml:46
+msgid "statistics_settings_access_description"
+msgstr ""
+"By default, only you and Mozilla can access the information in your "
+"dashboard. You can open this up to the public so that anyone can view your "
+"add-on's data."
+
+#: views/statistics/settings.thtml:45
+msgid "statistics_settings_access_heading"
+msgstr "Dashboard Access"
+
+#: views/statistics/settings.thtml:48
+msgid "statistics_settings_access_private"
+msgstr "Private"
+
+#: views/statistics/settings.thtml:48
+msgid "statistics_settings_access_private_description"
+msgstr "Only you and Mozilla can view this add-on's statistics"
+
+#: views/statistics/settings.thtml:49
+msgid "statistics_settings_access_public"
+msgstr "Public"
+
+#: views/statistics/settings.thtml:49
+msgid "statistics_settings_access_public_description"
+msgstr "Anyone can view this add-on's statistics"
+
+#: views/statistics/addon.thtml:221
+msgid "statistics_settings_change_link"
+msgstr "Change Settings"
+
+#: views/statistics/addon.thtml:223
+msgid "statistics_settings_confidential"
+msgstr "Please treat this information as confidential."
+
+#: views/statistics/addon.thtml:215
+msgid "statistics_settings_currently_private"
+msgstr "This dashboard is currently <b>private</b>."
+
+#: views/statistics/addon.thtml:211
+msgid "statistics_settings_currently_public"
+msgstr "This dashboard is currently <b>public</b>."
+
+#: views/statistics/addon.thtml:216
+msgid "statistics_settings_locked_alt"
+msgstr "Locked"
+
+#: views/statistics/settings.thtml:54
+msgid "statistics_settings_return_link"
+msgstr "Return to Dashboard"
+
+#: views/statistics/settings.thtml:53
+msgid "statistics_settings_save_button"
+msgstr "Save Settings"
+
+#: views/statistics/settings.thtml:43
+#, php-format
+msgid "statistics_settings_title"
+msgstr "Statistics Dashboard Settings for %1$s"
+
+#: views/statistics/addon.thtml:212
+msgid "statistics_settings_unlocked_alt"
+msgstr "Unlocked"
+
+#: controllers/components/stats.php:273
+msgid "statistics_shortnames_application"
+msgstr "App"
+
+#: controllers/components/stats.php:275
+msgid "statistics_shortnames_os"
+msgstr "OS"
+
+#: controllers/components/stats.php:274
+msgid "statistics_shortnames_status"
+msgstr "St"
+
+#: controllers/components/stats.php:276
+msgid "statistics_shortnames_unknown"
+msgstr "Uk"
+
+#: controllers/components/stats.php:272
+msgid "statistics_shortnames_version"
+msgstr "Ver"
+
+#: views/statistics/addon.thtml:190 views/statistics/rss/summary.thtml:41
+msgid "statistics_summary_downloads_average"
+msgstr "Average Daily Downloads"
+
+#: views/statistics/rss/summary.thtml:38
+msgid "statistics_summary_downloads_heading"
+msgstr "Downloads"
+
+#: views/statistics/addon.thtml:157 views/statistics/rss/summary.thtml:40
+msgid "statistics_summary_downloads_lastcount"
+msgstr "Last Day Count"
+
+#: views/statistics/addon.thtml:197 views/statistics/rss/summary.thtml:42
+msgid "statistics_summary_downloads_lastweek"
+msgstr "Downloads in the last 7 days"
+
+#: views/statistics/addon.thtml:137 views/statistics/rss/summary.thtml:39
+msgid "statistics_summary_downloads_total"
+msgstr "Total Downloads"
+
+#: views/statistics/addon.thtml:138 views/statistics/rss/summary.thtml:39
+#, php-format
+msgid "statistics_summary_downloads_total_sincedate"
+msgstr "Since %1$s"
+
+#: views/statistics/addon.thtml:149 views/statistics/addon.thtml:169
+#: views/statistics/rss/summary.thtml:49 views/statistics/rss/summary.thtml:55
+msgid "statistics_summary_nodata"
+msgstr "No data yet"
+
+#: views/statistics/addon.thtml:193 views/statistics/rss/summary.thtml:69
+msgid "statistics_summary_updatepings_average"
+msgstr "Average Daily Active Users"
+
+#: views/statistics/addon.thtml:163 views/statistics/rss/summary.thtml:51
+msgid "statistics_summary_updatepings_changefromprevious"
+msgstr "Change from previous count"
+
+#: views/statistics/addon.thtml:167 views/statistics/rss/summary.thtml:53
+#, php-format
+msgid "statistics_summary_updatepings_changefromprevious_ondate"
+msgstr "%1$s on %2$s"
+
+#: views/statistics/rss/summary.thtml:44
+msgid "statistics_summary_updatepings_heading"
+msgstr "Active Daily Users"
+
+#: views/statistics/addon.thtml:143 views/statistics/rss/summary.thtml:45
+msgid "statistics_summary_updatepings_total"
+msgstr "Active Daily Users"
+
+#: views/statistics/addon.thtml:147 views/statistics/rss/summary.thtml:47
+#, php-format
+msgid "statistics_summary_updatepings_total_ondate"
+msgstr "On %1$s"
+
+#: views/statistics/addon.thtml:65 controllers/statistics_controller.php:175
+#: controllers/statistics_controller.php:250
+#, php-format
+msgid "statistics_title_addon_stats"
+msgstr "%1$s Statistics"
+
+#: views/addons/themes_landing.thtml:118
+msgid "themes_landing_all_themes"
+msgstr "All Themes"
+
+#: views/addons/themes_landing.thtml:114
+msgid "themes_landing_browse_themes"
+msgstr "Browse Themes"
+
+#: views/users/edit.thtml:80
+msgid "user_change_password"
+msgstr "Change password"
+
+#: controllers/users_controller.php:187
+msgid "user_confirmationcode_resent"
+msgstr "The confirmation code was resent!"
+
+# This contains the email sent to users when they signed up for a new
+# account:
+# %1 is the confirmation URL, %2 is the current app
+#: views/users/email/confirm_plain.thtml:5
+#, php-format
+msgid "user_email_confirm_account_nopass"
+msgstr ""
+"Welcome to %2$s Add-ons.\n"
+"\n"
+"Before you can use your new account you must activate it - this ensures the "
+"e-mail address you used is valid and belongs to you.\n"
+"To activate your account, click the link below or copy and paste the whole "
+"thing into your browser's location bar:\n"
+"\n"
+"%1$s\n"
+"\n"
+"Once you successfully activated your account, you can throw away this e-"
+"mail.\n"
+"\n"
+"Thanks for joining %2$s Add-ons\n"
+"-- %2$s Add-ons Staff"
+
+#: controllers/users_controller.php:158
+#, php-format
+msgid "user_email_confirm_subject"
+msgstr "Thanks for joining %s Add-ons"
+
+# This is the password reset email
+# %1 is the pw reset URL, %2 is the application
+#: views/users/email/pwreset_plain.thtml:4
+#, php-format
+msgid "user_email_pwreset"
+msgstr ""
+"%2$s Add-ons Password Reset\n"
+"\n"
+"A request was received to reset the password for this account on addons."
+"mozilla.org. To change this password please click on the following link, or "
+"paste it into your browser's location bar:\n"
+"\n"
+"%1$s\n"
+"\n"
+"If you did not request this email there is no need for further action.\n"
+"\n"
+"Thanks,\n"
+"-- %2$s Add-ons Staff"
+
+#: controllers/users_controller.php:234
+#, php-format
+msgid "user_email_pwreset_subject"
+msgstr "Reset your %s Add-ons password"
+
+#: views/users/edit.thtml:93 views/users/pwreset.thtml:74
+#: views/users/register.thtml:67
+msgid "user_form_confirmpassword"
+msgstr "Confirm password"
+
+#: controllers/users_controller.php:384
+#, php-format
+msgid "user_form_editprofile"
+msgstr "Edit user profile for %s"
+
+#: views/users/login.thtml:80 views/users/pwreset.thtml:51
+#: views/users/register.thtml:57
+msgid "user_form_email"
+msgstr "Email address"
+
+#: views/admin/users_edit.thtml:60 views/users/edit.thtml:56
+#: views/users/register.thtml:72
+msgid "user_form_firstname"
+msgstr "First name"
+
+#: views/admin/users_edit.thtml:75 views/users/edit.thtml:71
+#: views/users/register.thtml:87
+msgid "user_form_hideemail"
+msgstr "Hide email address"
+
+#: views/admin/users_edit.thtml:83 views/users/edit.thtml:75
+#: views/users/register.thtml:91
+msgid "user_form_homepage"
+msgstr "Website URL"
+
+#: views/admin/users_edit.thtml:65 views/users/edit.thtml:61
+#: views/users/register.thtml:77
+msgid "user_form_lastname"
+msgstr "Last name"
+
+#: controllers/users_controller.php:312
+msgid "user_form_login"
+msgstr "User Login"
+
+#: views/users/edit.thtml:88 views/users/pwreset.thtml:69
+msgid "user_form_newpassword"
+msgstr "New password"
+
+#: views/admin/users_edit.thtml:70 views/users/edit.thtml:66
+#: views/users/register.thtml:82
+msgid "user_form_nickname"
+msgstr "Nickname"
+
+#: views/users/edit.thtml:83
+msgid "user_form_oldpassword"
+msgstr "Old password"
+
+#: views/users/login.thtml:84 views/users/register.thtml:62
+msgid "user_form_password"
+msgstr "Password"
+
+#: controllers/users_controller.php:92
+msgid "user_form_registration"
+msgstr "New User Registration"
+
+#: views/admin/users_edit.thtml:79
+msgid "user_form_showsandbox"
+msgstr "Show sandbox?"
+
+#: views/users/edit.thtml:98
+msgid "user_form_submit_edit"
+msgstr "Save"
+
+#: views/users/login.thtml:88
+msgid "user_form_submit_login"
+msgstr "Log in"
+
+#: views/users/register.thtml:96
+msgid "user_form_submit_register"
+msgstr "Register"
+
+#: views/users/info.thtml:69
+#, php-format
+msgid "user_info_usersince"
+msgstr "%s Add-ons user since"
+
+#: views/users/login.thtml:95
+msgid "user_login_register_link"
+msgstr "Create a new user account"
+
+#: controllers/users_controller.php:446
+msgid "user_profile_edit_error"
+msgstr ""
+"There were errors in the changes you made. Please correct them and resubmit.."
+
+#: controllers/users_controller.php:444
+msgid "user_profile_saved"
+msgstr "Profile updated."
+
+#: views/users/pwreset.thtml:64
+#, php-format
+msgid "user_pwreset_for_email"
+msgstr "Password reset for %s"
+
+#: controllers/users_controller.php:216
+msgid "user_pwreset_header"
+msgstr "Password Reset"
+
+#: views/users/login.thtml:96
+msgid "user_pwreset_link"
+msgstr "Forgot your password?"
+
+#: controllers/users_controller.php:237
+msgid "user_pwreset_link_sent"
+msgstr "The password reset link was sent to your email address."
+
+#: controllers/users_controller.php:283
+msgid "user_pwreset_okay"
+msgstr "Password successfully reset."
+
+#: views/users/pwreset.thtml:79
+msgid "user_pwreset_submit_changepw"
+msgstr "Submit password change"
+
+#: views/users/pwreset.thtml:56
+msgid "user_pwreset_submit_sendlink"
+msgstr "Send password reset link"
+
+#: views/users/register_complete.thtml:52
+#, php-format
+msgid "user_register_amo_link"
+msgstr "%s Add-ons"
+
+# %1 is the user's email address, %2 is the current app
+#: views/users/activatefirst.thtml:49
+#, php-format
+msgid "user_register_click_confirm_link"
+msgstr ""
+"A link to activate your user account was sent by email to your address %1$s. "
+"You have to click it before you can log into %2$s Add-ons."
+
+# %1 is the user's email address
+#: views/users/register_complete.thtml:50
+#, php-format
+msgid "user_register_confirm_email_sent"
+msgstr ""
+"An email has been sent to your address %1$s to confirm your account. Before "
+"you can log in, you have to activate your account by clicking on the link "
+"provided in this email."
+
+#: views/users/activatefirst.thtml:51
+msgid "user_register_confirmation_link_text"
+msgstr "resend the confirmation message"
+
+#: views/users/register_complete.thtml:48
+msgid "user_register_congratulations"
+msgstr "Congratulations! Your user account was successfully created."
+
+# %1 is the link to the "resend confirmation code" page
+#: views/users/activatefirst.thtml:51
+#, php-format
+msgid "user_register_resend_confirmation_link"
+msgstr ""
+"If you did not receive the confirmation email, make sure your email service "
+"did not mark it as \"junk mail\" or \"spam\". If you need to, you can have "
+"us %1$s to your email address mentioned above."
+
+# %1 is the link to the Mozilla Add-ons front page
+#: views/users/register_complete.thtml:52
+#, php-format
+msgid "user_register_welcome"
+msgstr "Thanks for registering and welcome to %1$s!"
+
+#: controllers/users_controller.php:199
+msgid "user_verified_okay"
+msgstr "Successfully verified!"
+
+#: controllers/users_controller.php:377 controllers/users_controller.php:378
+msgid "users_edit_pagetitle"
+msgstr "User Account Editing"
+
+#: views/users/info.thtml:82
+#, php-format
+msgid "users_info_addons_by_user"
+msgstr "Add-ons by %1$s"
+
+#: views/users/info.thtml:50
+msgid "users_info_author_name"
+msgstr "Name"
+
+#: views/users/info.thtml:47
+msgid "users_info_author_profile"
+msgstr "User Profile"
+
+#: views/users/info.thtml:65
+msgid "users_info_email"
+msgstr "Email address"
+
+#: views/users/info.thtml:60
+msgid "users_info_homepage"
+msgstr "Homepage"
+
+#: views/users/info.thtml:55
+msgid "users_info_nickname"
+msgstr "Nickname"
+
+#: controllers/users_controller.php:490
+#, php-format
+msgid "users_info_pagetitle"
+msgstr "User Info for %1$s"
+
+#: controllers/users_controller.php:309 controllers/users_controller.php:311
+msgid "users_login_pagetitle"
+msgstr "User Login"
+
+# %1 is the link to the sandbox/policy explanation page
+# This message is for a specific add-on not found
+#: views/users/login.thtml:53
+#, php-format
+msgid "users_login_sandbox_display_warning"
+msgstr ""
+"The add-on you're looking for is currently in the sandbox. If you already "
+"have an account on Mozilla Add-ons, please log in, or <a href=\"%1$s\">learn "
+"more about the sandbox.</a>"
+
+# %1 is the link to the sandbox/policy explanation page
+# This message is for any given sandbox-related page not found
+#: views/users/login.thtml:56
+#, php-format
+msgid "users_login_sandbox_page_warning"
+msgstr ""
+"The page you're looking for is part of the sandbox. If you already have an "
+"account on Mozilla Add-ons, please log in, or <a href=\"%1$s\">learn more "
+"about the sandbox.</a>"
+
+#: controllers/users_controller.php:213 controllers/users_controller.php:215
+msgid "users_pwreset_pagetitle"
+msgstr "User Password Reset"
+
+#: controllers/users_controller.php:89 controllers/users_controller.php:91
+msgid "users_register_pagetitle"
+msgstr "New User Registration"
+
+#~ msgid "error_invalid_email"
+#~ msgstr "This email address has an invalid format."

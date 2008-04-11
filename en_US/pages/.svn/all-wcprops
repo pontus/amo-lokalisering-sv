@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/11267/addons/trunk/site/app/locale/en_US/pages
+END
+nomination.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/10712/addons/trunk/site/app/locale/en_US/pages/nomination.thtml
+END
+developer_agreement.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/2044/addons/trunk/site/app/locale/en_US/pages/developer_agreement.thtml
+END
+privacy.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/1934/addons/trunk/site/app/locale/en_US/pages/privacy.thtml
+END
+sandbox.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/!svn/ver/11077/addons/trunk/site/app/locale/en_US/pages/sandbox.thtml
+END
+policy.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/!svn/ver/11077/addons/trunk/site/app/locale/en_US/pages/policy.thtml
+END
+error404.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/!svn/ver/10712/addons/trunk/site/app/locale/en_US/pages/error404.thtml
+END
+statistics_help.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/11267/addons/trunk/site/app/locale/en_US/pages/statistics_help.thtml
+END
+submission_help.thtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/10712/addons/trunk/site/app/locale/en_US/pages/submission_help.thtml
+END
