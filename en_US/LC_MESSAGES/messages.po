@@ -336,17 +336,17 @@ msgstr "%s"
 #: views/addons/display.thtml:198
 #, php-format
 msgid "addons_display_paragraph_supportinfoemail"
-msgstr "Hjälp för denna utökning finns på %s. Om du har en felrapport kan det vara bäst att skicka den till utvecklaren så att de kan följa upp det tillsammans med dig. Recensionerna är inte riktigt rätt plats för detaljerade felrapporter, och utvecklaren kan behöva ytterligare detaljer för att upprepa det felaktiga beteendet. Eftersom vi inte visar din e-postadress för utvecklarna när du skriver en recension kommer de inte att kunna kontakta dig och be om ytterligare detaljer eller berätta att felet är åtgärdat."
+msgstr "Hjälp för denna utökning finns på %s. Om du har en felrapport kan det vara bäst att skicka den till utvecklarna så att de kan följa upp det tillsammans med dig. Recensionerna är inte riktigt rätt plats för detaljerade felrapporter, och utvecklaren kan behöva ytterligare detaljer för att upprepa det felaktiga beteendet. Eftersom vi inte visar din e-postadress för utvecklarna när du skriver en recension kommer de inte att kunna kontakta dig och be om ytterligare detaljer eller berätta att felet är åtgärdat."
 
 #: views/addons/display.thtml:188
 #, php-format
 msgid "addons_display_paragraph_supportinfoemailurl"
-msgstr "Hjälp för denna utökning finns på %s eller %s. Om du har en felrapport kan det vara bäst att skicka den till utvecklaren så att de kan följa upp det tillsammans med dig. Recensionerna är inte riktigt rätt plats för detaljerade felrapporter, och utvecklaren kan behöva ytterligare detaljer för att upprepa det felaktiga beteendet. Eftersom vi inte visar din e-postadress för utvecklarna när du skriver en recension kommer de inte att kunna kontakta dig och be om ytterligare detaljer eller berätta att felet är åtgärdat."
+msgstr "Hjälp för denna utökning finns på %s eller %s. Om du har en felrapport kan det vara bäst att skicka den till utvecklarna så att de kan följa upp det tillsammans med dig. Recensionerna är inte riktigt rätt plats för detaljerade felrapporter, och utvecklaren kan behöva ytterligare detaljer för att upprepa det felaktiga beteendet. Eftersom vi inte visar din e-postadress för utvecklarna när du skriver en recension kommer de inte att kunna kontakta dig och be om ytterligare detaljer eller berätta att felet är åtgärdat."
 
 #: views/addons/display.thtml:194
 #, php-format
 msgid "addons_display_paragraph_supportinfourl"
-msgstr "Hjälp för denna utökning finns på %s. Om du har en felrapport kan det vara bäst att skicka den till utvecklaren så att de kan följa upp det tillsammans med dig. Recensionerna är inte riktigt rätt plats för detaljerade felrapporter, och utvecklaren kan behöva ytterligare detaljer för att upprepa det felaktiga beteendet. Eftersom vi inte visar din e-postadress för utvecklarna när du skriver en recension kommer de inte att kunna kontakta dig och be om ytterligare detaljer eller berätta att felet är åtgärdat."
+msgstr "Hjälp för denna utökning finns på %s. Om du har en felrapport kan det vara bäst att skicka den till utvecklarna så att de kan följa upp det tillsammans med dig. Recensionerna är inte riktigt rätt plats för detaljerade felrapporter, och utvecklaren kan behöva ytterligare detaljer för att upprepa det felaktiga beteendet. Eftersom vi inte visar din e-postadress för utvecklarna när du skriver en recension kommer de inte att kunna kontakta dig och be om ytterligare detaljer eller berätta att felet är åtgärdat."
 
 #: views/addons/display.thtml:305
 msgid "addons_display_rate_it"
@@ -677,7 +677,7 @@ msgstr "Prenumerera"
 #: views/blog/view.thtml:60 controllers/blog_controller.php:55
 #: controllers/blog_controller.php:62 controllers/blog_controller.php:96
 msgid "blog_title"
-msgstr "Mozilla Tilläggs blog"
+msgstr "Mozilla Add-ons blogg"
 
 #: controllers/addons_controller.php:1061
 msgid "breadcrumb_addon_previews"
