@@ -625,6 +625,10 @@ msgstr "Gruppadministratör"
 msgid "admin_group_saved"
 msgstr "Gruppen har sparats"
 
+#: views/pages/js_constants.js.thtml:61
+msgid "app_compat_ignore_check"
+msgstr "Ignore version check"
+
 #: views/pages/js_constants.js.thtml:60
 msgid "app_compat_older_firefox_only"
 msgstr "Detta tillägg är för en äldre version av Firefox"
