@@ -639,7 +639,7 @@ msgstr "<a href=\"http://getfirefox.com\">Uppgradera Firefox</a> för att använ
 
 #: controllers/blog_controller.php:57
 msgid "blog_breadcrumb"
-msgstr "Blog"
+msgstr "Blogg"
 
 #: controllers/blog_controller.php:97
 msgid "blog_description"
@@ -668,7 +668,7 @@ msgstr "Andra Mozillabloggar"
 
 #: controllers/blog_controller.php:58
 msgid "blog_subpage_title"
-msgstr "Blog"
+msgstr "Blogg"
 
 #: views/blog/view.thtml:59
 msgid "blog_subscribe_heading"
@@ -4221,7 +4221,7 @@ msgstr "Grattis! Ditt konto skapades."
 msgid "user_register_resend_confirmation_link"
 msgstr "Om du inte fick bekräftelsebrevet via e-post, försäkra dig om att din e-postleverantör inte sorterat det som skräppost (\"junk mail\" eller \"spam\"). Om du behöver kan vi %1$s till e-postadressen ovanför."
 
-# %1 is the link to the Mozilla Tilläggs front page
+# %1 is the link to the Mozilla Add-ons front page
 #: views/users/register_complete.thtml:52
 #, php-format
 msgid "user_register_welcome"
@@ -4274,14 +4274,14 @@ msgstr "Användarinloggning"
 #: views/users/login.thtml:53
 #, php-format
 msgid "users_login_sandbox_display_warning"
-msgstr "Tillägget du letar efter ligger för närvarande i sandlådan. Om du redan har ett konto på Mozilla Tilläggs så logga in, eller <a href=\"%1$s\">läs mer om sandlådan.</a>"
+msgstr "Tillägget du letar efter ligger för närvarande i sandlådan. Om du redan har ett konto på Mozilla Add-ons så logga in, eller <a href=\"%1$s\">läs mer om sandlådan.</a>"
 
 # %1 is the link to the sandbox/policy explanation page
 # This message is for any given sandbox-related page not found
 #: views/users/login.thtml:56
 #, php-format
 msgid "users_login_sandbox_page_warning"
-msgstr "Sidan du letar efter finns i sandlådan. Om du redan har ett konto på Mozilla Tilläggs så logga in, eller <a href=\"%1$s\">läs mer om sandlådan.</a>"
+msgstr "Sidan du letar efter finns i sandlådan. Om du redan har ett konto på Mozilla Add-ons så logga in, eller <a href=\"%1$s\">läs mer om sandlådan.</a>"
 
 #: controllers/users_controller.php:213 controllers/users_controller.php:215
 msgid "users_pwreset_pagetitle"
