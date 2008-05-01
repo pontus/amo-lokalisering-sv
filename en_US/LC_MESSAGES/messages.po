@@ -28,11 +28,11 @@ msgstr "Avbryt installation"
 #: views/elements/install.thtml:210 views/elements/install.thtml:219
 #, php-format
 msgid "a_download"
-msgstr "Ladda ner nu %s"
+msgstr "Hämta hem nu %s"
 
 #: views/addons/policy.thtml:78 views/addons/policy.thtml:79
 msgid "a_eula_download"
-msgstr "Godkänn och ladda ner"
+msgstr "Godkänn och hämta hem"
 
 #: views/addons/policy.thtml:81 views/addons/policy.thtml:83
 msgid "a_eula_install"
@@ -63,7 +63,7 @@ msgstr "Version %s"
 
 #: views/addons/display.thtml:105 views/elements/feature.thtml:93
 msgid "addon_downloads"
-msgstr "nerladdningar"
+msgstr "nedladdningar"
 
 # %1 is the add-on count, %2 the category name
 #: views/addons/browse.thtml:69
@@ -476,7 +476,7 @@ msgstr "Visa alla rekommenderade tillägg"
 
 #: views/elements/install.thtml:98
 msgid "addons_install_in_thunderbird"
-msgstr "<ol><li>Högerklicka på länken nedan och välj \"Spara länk som...\" för att ladda ner och spara filen till din hårddiska.</li><li>I Mozilla Thunderbird, öppna Tillägg från Verktygsmenyn.</li><li>Klicka på knappen Installera, leta på och välj filen du laddat ner och klicka \"OK\".</li></ol>"
+msgstr "<ol><li>Högerklicka på länken nedan och välj \"Spara länk som...\" för att hämta hem och spara filen till din hårddiska.</li><li>I Mozilla Thunderbird, öppna Tillägg från Verktygsmenyn.</li><li>Klicka på knappen Installera, leta på och välj filen du hämtat hem och klicka \"OK\".</li></ol>"
 
 #: views/elements/install.thtml:97
 msgid "addons_install_in_thunderbird_title"
@@ -521,9 +521,7 @@ msgstr "Letar du efter ett insticksprogram som inte finns listat här"
 #: views/addons/plugins.thtml:53
 msgid "addons_plugins_main_description"
 msgstr ""
-"Plugins help your browser perform specific functions like viewing special "
-"graphic formats or playing multimedia files. Plugins are slightly different "
-"from extensions, which modify or add to existing functionality."
+"Insticksprogram hjälper din webbläsare utföra särskilda funktioner som att visa särskilda grafikformat eller spela multimediafiler. Insticksprogram skiljer sig lite från utökningar, som ändrar eller utökar existerande funktionalitet.
 
 #: controllers/addons_controller.php:654
 #, php-format
@@ -3343,7 +3341,7 @@ msgstr "Lägg till %1$s till %2$s"
 #: views/elements/install.thtml:148
 #, php-format
 msgid "install_download"
-msgstr "Ladda ner %1$s"
+msgstr "Hämta hem %1$s"
 
 #: views/elements/install.thtml:86
 msgid "install_error_addon_not_found"
@@ -3351,15 +3349,15 @@ msgstr "Detta tillägg är inte tillgängligt."
 
 #: views/addons/dictionaries.thtml:121
 msgid "langtools_a11y_tablesummary"
-msgstr "List of language packs and dictionaries."
+msgstr "Lista på språkpaket och ordböcker."
 
 #: views/addons/dictionaries.thtml:50
 msgid "langtools_download_dictionary"
-msgstr "Ladda ner ordlista"
+msgstr "Hämta hem ordlista"
 
 #: views/addons/dictionaries.thtml:51
 msgid "langtools_download_langpack"
-msgstr "Ladda ner språkpaket"
+msgstr "Hämta hem språkpaket"
 
 #: views/addons/dictionaries.thtml:119
 msgid "langtools_header_dicts_and_langpacks"
