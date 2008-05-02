@@ -4182,15 +4182,15 @@ msgstr "Registrering av ny användare"
 
 #: views/elements/pitch.thtml:72
 msgid "sidebar_pitch_featured_addons"
-msgstr "Featured Add-ons"
+msgstr "Uppmärksammade tillägg"
 
 #: views/elements/pitch.thtml:71
 msgid "sidebar_pitch_newest_addons"
-msgstr "Newest Add-ons"
+msgstr "Nyaste tilläggen"
 
 #: views/elements/pitch.thtml:70
 msgid "sidebar_pitch_subscribe_to"
-msgstr "Subscribe to"
+msgstr "Prenumerera på"
 
 # %1 is the user, %2 is the (localized) date, %3 is the rating
 #~ msgid "addon_reviewed_by_u_on_d_rated_x"
