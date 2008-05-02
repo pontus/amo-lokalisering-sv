@@ -1,7 +1,7 @@
 <h1>Add-ons Policy</h1>
 
-<h2>What is the sandbox?</h2>
-<p>See the %s.</p>
+<h2>Vad är sandlådan?</h2>
+<p>Se %s.</p>
 
 <h2>What add-ons are in the sandbox?</h2>
 <p>The sandbox is where all add-ons that are hosted on AMO go, to start. It contains new versions of public add-ons, as well as all versions for add-ons that are not made public. When a new add-on, or an update to an existing add-on, is submitted to AMO, it is placed in the sandbox.</p>

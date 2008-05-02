@@ -1,7 +1,7 @@
-<h3>Help</h3>
-<p>The Statistics Dashboard displays download and update ping data collected for your add-on.</p>
-<h4>Downloads</h4>
-<p>Download counts are updated every day and only include original add-on downloads, not updates.</p>
+<h3>Hjälp</h3>
+<p>Statistikbrädan visar nedladdningar och pingdata ihopsamlat för ditt tillägg.</p>
+<h4>Nedladdningar</h4>
+<p>Nedladdningsräknare uppdateras varje dag och inkluderar bara ursprungliga nedladdningar av tillägg, inte uppdateringar.</p>
 
-<h4>Update Pings</h4>
-<p>Add-ons downloaded from this site check for updates once per day, and the total number of these update pings is known as Active Daily Users. Active Daily Users (ADU) can be broken down by add-on version, operating system, add-on status, and application. This data is currently recorded for one day each week, on Wednesdays.</p>
+<h4>Uppdateringspingar</h4>
+<p>Tillägg nedladdade från denna webbplats kontrolleras för uppdateringar en gång per dag och det totala antalet sådana uppdateringspingar kallas Aktiva Dagliga Användare. Aktiva Dagliga Använda (ADA) kan brytas ner på tilläggsversion, operativsystem, tilläggsstatus och applikation. Dessa data samlas för närvarande in under en dag varje vecka, på onsdagar.</p>
