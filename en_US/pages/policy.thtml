@@ -3,52 +3,52 @@
 <h2>Vad är sandlådan?</h2>
 <p>Se %s.</p>
 
-<h2>What add-ons are in the sandbox?</h2>
-<p>The sandbox is where all add-ons that are hosted on AMO go, to start. It contains new versions of public add-ons, as well as all versions for add-ons that are not made public. When a new add-on, or an update to an existing add-on, is submitted to AMO, it is placed in the sandbox.</p>
+<h2>Vilka tillägg finns i sandlådan?</h2>
+<p>Sandlådan är där alla tillägg på AMO hamnar till att börja med. Den innehåller nya versioner av publika tillägg liksom alla versioner för tillägg som inte är publika. När ett nytt tillägg eller en uppdatering av ett existerande tillägg skicas in till AMO hamnar det i sandlådan.</p>
 
-<p>Some add-ons, and their specific versions, are made public after the review process indicates that they are ready and appropriate for public display. Other add-ons will remain in the sandbox indefinitely, where they are available to users who choose to browse the sandbox list and experiment with the software there.</p>
+<p>Några tillägg, och deras specifika versioner, blir publika efter granskningsprocesssen visat att de är klara och lämpliga att visas publikt. Andra tillägg stannar kvar i sandlådan tillsvidare, där de är tillgängliga för användare som väljer att bläddra i sandlådan och experimentera med mjukvaran där.</p>
 
-<h2>How do add-ons become public?</h2>
+<h2>Hur blir tillägg publika?</h2>
 
-<p>Add-ons are reviewed by AMO users who opt into viewing the sandbox and testing the packages found there. The reviews that AMO users write will indicate whether an add-on is sufficiently useful, well-written and polished to be put in front of all of Firefox's users. These reviews, possibly in addition to other reviews and inspections by the AMO team, are used to determine whether a given add-on should be made public, whether it needs more work to be polished for wider visibility, or whether it's not suitable for promotion on the AMO site outside of the sandbox.</p>
+<p>Tillägg granskas av AMO-användare som valt att titta i sandlådan och testa paketen där. De recensioner som AMO-användare skriver indikerar om tillägget är tillräckligt nyttigt, välskrivet och finputsat att visas upp för alla Firefoxs användare. Dessa recensioner, eventuellt tillsammans med andra recensioner och inspektioner av AMO används för att avgöra om ett givet tillägg ska göras publikt, om det behöver mer arbete för att putsas upp för större synlighet och om det är lämpligt att framhållas på AMOs webbplats utanför sandlådan.</p>
 
-<h2>How do I get my add-on promoted to public status?</h2>
+<h2>Hur gör jag för att få mitt tilläggt publikt?</h2>
 
-<p>If you believe that your add-on (and your behaviour!) meets the criteria for a public add-on, you can nominate it from the developer tools.</p>
+<p>Om du tror att ditt tillägg (och ditt uppförande!) uppfyller kriterien för ett publikt tillägg kan du nominera det från utvecklarverktygen.</p>
 
-<h2>What are the criteria for public add-ons?</h2>
+<h2>Vilka är kriterien för pubilika tillägg?</h2>
 
-<p>An add-on that's made public on AMO should be of high quality, and give users an improved web experience. We look for the following things when deciding whether an add-on is appropriate for the public side of AMO:</p>
+<p>Ett tillägg som görs publikt på AMO ska vara av hög kvalitet och ge användare en förbättrad webbupplevelse. Vi tittar på följande när vi avgör om ett tillägg är lämpligt för den publika sidan av AMO:</p>
 
-<h3>Are you responsive?</h3>
+<h3>Är du *tillgänglig*?</h3>
 
-<p>We expect that an author who is promoting their add-on to Firefox's many users is responsive to problem reports, maintains their contact information, and updates their add-on promptly to keep current with Firefox releases and changes in AMO policies. This doesn't mean that you have to reply to every question that someone posts in the discussions, or that you even need to fix every bug, but we do expect that you will respond to issues in a manner that's appropriate to the severity of the issue in question.</p>
+<p>Vi förväntar oss att författare som *framhåller* sitt tillägg åt Firefoxs många användare är mottaglig för problemrapporter, håller sin kontaktinformation uppdaterad och uppdaterar sitt tillägg snabbt för att hänga med Firefoxs produktsläpp och ändringar i AMOs policyer. Det betyder inte att du måste svara på varenda fråga någon postar i diskussionsforumen eller ens att du måste fixa varje programfel, men vi förväntar oss att du hanterar problem på lämpligt sätt utifrån hur allvarligt problemet i fråga är.</p>
 
-<h3>Is the add-on clearly and accurately described?</h3>
+<h3>Är tillägget tydligt och korrekt beskrivet?</h3>
 
-<p>It's of the utmost importance to us that users get what they expect when they try a new add-on. Your description should provide details about what the add-on does, how a user should take advantage of it, and what the user should expect when they install it. Links to external docs for detailed instructions are fine, but the description itself should cover the basics and leave users confident that they know what they'll get.</p>
+<p>Det är av största vikt för oss att avnändare får vad de förväntar sig när de provar ett nytt tillägg. Din beskrivning bör ge detaljer om vad tillägget gör, hur en användare kan dra nytta av det och vad användaren kan förvänta sig när de installerar det. Länkar till externa dokument för detaljerade instruktioner går bra, men beskrivningen själv bör innehålla grunderna och ge användarna förtroende att de vet vad de får.</p>
 
-<p>Also, it is important that you maintain version notes appropriately as you improve and change your add-on.  Users should be able to see what's new in an add-on they may have tried previously, and should be made aware of changes that might affect their current use of the add-on when they update.  (Right now, users don't see the version notes when they're prompted for an update within the browser, but we'll work to fix that.  If you maintain the version notes well, your users will benefit greatly before and after that work is complete.)</p>
+<p>Vidare är det viktigt att du underhåller versionsdetaljer ordentligt när du förbätttrar och ändrar ditt tillägg. Användare bör kunna se vad som är nytt i ett tillägg de har provat tidigare och bör medvetandegöras om ändringar som kan påverka deras nuvarande av tillägget när de uppdaterar. (Just nu ser inte användare versiondetaljerna när de tillfrågas om en uppdatering inuti webbläsaren, men vi arbetar på att fixa det. Om du underhåller versionsdetaljer ordentligt kommer dina användare att dra stor nytta av det, både före och efter att det arbetet är gjort.)</p>
 
-<h3>Are all privacy and security concerns clearly spelled out?</h3>
+<h3>Är alla integritets- och säkerhetsbekymmer ordentligt belysta?</h3>
 
-<p>This is an aspect of a clear and accurate description, but such an important one that we feel it deserves specific mention.  Many very useful and well-written add-ons manipulate some form of user data, or can present security hazards if misused; they are welcome on the public portion of AMO, but they must make it very clear to users what risks they might encounter, and what they can do to protect themselves.</p>
+<p>Det här är en del av en tydlig och korrekt beskrivning, men en så viktig del att vi tycker det förtjänar att nämnas separat. Många väldigt användbara och välskrivna tillägg arbetar med något slags användardata eller kan utgöra säkerhetsrisker om de används fel; de är välkomna till den publika sidan av AMO, men de måste göra det väldigt klart för användarna vilka risker de kan stöta på och hur de kan skydda sig.</p>
 
-<h3>Has the add-on been well-tested, and is it free of obvious or serious defects?</h3>
+<h3>Har tillägget blivit testat ordentligt och är det fritt från uppenbara eller allvarliga fel?</h3>
 
-<p>One important thing that we look for when considering an add-on for public access is whether its sandbox reviews indicate that it has received thorough testing, and that it doesn't have serious problems or negative impacts on the browser.  If reviewers report problems such as major performance issues, crashes, frequent problems using the functions of the add-on, or spamming of messages to the error console, you should take those reports to heart, and re-nominate your add-on after you've addressed them as best you can. We don't expect you to perfectly optimize or have zero bugs -- Firefox itself undergoes constant improvement in these areas -- but we do want you to take reasonable efforts to minimize downsides, and to clearly call out cases where users may be surprised by those that remain.</p>
+<p>En viktig sak vi letar efter när vi bedömer om ett tillägg är lämpligt för publik åtkomst är om dess recensioner i sandlådan indikerar att det har genomgått oredentlig testning och att det inte har allvarliga problem eller påverkar webbläsaren negativt. Om recensenter rapporterar sådant som exempelvis stora prestandaproblem, krascher, upprepade problem med funktionen av tillägget eller alltför många meddelanden till felkonsollen, bör du ta dessa rapporter allvarligt och nominera ditt tillägg igen efter att ha åtgärdat dem så gott du kan. Vi förväntar oss inte att du optimerar perfekt eller att tillägget är helt felfritt -- Firefox självt genomgår hela tiden förbättringar inom dessa områden -- men vi vill att du gör rimliga ansträngningar att minimera problemen och tydligt peka ut fall där användare kan bli överraskad av de som kvarstår.</p>
 
-<p>If your add-on has been tested outside of the AMO Sandbox process, such as by a group of users of your service or an in-house QA team, you should indicate that in your nomination message.  It certainly helps us establish what the level of testing has been, and can help get your add-on up on the site.</p>
+<p>Om ditt tillägg har testats utanför AMOs sandlådeprocess, exempelvis av en grupp användare av din tjänst eller en intern kvalitetsgrupp, bör du indikera det i ditt nomineringsmeddelande. Det hjälper oss definitivt att förstå nivån på testningen och kan hjälpa till att få upp ditt tillägg på webbplatsen.</p>
 
-<h3>Do the add-on and add-on author both treat the user respectfully?</h3>
+<h3>Behandlar tillägget och dess författare användaren med respekt?</h3>
 
-<p>Your software should not intrude on the user unnecessarily, try to trick the user, or conceal any of its activities from the user.  Users (or even non-users) are sometimes rude in their comments, and while we will do our best to filter those out as they're reported to us, we do expect that authors will avoid retaliating with rudeness of their own.</p>
+<p>Din mjukvara ska inte tränga sig på användaren i onödan, försöka lura användaren eller dölja någon av sina aktiviteter från användaren. Användare (eller icke-användare) är ibland oförskämda i sina kommentarer, och medan vi kommer att göra vårt bästa för att filtrera ut sådana när de rapporteras till oss, förväntar vi oss att författare inte svarar med att vara oförskämda själva.</p>
 
-<h3>Is the add-on useful to an appropriately wide portion of Firefox's users?</h3>
+<h3>Är tillägget nyttigt till en tillräckligt sotr andel av Firefoxs användare?</h3>
 
-<p>Your add-on doesn't need to be the next Greasemonkey or FireBug, but if it is only useful to people at your company or who are part of a small web community, we may feel that it's not yet appropriate to put it in front of all of Firefox's users.</p>
+<p>Ditt tillägg behöver inte vara nästa Greasemonkey eller FireBug, men om det bara är nyttigt för folk på ditt företag eller de som är medlemmar i en liten webbgemenskap kan vi tycka att det inte ännu är lämpligt att sätta det framför alla Firefoxs användare.</p>
 
-<p>We are constantly looking at ways to improve the organization of the site to better accommodate add-ons that are exemplary in other ways, but are aimed at only a small community of potential users.  Correctly categorizing and maintaining the metadata of your add-on will help us figure out how we can surface more of those sorts of add-ons to people who are most likely to benefit from them.</p>
+<p>Vi letar hela tiden efter sätt att förbättra webbplatsens organisation för att bättre rymma tillägg som är exemplariska på andra sätt, men riktar sig bara åt en liten gemenskap av möjliga användare. Att kategorisera korrekt och underhålla metadatat för ditt tillägg hjälper oss att tänka ut hur vi kan framhålla fler av den sortens tillägg för de som är mest troliga att dra nytta av dem.</p>
 
 <p>If your add-on just provides bookmarks or other simple access points to your site, it's probably not
 appropriate for the public part of the site. Like the rest of the Mozilla project, we love web applications and
