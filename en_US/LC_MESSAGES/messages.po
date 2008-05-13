@@ -2708,9 +2708,8 @@ msgstr "Denna e-postadress används redan av en annan användare."
 #: controllers/users_controller.php:546 controllers/users_controller.php:547
 msgid "error_user_emailchange_expired"
 msgstr ""
-"The email change has expired. Please change your email address again "
-"in your user profile and click the link in the confirmation email as "
-"soon as you receive it."
+"E-poständringen har expirerat. Ändra din e-postadress i profilen igen "
+"och klicka på länken i bekräftelsebrevet direkt när du har fått det."
  
 #: views/users/register.thtml:85 views/users/edit.thtml:69
 #: views/admin/users_edit.thtml:72
@@ -3367,7 +3366,7 @@ msgstr "Språk"
 #: views/users/edit.thtml:72 views/users/edit.thtml:73
 #: views/users/emailchange.thtml:53
 msgid "link_return_to_front_page"
-msgstr "Click here to return to the front page."
+msgstr "Klicka här för att komma tillbaka till förstasidan."
  
 #: views/elements/addon_list_options.thtml:46
 msgid "list_sortby_date"
@@ -4018,7 +4017,7 @@ msgstr "Bläddra bland teman"
 
 #: views/users/edit.thtml:136 views/users/edit.thtml:137
 msgid "user_change_email"
-msgstr "Change Email Address"
+msgstr "Ändra e-postadress"
  
 #: views/users/edit.thtml:81
 msgid "user_change_password"
@@ -4032,10 +4031,10 @@ msgstr "Bekräftelsekoden omskickad!"
 #: views/users/edit.thtml:58 views/users/edit.thtml:59
 msgid "user_edit_confirm_email_sent"
 msgstr ""
-"An email has been sent to %1$s to confirm your new email address. For "
-"the change to take effect, you need to click on the link provided in "
-"this email. Until then, you can keep logging in with your current email "
-"address."
+"Ett e-postmeddelande har skickats till %1$s för att bekräfta din nya "
+"e-postadress. För att ändrignen ska ge effekt måste du klicka på länken "
+"i det brevet. Till dess det är gjort kan du fortsätta logga in med din "
+"nuvarande e-postadress."
  
 # This contains the email sent to users when they signed up for a new
 # account:
@@ -4102,25 +4101,25 @@ msgstr "Återställ ditt %s Add-ons lösenord"
 
 #: views/users/emailchange.thtml:52
 msgid "user_emailchange_error"
-msgstr "Error!"
+msgstr "Fel!"
 
 # %1 is the application name
 #: controllers/users_controller.php:479 controllers/users_controller.php:480
 #, php-format
 msgid "user_emailchange_subject"
-msgstr "Please confirm your email address change at %1$s Add-ons"
+msgstr "Bekräfta din e-postadressändring på %1$s Add-ons"
 
 #: views/users/emailchange.thtml:49 views/users/emailchange.thtml:50
 msgid "user_emailchange_success"
-msgstr "Success!"
+msgstr "Klart!"
 
 # %1 is the new email address
 #: views/users/emailchange.thtml:51
 #, php-format
 msgid "user_emailchange_successful_description"
 msgstr ""
-"Your email address was changed successfully. From now on, please use "
-"%1$s to log in."
+"Din e-postadress ändraes. Från och med nu ska du använda %%1$s "
+"för att logga in."
 
 #: views/users/pwreset.thtml:77 views/users/register.thtml:68
 #: views/users/edit.thtml:94
