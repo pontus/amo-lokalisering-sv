@@ -1,4 +1,4 @@
-b# Remora Preliminary Language File
+# Remora Preliminary Language File
 # Copyright (C) 2006 Mozilla Corporation
 # This file is distributed under the same license as the REMORA package.
 # Wil Clouser <clouserw@mozilla.com>, 2006.
@@ -397,6 +397,12 @@ msgstr ""
 "available to add-on developers and they may need to contact you to help "
 "resolve your issue."
 
+# %1 is the support section link
+#: views/addons/display.thtml:404 views/addons/display.thtml:408
+#, php-format
+msgid "addons_display_review_see_support"
+msgstr "See the <a href=\"%1$s\">support section</a> to find out where to get assistance for this add-on."
+
 #: views/addons/display.thtml:386
 msgid "addons_display_review_submit"
 msgstr "Spara"
@@ -460,6 +466,10 @@ msgstr "Vi rekommenderar"
 msgid "addons_home_header_details"
 msgstr "Tillägg utökar %1$s och låter dig göra din webbupplevelse mer personlig. Titta runt lite och skapa din egen %1$s."
 
+#: views/addons/home.thtml:153
+msgid "addons_home_newest_header"
+msgstr "Nyaste:"
+
 #: views/elements/app_chooser.thtml:47
 msgid "addons_home_other_applications"
 msgstr "Andra applikationer"
@@ -500,9 +510,17 @@ msgstr "Populärast:"
 msgid "addons_home_recommended_header"
 msgstr "Vi rekommenderar:"
 
+#: views/addons/home.thtml:162
+msgid "addons_home_updated_header"
+msgstr "Nyligen uppdaterade:"
+
 #: views/addons/home.thtml:142 views/addons/home.thtml:151
 msgid "addons_home_view_all"
 msgstr "Visa alla"
+
+#: views/addons/home.thtml:159
+msgid "addons_home_view_all_newest_title"
+msgstr "Visa alla nyligen skapade tillägg"
 
 #: views/addons/home.thtml:151
 msgid "addons_home_view_all_popular_title"
@@ -511,6 +529,11 @@ msgstr "Visa alla populära tillägg"
 #: views/addons/home.thtml:142
 msgid "addons_home_view_all_recommended_title"
 msgstr "Visa alla rekommenderade tillägg"
+
+#: views/addons/home.thtml:168
+msgid "addons_home_view_all_updated_title"
+msgstr "Visa alla nyligen uppdaterade tillägg"
+
 
 #: views/elements/install.thtml:98
 msgid "addons_install_in_thunderbird"
@@ -768,6 +791,26 @@ msgstr "Förhandsvisningar"
 #: controllers/addons_controller.php:1110
 msgid "breadcrumb_addon_versions"
 msgstr "Versionshistorik"
+
+#: controllers/addons_controller.php:571
+msgid "browse_addons_name"
+msgstr "Tillägg sorterade på namn"
+
+#: controllers/addons_controller.php:569
+msgid "browse_addons_newest"
+msgstr "Nyaste tilläggen"
+
+#: controllers/addons_controller.php:565 controllers/addons_controller.php:567
+msgid "browse_addons_popular"
+msgstr "Populära tillägg"
+
+#: controllers/addons_controller.php:570
+msgid "browse_addons_rated"
+msgstr "Tillägg sorterade på betyg"
+
+#: controllers/addons_controller.php:568
+msgid "browse_addons_updated"
+msgstr "Nyligen uppdaterade tillägg"
 
 #: views/elements/categories.thtml:81 views/elements/categories.thtml:90
 msgid "categories_current_title"
@@ -3427,7 +3470,7 @@ msgstr "Giltiga applikationsversioner"
 
 #: views/pages/appversions.thtml:79
 msgid "pages_appversions_intro"
-msgstr "Tillägg som skicaks in till Mozilla Add-ons måste ha en install.rdf-fil där minst en av följande applikationer stöds. Bara versionerna nedan är tillåtna för dessa applikationer."
+msgstr "Tillägg som skickas in till Mozilla Add-ons måste ha en install.rdf-fil där minst en av följande applikationer stöds. Bara versionerna nedan är tillåtna för dessa applikationer."
 
 #: views/pages/appversions.thtml:92
 #, php-format
@@ -3478,6 +3521,10 @@ msgstr "Nyaste tilläggen"
 #, php-format
 msgid "rss_newestaddons_description"
 msgstr "De senaste  %s-tilläggen"
+
+#: controllers/addons_controller.php:286
+msgid "rss_updatedaddons"
+msgstr "Uppdaterade tillägg"
 
 #: controllers/search_controller.php:98
 msgid "search_disabled"
@@ -3580,6 +3627,11 @@ msgstr "Subscribe to"
 #: views/elements/pitch.thtml:48 views/elements/pitch.thtml:54
 msgid "sidebar_pitch_theme"
 msgstr "Tema"
+
+#: views/elements/pitch.thtml:72
+msgid "sidebar_pitch_updated_addons"
+msgstr "Uppdaterade tillägg"
+
 
 #: views/addons/dictionaries.thtml:88 views/developers/editversion.thtml:58
 #: views/developers/add_step3.thtml:74 views/helpers/localization.php:64
@@ -4048,7 +4100,8 @@ msgstr ""
 "Innan du kan använda ditt nya konto måste du aktivera detta - det\n"
 "visar att e-postadressen du angav fungerar och tillhör dig.\n"
 "\n"
-"För att aktivera kontot, klicka på länken nedan eller klistra in allt i din webbläsares platsrad:\n"
+"För att aktivera kontot, klicka på länken nedan eller klistra in "
+"allt i din webbläsares adresssrad:\n"
 "\n"
 "%1$s\n"
 "\n"
@@ -4063,14 +4116,14 @@ msgstr ""
 #, php-format
 msgid "user_email_confirm_emailchange"
 msgstr ""
-"You requested a change to your email address at %2$s Add-ons.\n\n"
-"In order to confirm the new address, please click the link below or copy "
-"and paste the whole thing into your browser's location bar:\n\n"
+"Du ändrade din e-postadress på %2$s Add-ons.\n\n"
+"För att bekräfta den nya adressen, klicka på länken nedan eller kopiera "
+"och klistra alltihop i din webbläsares adressrad:\n\n"
 "%1$s\n\n"
-"You have 48 hours to confirm the new address. If you do not want to "
-"change the address anymore, you can just ignore this email.\n\n"
-"Thanks!\n"
-"-- %2$s Add-ons Staff"
+"Du har 48 timmar på dig att bekräfta den nya adressen. Om du inte vill "
+"ändra adressen längre kan du bara ignorera det här brevet.\n\n"
+"Tack!\n"
+"-- %2$s Add-ons-staben"
 
 #: controllers/users_controller.php:163 controllers/users_controller.php:159
 #, php-format
@@ -4085,7 +4138,7 @@ msgid "user_email_pwreset"
 msgstr ""
 "%2$s Add-ons Lösenordsåterställning\n"
 "\n"
-"En begäran om att återställa lösenordet för detta konto gjordes på addons.mozilla.org. För att ändra detta lösenord klicka på länken nedan eller klistra in den i din webbläsares platsrad:\n"
+"En begäran om att återställa lösenordet för detta konto gjordes på addons.mozilla.org. För att ändra detta lösenord klicka på länken nedan eller klistra in den i din webbläsares adressrad:\n"
 "\n"
 "%1$s\n"
 "\n"
