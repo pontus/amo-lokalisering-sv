@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: REMORA 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-09-28 15:45-0700\n"
-"PO-Revision-Date: 2008-04-11 13:13+0200\n"
+"PO-Revision-Date: 2008-05-17 21:12+0200\n"
 "Last-Translator: Pontus Freyhult <pontus_amo_translate@soua.net>
 "Language-Team: SWEDISH <SV@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -236,7 +236,7 @@ msgstr "Senaste version som är kompatibel med"
 
 #: controllers/addons_controller.php:999
 msgid "addons_breadcrumb_privacy_policy"
-msgstr "Integritetspolicy"
+msgstr "Integritetsriktlinjer"
 
 #: views/addons/display.thtml:423
 msgid "addons_author_addons_submit"
@@ -308,7 +308,7 @@ msgstr "expandera"
 
 #: views/addons/display.thtml:151
 msgid "addons_display_has_privacy"
-msgstr "Detta tillägg har en integritetspolicy."
+msgstr "Detta tillägg har integritetsriktlinjer."
 
 #: views/addons/display.thtml:372 views/reviews/add.thtml:81
 #: views/reviews/add.thtml:82
@@ -1035,7 +1035,7 @@ msgstr "Förhandsgranska bildtext"
 #: controllers/developers_controller.php:958
 #: controllers/developers_controller.php:1246
 msgid "devcp_addon_field_privacy_displaytitle"
-msgstr "Integritetspolicy"
+msgstr "Integritetsriktlinjer"
 
 #: controllers/developers_controller.php:927
 #: controllers/developers_controller.php:1215
@@ -1749,7 +1749,7 @@ msgstr "Detta är en förhandsversion"
 
 #: views/developers/add_step2.thtml:140
 msgid "devcp_form_label_privacy"
-msgstr "Integritetspolicy"
+msgstr "Integritetsriktlinjer"
 
 #: views/developers/add_step2.thtml:153
 msgid "devcp_form_label_sitespecific"
@@ -2276,11 +2276,11 @@ msgstr "Redaktörsguide"
 
 #: views/editors/queue.thtml:113
 msgid "editors_link_policy"
-msgstr "Tilläggspolicy"
+msgstr "Add-ons riktlinjer"
 
 #: views/editors/queue.thtml:49
 msgid "editors_notice_filter_session"
-msgstr "Deaa filter kvarstår för denna session eller tills de rensas."
+msgstr "Detta filter kvarstår för denna session eller tills de rensas."
 
 # %1 is the queue mode
 #: views/editors/queue.thtml:108 views/admin/flagged_queue.thtml:75
@@ -2835,7 +2835,7 @@ msgstr "Andra språk:"
 
 #: views/elements/footer.thtml:71
 msgid "footer_privacy_policy"
-msgstr "Integritetspolicy"
+msgstr "Integritetsriktlinjer"
 
 #: webroot/discussions/themes/addons/settings_help.php:6
 msgid "forum_about_settings"
