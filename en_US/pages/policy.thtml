@@ -1,4 +1,4 @@
-<h1>Add-ons Policy</h1>
+<h1>Add-ons Riktlinjer</h1>
 
 <h2>Vad är sandlådan?</h2>
 <p>Se %s.</p>
@@ -22,7 +22,7 @@
 
 <h3>Är du *tillgänglig*?</h3>
 
-<p>Vi förväntar oss att författare som *framhåller* sitt tillägg åt Firefoxs många användare är mottaglig för problemrapporter, håller sin kontaktinformation uppdaterad och uppdaterar sitt tillägg snabbt för att hänga med Firefoxs produktsläpp och ändringar i AMOs policyer. Det betyder inte att du måste svara på varenda fråga någon postar i diskussionsforumen eller ens att du måste fixa varje programfel, men vi förväntar oss att du hanterar problem på lämpligt sätt utifrån hur allvarligt problemet i fråga är.</p>
+<p>Vi förväntar oss att författare som *framhåller* sitt tillägg åt Firefoxs många användare är mottaglig för problemrapporter, håller sin kontaktinformation uppdaterad och uppdaterar sitt tillägg snabbt för att hänga med Firefoxs produktsläpp och ändringar i AMOs riktlinjer. Det betyder inte att du måste svara på varenda fråga någon postar i diskussionsforumen eller ens att du måste fixa varje programfel, men vi förväntar oss att du hanterar problem på lämpligt sätt utifrån hur allvarligt problemet i fråga är.</p>
 
 <h3>Är tillägget tydligt och korrekt beskrivet?</h3>
 
@@ -30,7 +30,7 @@
 
 <p>Vidare är det viktigt att du underhåller versionsdetaljer ordentligt när du förbätttrar och ändrar ditt tillägg. Användare bör kunna se vad som är nytt i ett tillägg de har provat tidigare och bör medvetandegöras om ändringar som kan påverka deras nuvarande av tillägget när de uppdaterar. (Just nu ser inte användare versiondetaljerna när de tillfrågas om en uppdatering inuti webbläsaren, men vi arbetar på att fixa det. Om du underhåller versionsdetaljer ordentligt kommer dina användare att dra stor nytta av det, både före och efter att det arbetet är gjort.)</p>
 
-<h3>Är alla integritets- och säkerhetsbekymmer ordentligt belysta?</h3>
+<h3>Är alla integritets- och säkerhetsproblem ordentligt belysta?</h3>
 
 <p>Det här är en del av en tydlig och korrekt beskrivning, men en så viktig del att vi tycker det förtjänar att nämnas separat. Många väldigt användbara och välskrivna tillägg arbetar med något slags användardata eller kan utgöra säkerhetsrisker om de används fel; de är välkomna till den publika sidan av AMO, men de måste göra det väldigt klart för användarna vilka risker de kan stöta på och hur de kan skydda sig.</p>
 
@@ -50,17 +50,16 @@
 
 <p>Vi letar hela tiden efter sätt att förbättra webbplatsens organisation för att bättre rymma tillägg som är exemplariska på andra sätt, men riktar sig bara åt en liten gemenskap av möjliga användare. Att kategorisera korrekt och underhålla metadatat för ditt tillägg hjälper oss att tänka ut hur vi kan framhålla fler av den sortens tillägg för de som är mest troliga att dra nytta av dem.</p>
 
-<p>If your add-on just provides bookmarks or other simple access points to your site, it's probably not
-appropriate for the public part of the site. Like the rest of the Mozilla project, we love web applications and
-new web services, but Firefox add-ons should provide an improved browsing experience for the user and not just be a way to promote a new site or service through an AMO listing.  If the description for your add-on is mostly about the service rather than the improvements it makes to the user's browser experience, you're probably not on the right track.</p>
+<p>Om ditt tillägg bara ger bokmärken eller andra enklare sätt att komma åt din webbplats är det förmodligen inte lämpat för den publika sidan. Liksom resten av Mozillaprojektet älskar vi webbapplikationer och nya webbtjänster, men Firefoxtillägg ska ge en förbättrad webbupplevelse för användaren och inte bara vara ett sätt att göra reklam för en ny webbplats eller tjänst genom att finnas på AMO. Om beskrivningen för ditt tillägg handlar mer om tjänsten än om hur tillägget förbättrar användrens upplevelse är du förmodligen på fel spår.</p>
 
-<h3>Is the add-on free of unlicensed trademarks or copyrights?</h3>
+<h3>Är tillägget fritt från olicensierade varumärken och upphovsrättsskyddad material?</h3>
 
-<p>Though you may mean no harm to the holder of a trademark, or the owner of a copyrighted work, we can't host add-ons that infringe on trademarks or copyrights.  If you don't have permission to use a trademarked name or image, please do not submit your add-on to AMO.  If your add-on includes code that is copyrighted by someone else, and is not licensed to you to use in your add-on, please do not submit your add-on to AMO.  (If the holder of a trademark or copyright objects to the use of their trademark, we will very likely have to have the request for removal reviewed by counsel, and we will remove the add-on if it's deemed legally necessary.  This is an expensive process in terms of the project's resources, including time and money, so we ask you to be respectful and not cause us undue difficulty.)</p>
+<p>Även on du inte vill skada ägaren till ett varumärke eller ett upphovsrättsskyddad verk så kan vi inte hysa tillägg som gör intrång på upphovsrätt eller varumärken. Om du inte har rätt att använda ett varumärkesskyddat namn eller en bild, låt bli att lägga upp ditt tillägg på AMO. Om ditt tillägg innehåller kod som är upphovsrättsskyddad av någon annan och inte är licensierad för att användas i ditt tilläg, låt bli att lägga upp ditt tillägg på AMO. (Om ägaren till ett varumärke eller ett upphovsrättsskyddad verk protesterar mot avnändning kommer vi med stor sannolikhet bli tvungna att låta jurister titta på borttagningsbegäran och vi kommer att ta bort tillägget om det bedöms vara nödvändigt. Detta är en dyr process som slösar med projektets resurser, inklusive tid och pengar, så vi ber dig vördnadsfullt att inte orsaka oss problem i onödan.)</p>
 
-<p>If you're not sure if the name of your add-on, or use of something within it, will prevent it from being listed on the site, you can ask amo-editors@mozilla.org for guidance.  IMPORTANT: Please note that this group is not able to provide legal advice, and that even if we feel that your usage is acceptable, we may revisit that decision in light of complaints from rights-holders and advice from legal counsel.</p>
+<p>Om du är osäker på om namnet på ditt tillägg eller något i det kommer att hindra det från att listas på webbplatsen kan du fråga amo-editors@mozilla.org om råd (skriv på engelska). VIKTIGT: Denna grupp kan inte ge juridisk rådgivning och även om vi tycker att din användning är acceptabel kan vi ändra det beslutet vid eventuella klagomål från rättsinnehavare eller juridisk rådgivning.</p>
 
-<p>In terms of reuse of source code from other add-ons, if the author has not clearly stated that you are permitted to use her code in your own work -- such as by placing it under an open source license -- then you should assume that you do not have the right to do so.  You can contact the author to seek such permission, but we can't provide you with any special rights to it just because it's been on AMO, or because the author isn't responding to your request.  (And, again, we can't provide legal advice, just advice about how your add-on is likely to interact with the policies of the site.)</p>
+<p>Vad det gäller återanvändning av källkod från andra tillägg; om författaren inte klart och tydligt gett dig tillstånd att använda dennes kod i ditt verk -- exempelvis genom att släppa den med en öppen källkods-licens -- bör du anta att du inte ha rrätt att göra det. Du kan kontakta författaren för att be om tillåtelse, men du får inga särskilda sådana rättigheter bara för att det funnits på AMO eller för att författaren inte svarar på din förfrågan. (Och, återigen, vi kan inte ge juridisk rådgivning, bara råd om hur ditt tillägg troligen samverkar med denna webbplats riktlinjer.)</p>
+
 
 <p>This applies to the Mozilla Foundation's trademarks as well, including "Mozilla", "Firefox", and "Thunderbird".  The Mozilla policy on trademark use is designed to protect against confusion, and prevent the trademarks from being overturned due to lack of protection; please respect the need for such protection, and help us preserve some of the most valuable assets of the Mozilla Foundation.</p>
 
@@ -109,4 +108,4 @@ new web services, but Firefox add-ons should provide an improved browsing experi
 <li>what reaction you've seen from users, reviewers, bloggers, astronauts, or your household pets, both positive and negative</li>
 </ul>
 
-<p>The more complete the information you provide in your request the more amenable we are likely to be to granting it, though even a wonderfully-written and exhaustive application is no guarantee of placement in the recommended list.  Ultimately, that list must be -- and is -- maintained at the discretion of Mozilla, and user experience and protection must trump all else.</p>
+<p>Ju mer utförlig information du ger i din förfrågan desto mer medgörliga blir vi i hanteringen och godkännandet av den, även om inte ens en underbart skriven och fullödig ansökan är någon garanti för att hamna i rekommenderat-listan. Till slut måste listan vara - och är - underhållen efter Mozillas omdöme, och användarupplevelse och -skydd måste trumfa allt annat.</p>
