@@ -393,15 +393,15 @@ msgstr "Tycker verkligen om det"
 #: views/addons/display.thtml:393 views/addons/display.thtml:396
 msgid "addons_display_review_etiquette"
 msgstr ""
-"Please do not post bug reports in reviews. We do not make your email address "
-"available to add-on developers and they may need to contact you to help "
-"resolve your issue."
+"Skicka inte felrapporter i recensioner. Vi gör inte din e-postadress "
+"tillgänglig för tilläggsutvecklare och de kan behöva kontakta dig för "
+"att lösa ditt problem."
 
 # %1 is the support section link
 #: views/addons/display.thtml:404 views/addons/display.thtml:408
 #, php-format
 msgid "addons_display_review_see_support"
-msgstr "See the <a href=\"%1$s\">support section</a> to find out where to get assistance for this add-on."
+msgstr "Se <a href=\"%1$s\">hjälpsektionen</a> för att ta reda på var du kan få hjälp med detta tillägg."
 
 #: views/addons/display.thtml:386
 msgid "addons_display_review_submit"
