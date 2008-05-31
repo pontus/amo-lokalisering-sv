@@ -20,9 +20,9 @@
 
 <p>Ett tillägg som görs publikt på AMO ska vara av hög kvalitet och ge användare en förbättrad webbupplevelse. Vi tittar på följande när vi avgör om ett tillägg är lämpligt för den publika sidan av AMO:</p>
 
-<h3>Är du *tillgänglig*?</h3>
+<h3>Är du alert?</h3>
 
-<p>Vi förväntar oss att författare som *framhåller* sitt tillägg åt Firefoxs många användare är mottaglig för problemrapporter, håller sin kontaktinformation uppdaterad och uppdaterar sitt tillägg snabbt för att hänga med Firefoxs produktsläpp och ändringar i AMOs riktlinjer. Det betyder inte att du måste svara på varenda fråga någon postar i diskussionsforumen eller ens att du måste fixa varje programfel, men vi förväntar oss att du hanterar problem på lämpligt sätt utifrån hur allvarligt problemet i fråga är.</p>
+<p>Vi förväntar oss att författare som vill visa upp sitt tillägg för Firefoxs många användare är mottaglig för problemrapporter, håller sin kontaktinformation uppdaterad och uppdaterar sitt tillägg snabbt för att hänga med Firefoxs produktutveckling och ändringar i AMOs riktlinjer. Det betyder inte att du måste svara på varenda fråga någon postar i diskussionsforumen eller att du måste fixa varje programfel, men vi förväntar oss att du hanterar problem på lämpligt sätt utifrån hur allvarligt problemet i fråga är.</p>
 
 <h3>Är tillägget tydligt och korrekt beskrivet?</h3>
 
@@ -86,27 +86,27 @@
 
 <h2>Jag tycker jag blev orättvist behandlad i utvärderingen av mitt tillägg. Vad ska jag göra?</h2>
 
-<p>If you believe that your add-on was incorrectly evaluated, and that it was denied public status in error, you should send an email to amo-editors@mozilla.org with the details of your reasoning.  Please be polite and clear in your email, and make sure that you have specifics about how the add-on was misjudged.</p>
+<p>Om du tycker ditt tillägg utvärderades inkorrekt, och att det felaktigt nekades att bli publikt, ska du skicka e-post till amo-editors@mozilla.org (skriv på engelska) och beskriva hur du resonerar. Var artig och tydlig i ditt brev, och se till att du har med specifika detaljer om hur ditt tillägg blev missbedömt.</p>
 
-<p>(If you have fixed *all* the things that were listed as problems in your notification mail, you shouldn't appeal the evaluation, but should instead re-nominate for consideration through the Developer Tools.)</p>
+<p>(Om du har fixat *alla* de saker som listades som problem i ditt besked ska du inte överklaga utvärderingen utan istället nominera om det med utvecklarverktygen.)</p>
 
-<h2>My add-on used to be public, and now it's only in the sandbox.  What happened? </h2>
+<h2>Mitt tillägg var publikt, och nu finns det bara i sandlådan. Vad hände? </h2>
 
-<p>If an add-on no longer meets the criteria for being on the public side of the site, we may move it back to the sandbox.  Unless we are legally prevented from doing so, we will notify you by email when that happens, and indicate the reasons for doing so.</p>
+<p>Om ett tillägg inte längre uppfyller kriterien för att finnas på den publika sidan av webbplatsen kan vi komma att flytta tillbaka det till sandlådan. Om vi inte är juridiskt förhindrade från det kommer vi att berätta för dig vad som händer via e-post, och beskriva skälen att göra så.</p>
 
-<p>It's also possible that you've found a bug in the site, in which case you should report it via Bugzilla; use the "addons.mozilla.org" product and the "Public Pages" component for your report, and include as much detail as you can.</p>
+<p>Det är också möjligt att du hittat ett fel på webbplatsen, i så fall bör du rapportera det via Bugzilla; använd "addons.mozilla.org"-produkten och "Public Pages"-komponenten för din rapport, och ta med så mycket information du kan.</p>
 
-<h2>My add-on is public, and people seem to love it.  How can I get in the list of recommended add-ons?</h2>
+<h2>Mitt tillägg är publikt, och folk verkar älska det. Hur kan jag få in det i listan av rekommenderade tillägg?</h2>
 
-<p>If you believe that your add-on is a shining example of the power of add-ons, that it demonstrates and furthers Mozilla's values for the extensible and user-controlled web, and that it provides a great user experience, you can ask to have it considered for addition to the list of recommended add-ons.  To do this, you should send an email to amo-editors@mozilla.org explaining why your add-on is great.</p>
+<p>Om du tycker att ditt tillägg är ett utmärkt exempel på tilläggens möjligheter, som visar och utökar Mozillas värde för den flexibla och användarkontrollerade webben samt att det har en storartad användarupplevelse, så kan du be om att få det bedömt för att att hamna på listan med rekommenderade tillägg. För att göra detta ska du skicka e-post till amo-editors@mozilla.org (skriv på engelska) och förklara varför ditt tilläg är så bra.</p>
 
-<p>Your mail should include at <b>least</b> information about these things:</p>
+<p>Ditt brev ska innehålla <b>åtminstone</b> information om följande:</p>
 <ul>
-<li>how the web experience is improved for users</li>
-<li>how your add-on is appropriate for a large portion of Firefox's users</li>
-<li>how your add-on demonstrates and/or serves the values of the Mozilla project, especially with respect to putting the user in charge, protection of privacy and security, universal access to the web, and open standards and data</li>
-<li>how your add-on differs from other similar add-ons (in ways that are both better and worse)</li>
-<li>what reaction you've seen from users, reviewers, bloggers, astronauts, or your household pets, both positive and negative</li>
+<li>hur webbupplevelsen förbättras för användarna</li>
+<li>varför ditt tillägg är lämpligt för en stor del av Firefoxs användare</li>
+<li>hur ditt tillägg visar tjänar eller visar på Mozillaprojektets kärnvärden, särskilt avseende att ge användaren kontroll, säkerhet och integritet, universell tillgången till webben samt öppna standarder och data</li>
+<li>hur ditt tillägg skiljer sig från andra liknande tillägg (både på de sätt det är bättre och de sätt det är sämre)</li>
+<li>vilka reaktioner du sett från användare, recensenter, bloggare, astronauter, eller ditt husdjur, både positiva och negativa</li>
 </ul>
 
 <p>Ju mer utförlig information du ger i din förfrågan desto mer medgörliga blir vi i hanteringen och godkännandet av den, även om inte ens en underbart skriven och fullödig ansökan är någon garanti för att hamna i rekommenderat-listan. Till slut måste listan vara - och är - underhållen efter Mozillas omdöme, och användarupplevelse och -skydd måste trumfa allt annat.</p>
